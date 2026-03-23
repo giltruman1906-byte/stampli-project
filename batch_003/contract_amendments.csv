@@ -1,0 +1,81 @@
+amendment_id,customer_id,subscription_id,amendment_type,old_plan_id,new_plan_id,old_mrr,new_mrr,effective_date,created_at,reason,approved_by
+AMD-0001,CUST-047,SUB-0581,add_on,PLN-ENT,PLN-START,1044.81,46.62,2023-10-11,2024-03-02T00:00:00Z,Agent every development say.,Stephanie Miller
+AMD-0002,CUST-326,SUB-0771,renewal,PLN-PRO,PLN-PRO,137.4,155.01,2023-09-25,2024-03-13T00:00:00Z,All behavior discussion own night respond.,Jennifer Cole
+AMD-0003,CUST-048,SUB-0376,downgrade,PLN-LEGACY,PLN-ENT,95.96,86.36,2022-03-18,2024-03-07T00:00:00Z,Speak according south recently future.,Tyler Rogers
+AMD-0004,CUST-166,SUB-0077,renewal,PLN-PRO,PLN-PRO,144.59,142.08,2022-05-08,2024-03-18T00:00:00Z,Here grow gas enough.,Joe Martinez
+AMD-0005,CUST-192,SUB-0758,upgrade,PLN-FREE,PLN-START,0.0,45.77,2024-01-19,2024-03-01T00:00:00Z,Bad fall pick those gun court.,Matthew Mejia
+AMD-0006,CUST-012,SUB-0272,add_on,PLN-PRO,PLN-FREE,151.8,0.0,2024-01-27,2024-03-25T00:00:00Z,Talk term herself law.,Carla Kelly
+AMD-0007,CUST-322,SUB-0600,price_override,PLN-START,PLN-START,48.36,48.43,2024-01-22,2024-03-07T00:00:00Z,Reduce raise author play move.,Joel Nelson
+AMD-0008,CUST-411,SUB-0149,downgrade,PLN-BIZ,PLN-ENT,367.08,330.37,2024-01-05,2024-03-16T00:00:00Z,Detail food shoulder argue start source husband.,Thomas Bradley
+AMD-0009,CUST-012,SUB-0272,cancellation,PLN-PRO,PLN-BIZ,151.8,435.21,2024-01-10,2024-03-20T00:00:00Z,Defense material those poor central cause.,Kimberly Burgess
+AMD-0010,CUST-067,SUB-0443,downgrade,PLN-PRO,PLN-ENT,163.83,147.45,2024-01-21,2024-03-14T00:00:00Z,Today human despite young meeting before.,Brian Burton
+AMD-0011,CUST-058,SUB-0365,price_override,PLN-ENT,PLN-ENT,1068.31,945.85,2024-01-24,2024-03-13T00:00:00Z,Others his other life edge network.,Melanie Wilson
+AMD-0012,CUST-308,SUB-0323,add_on,PLN-FREE,PLN-ENT,0.0,999.29,2024-01-22,2024-03-24T00:00:00Z,Seem shoulder future fall citizen about reveal.,Valerie Gill
+AMD-0013,CUST-318,SUB-0475,upgrade,PLN-BIZ,PLN-PRO,412.57,453.83,2024-01-20,2024-03-09T00:00:00Z,Tree that fear police participant check several.,Paula Moreno
+AMD-0014,CUST-273,SUB-0295,upgrade,PLN-ENT,PLN-BIZ,921.86,1014.05,2024-03-16,2024-03-07T00:00:00Z,Out major born.,William Roman
+AMD-0015,CUST-053,SUB-0460,renewal,PLN-PRO,PLN-PRO,136.57,157.52,2024-03-05,2024-03-30T00:00:00Z,Around there water beat magazine.,Philip Cannon
+AMD-0016,CUST-258,SUB-0344,renewal,PLN-FREE,PLN-FREE,0.0,0.0,2024-03-20,2024-03-11T00:00:00Z,Process water close month.,Tracey Hickman
+AMD-0017,CUST-279,SUB-0158,add_on,PLN-PRO,PLN-START,146.35,46.35,2024-03-18,2024-03-16T00:00:00Z,Require human public health tonight.,David Brown
+AMD-0018,CUST-278,SUB-0755,price_override,PLN-PRO,PLN-PRO,146.03,152.35,2024-03-02,2024-03-12T00:00:00Z,Open discover detail.,Mark Perez
+AMD-0019,CUST-003,SUB-0381,upgrade,PLN-START,PLN-BIZ,53.45,372.99,2024-03-30,2024-03-26T00:00:00Z,Teacher audience draw.,Cindy Anderson
+AMD-0020,CUST-223,SUB-0689,cancellation,PLN-PRO,PLN-BIZ,162.99,370.69,2024-03-10,2024-03-12T00:00:00Z,Office drug list imagine behind probably great.,Scott Brown
+AMD-0021,CUST-033,SUB-0279,cancellation,PLN-START,PLN-FREE,45.48,0.0,2024-03-28,2024-03-09T00:00:00Z,Art rock song body.,Joshua Taylor
+AMD-0022,CUST-210,SUB-0275,add_on,PLN-PRO,PLN-BIZ,160.6,426.28,2024-03-01,2024-03-15T00:00:00Z,Everything economic type kitchen.,Krista Williams
+AMD-0023,CUST-247,SUB-0235,upgrade,PLN-FREE,PLN-ENT,0.0,1009.94,2024-03-08,2024-03-01T00:00:00Z,Structure why unit support coach magazine degree.,Anthony Gray
+AMD-0024,CUST-447,SUB-0048,upgrade,PLN-PRO,PLN-ENT,148.47,951.28,2024-03-18,2024-03-24T00:00:00Z,Enter six lawyer institution whatever yet.,Michelle Moore
+AMD-0025,CUST-184,SUB-0393,upgrade,PLN-START,PLN-BIZ,50.56,367.97,2024-03-30,2024-03-27T00:00:00Z,Design around save article finish.,John Calhoun
+AMD-0026,CUST-067,SUB-0443,upgrade,PLN-PRO,PLN-ENT,163.83,1013.1,2024-03-27,2024-03-05T00:00:00Z,Church whether bag control organization push dog.,Steve Sanchez
+AMD-0027,CUST-351,SUB-0086,add_on,PLN-PRO,PLN-FREE,136.08,0.0,2024-03-15,2024-03-04T00:00:00Z,Always bank price north first end prove fire.,Carlos Brewer
+AMD-0028,CUST-251,SUB-0180,upgrade,PLN-START,PLN-PRO,51.95,159.02,2024-03-12,2024-03-18T00:00:00Z,First sell authority leader your you available.,Derek Mahoney
+AMD-0029,CUST-122,SUB-0315,downgrade,PLN-BIZ,PLN-FREE,387.34,0.0,2024-03-17,2024-03-30T00:00:00Z,These hard citizen street.,Lisa Archer
+AMD-0030,CUST-339,SUB-0257,add_on,PLN-BIZ,PLN-START,422.81,48.13,2024-03-17,2024-03-15T00:00:00Z,Account stage federal professional voice care break.,Juan Nelson
+AMD-0031,CUST-011,SUB-0813,renewal,PLN-PRO,PLN-PRO,140.68,139.85,2024-03-19,2024-03-17T00:00:00Z,Decision garden reach table measure economy traditional anything.,Sandra Williams
+AMD-0032,CUST-414,SUB-0038,add_on,PLN-PRO,PLN-ENT,141.75,1019.0,2024-03-19,2024-03-30T00:00:00Z,Side PM energy scientist necessary into.,Benjamin Ware
+AMD-0033,CUST-274,SUB-0331,upgrade,PLN-START,PLN-PRO,44.71,163.42,2024-03-27,2024-03-11T00:00:00Z,Nation strong old challenge.,Eric Nolan
+AMD-0034,CUST-319,SUB-0782,upgrade,PLN-START,PLN-FREE,45.44,49.98,2024-03-25,2024-03-16T00:00:00Z,Together decide economic.,Richard Henson
+AMD-0035,CUST-045,SUB-0001,downgrade,PLN-LEGACY,PLN-START,89.42,49.36,2024-03-18,2024-03-05T00:00:00Z,Wind see understand door class son.,Jason White
+AMD-0036,CUST-447,SUB-0364,price_override,PLN-START,PLN-START,48.35,50.09,2024-03-10,2024-03-23T00:00:00Z,Site in prove same easy city.,Janet Williams
+AMD-0037,CUST-260,SUB-0366,price_override,PLN-FREE,PLN-FREE,0.0,0.0,2024-03-16,2024-03-29T00:00:00Z,Develop staff least figure somebody dinner age.,Garrett Lin
+AMD-0038,CUST-174,SUB-0268,upgrade,PLN-ENT,PLN-START,911.23,1002.35,2024-03-06,2024-03-07T00:00:00Z,Go meeting quickly such former.,Shawn Green
+AMD-0039,CUST-447,SUB-0048,upgrade,PLN-PRO,PLN-START,148.47,163.32,2024-03-24,2024-03-12T00:00:00Z,While enter board its rock finish paper memory.,Kenneth Scott
+AMD-0040,CUST-119,SUB-0566,price_override,PLN-PRO,PLN-PRO,149.32,138.76,2024-03-20,2024-03-02T00:00:00Z,Ability understand Mrs rest score provide.,Benjamin Beck
+AMD-0041,CUST-225,SUB-0214,renewal,PLN-ENT,PLN-ENT,1098.55,1024.22,2024-03-25,2024-03-22T00:00:00Z,Perhaps professional by tonight medical project.,Michael Spencer
+AMD-0042,CUST-124,SUB-0508,renewal,PLN-START,PLN-START,51.18,47.04,2024-03-22,2024-03-30T00:00:00Z,Inside wait quality total past.,Joshua Smith
+AMD-0043,CUST-251,SUB-0180,upgrade,PLN-START,PLN-PRO,51.95,139.53,2024-03-19,2024-03-30T00:00:00Z,Decision size parent focus kid.,Kayla Leon
+AMD-0044,CUST-393,SUB-0476,renewal,PLN-BIZ,PLN-BIZ,419.62,408.06,2024-03-23,2024-03-26T00:00:00Z,Probably exist professional people.,Trevor Young
+AMD-0045,CUST-114,SUB-0078,downgrade,PLN-PRO,PLN-ENT,148.89,134.0,2024-03-17,2024-03-14T00:00:00Z,Different current agency each little.,Angel Perry
+AMD-0046,CUST-145,SUB-0495,add_on,PLN-BIZ,PLN-PRO,419.59,137.51,2024-03-03,2024-03-15T00:00:00Z,Offer responsibility himself hundred challenge reach throughout team.,Paula Robinson
+AMD-0047,CUST-419,SUB-0589,add_on,PLN-START,PLN-PRO,47.25,158.77,2024-03-17,2024-03-19T00:00:00Z,Let newspaper true building card let most.,Emily Fischer
+AMD-0048,CUST-481,SUB-0649,price_override,PLN-BIZ,PLN-BIZ,424.87,367.99,2024-03-12,2024-03-04T00:00:00Z,Partner rest measure store natural today.,Karen Green
+AMD-0049,CUST-311,SUB-0675,add_on,PLN-BIZ,PLN-FREE,371.12,0.0,2024-03-25,2024-03-06T00:00:00Z,Style everyone sing machine dream.,Micheal Young
+AMD-0050,CUST-062,SUB-0386,downgrade,PLN-PRO,PLN-ENT,137.38,123.64,2024-03-27,2024-03-27T00:00:00Z,Floor music catch discuss really relationship.,Jason Daniels
+AMD-0051,CUST-359,SUB-0015,cancellation,PLN-FREE,PLN-START,0.0,52.98,2024-03-06,2024-03-07T00:00:00Z,Artist strategy hope show watch affect.,Laura Woods
+AMD-0052,CUST-174,SUB-0139,price_override,PLN-START,PLN-START,50.87,49.53,2024-03-07,2024-03-21T00:00:00Z,Fear hope through structure Mrs same.,Stephanie Freeman
+AMD-0053,CUST-070,SUB-0721,renewal,PLN-PRO,PLN-PRO,136.46,134.61,2024-03-14,2024-03-09T00:00:00Z,Job ahead from quickly identify.,John Anderson
+AMD-0054,CUST-450,SUB-0740,upgrade,PLN-PRO,PLN-ENT,135.26,962.33,2024-03-26,2024-03-12T00:00:00Z,Move trade option production base investment term consider.,Garrett Gibson
+AMD-0055,CUST-462,SUB-0061,add_on,PLN-PRO,PLN-BIZ,157.75,402.81,2024-03-28,2024-03-07T00:00:00Z,Seven here sell story edge bank.,Joshua Cooke
+AMD-0056,CUST-416,SUB-0545,add_on,PLN-PRO,PLN-FREE,163.57,0.0,2024-03-05,2024-03-29T00:00:00Z,Difference attention whatever American all easy.,Lisa Allen
+AMD-0057,CUST-423,SUB-0361,renewal,PLN-BIZ,PLN-BIZ,433.87,383.99,2024-03-25,2024-03-21T00:00:00Z,Prove nor design record short cold parent.,Ashley Weiss
+AMD-0058,CUST-359,SUB-0805,renewal,PLN-BIZ,PLN-BIZ,394.41,402.91,2024-03-29,2024-03-30T00:00:00Z,Blue agent find quality when.,Miguel Jones
+AMD-0059,CUST-438,SUB-0396,upgrade,PLN-START,PLN-ENT,49.56,933.01,2024-03-27,2024-03-09T00:00:00Z,Drug recent feeling range south someone not American.,Mary Jones
+AMD-0060,CUST-258,SUB-0608,upgrade,PLN-START,PLN-FREE,49.54,54.49,2024-03-22,2024-03-13T00:00:00Z,Actually information majority item gun through.,Christian Thompson
+AMD-0061,CUST-083,SUB-0350,price_override,PLN-BIZ,PLN-BIZ,410.3,423.29,2024-03-13,2024-03-04T00:00:00Z,Whole establish space Mrs low itself room.,Samuel Rivas
+AMD-0062,CUST-066,SUB-0414,renewal,PLN-PRO,PLN-PRO,159.61,144.68,2024-03-19,2024-03-03T00:00:00Z,Everything late seek now.,Gabrielle Snyder
+AMD-0063,CUST-016,SUB-0138,price_override,PLN-START,PLN-START,52.23,45.19,2024-03-22,2024-03-11T00:00:00Z,Consider deep something future they red.,Adam Vaughan
+AMD-0064,CUST-234,SUB-0277,upgrade,PLN-ENT,PLN-BIZ,964.27,1060.7,2024-03-07,2024-03-24T00:00:00Z,Drop image new drive.,Michael West
+AMD-0065,CUST-152,SUB-0307,renewal,PLN-BIZ,PLN-BIZ,374.3,434.15,2024-03-04,2024-03-04T00:00:00Z,Behavior develop reality.,Kevin Kennedy
+AMD-0066,CUST-058,SUB-0365,downgrade,PLN-ENT,PLN-FREE,1068.31,0.0,2024-03-23,2024-03-15T00:00:00Z,Gas you nearly goal law fill discover.,Emily Newton
+AMD-0067,CUST-155,SUB-0239,renewal,PLN-BIZ,PLN-BIZ,361.03,402.19,2024-03-02,2024-03-24T00:00:00Z,Course school everybody operation.,Linda Hooper
+AMD-0068,CUST-158,SUB-0368,upgrade,PLN-FREE,PLN-PRO,0.0,138.42,2024-03-18,2024-03-17T00:00:00Z,Fast guess few remain call.,Anthony Carter
+AMD-0069,CUST-119,SUB-0566,renewal,PLN-PRO,PLN-PRO,149.32,157.54,2024-03-04,2024-03-15T00:00:00Z,Point sell bill activity.,John Peterson
+AMD-0070,CUST-476,SUB-0776,upgrade,PLN-BIZ,PLN-PRO,404.56,445.02,2024-03-30,2024-03-03T00:00:00Z,Education technology box.,John Ray
+AMD-0071,CUST-031,SUB-0619,add_on,PLN-FREE,PLN-BIZ,0.0,365.78,2024-03-19,2024-03-25T00:00:00Z,Charge specific we.,David Grant
+AMD-0072,CUST-290,SUB-0597,renewal,PLN-PRO,PLN-PRO,155.24,148.97,2024-03-06,2024-03-25T00:00:00Z,Paper so difficult mission late kind.,Wanda Torres
+AMD-0073,CUST-116,SUB-0326,upgrade,PLN-FREE,PLN-PRO,0.0,161.65,2024-03-12,2024-03-21T00:00:00Z,Art whether between several personal enough ball dream.,Brooke Ortiz
+AMD-0074,CUST-053,SUB-0516,downgrade,PLN-ENT,PLN-FREE,977.21,0.0,2024-03-03,2024-03-21T00:00:00Z,Like allow explain executive teacher author do enough.,Leah Lara
+AMD-0075,CUST-469,SUB-0764,renewal,PLN-START,PLN-START,44.79,45.6,2024-03-16,2024-03-30T00:00:00Z,Interesting name positive training step.,Christopher Parker
+AMD-0076,CUST-258,SUB-0549,renewal,PLN-BIZ,PLN-BIZ,435.22,393.91,2024-03-29,2024-03-11T00:00:00Z,Tv keep light fight I evening music.,Kyle Preston
+AMD-0077,CUST-019,SUB-0328,add_on,PLN-FREE,PLN-BIZ,0.0,400.84,2024-03-11,2024-03-25T00:00:00Z,Page ago director purpose team onto.,Phillip Underwood
+AMD-0078,CUST-149,SUB-0638,upgrade,PLN-PRO,PLN-BIZ,152.44,418.13,2024-03-03,2024-03-30T00:00:00Z,American series like prepare trouble consider one.,Katherine Davis
+AMD-0079,CUST-216,SUB-0795,cancellation,PLN-BIZ,PLN-ENT,418.16,1077.8,2024-03-30,2024-03-30T00:00:00Z,Impact fly bit claim in many.,Jennifer Hodges
+AMD-0080,CUST-047,SUB-0033,add_on,PLN-PRO,PLN-BIZ,147.46,412.02,2024-03-28,2024-03-20T00:00:00Z,Lawyer fire follow.,Jennifer Robertson

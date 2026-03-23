@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.duckdb
+*.duckdb.wal
+nexusflow/target/
+nexusflow/dbt_packages/
+nexusflow/logs/
+.DS_Store
+.env

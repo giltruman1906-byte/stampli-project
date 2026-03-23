@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexusFlow — Sr. Data Engineer Take-Home Exercise</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<style>
+:root{
+  --navy:#1a2b5f;--cyan:#00b4d8;--purple:#7b5ea7;--magenta:#c4388a;
+  --teal:#00c9b7;--orange:#f5a623;--green:#2ecc71;--red:#c44c4c;
+  --gradient:linear-gradient(135deg,#00b4d8 0%,#7b5ea7 50%,#c4388a 100%);
+  --ink:var(--navy);--ink2:#3d3d56;--ink3:#6e6e82;--ink4:#a0a0b2;
+  --bg:#ffffff;--bg2:#f0f7fc;--bg3:#f8fbfd;
+  --border:#E0E0E8;--border2:#e8f0f6;
+  --shadow:0 6px 28px rgba(0,0,0,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;}
+body::before{content:'';position:fixed;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(0,180,216,.04),transparent 70%);top:-250px;right:-200px;z-index:0;pointer-events:none;}
+body::after{content:'';position:fixed;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(196,56,138,.03),transparent 70%);bottom:-200px;left:-100px;z-index:0;pointer-events:none;}
+.topnav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:blur(16px);border-bottom:1px solid var(--border2);padding:0 40px;}
+.topnav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:20px;height:56px;overflow-x:auto;}
+.topnav .logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:.92rem;color:var(--ink);flex-shrink:0;}
+.topnav .logo-dot{width:28px;height:28px;border-radius:8px;background:var(--gradient);display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;}
+.topnav a{font-size:.72rem;font-weight:600;color:var(--ink3);text-decoration:none;white-space:nowrap;padding:5px 10px;border-radius:20px;transition:all .25s;}
+.topnav a:hover,.topnav a.active{color:var(--cyan);background:rgba(0,180,216,.08);}
+.wrap{max-width:1100px;margin:0 auto;padding:0 40px;position:relative;z-index:1;}
+.hero{padding:60px 0 44px;text-align:center;}
+.hero .badge-row{display:flex;justify-content:center;gap:10px;margin-bottom:20px;flex-wrap:wrap;}
+.hero .badge{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;border-radius:22px;font-size:.72rem;font-weight:700;background:linear-gradient(135deg,#f8fbfd,#eef5fa);color:var(--ink);}
+.hero h1{font-size:2.2rem;font-weight:800;margin-bottom:10px;line-height:1.25;}
+.hero h1 span{background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.hero .sub{font-size:1rem;color:var(--ink3);max-width:700px;margin:0 auto 28px;line-height:1.65;}
+.hero-stats{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;}
+.hero-stat{text-align:center;}
+.hero-stat .val{font-size:1.5rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.hero-stat .lbl{font-size:.68rem;text-transform:uppercase;letter-spacing:1px;color:var(--ink3);font-weight:600;}
+.section{padding:44px 0;border-top:1px solid var(--border2);}
+.section-label{font-size:.62rem;text-transform:uppercase;letter-spacing:1.8px;color:var(--purple);font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:8px;}
+.section h2{font-size:1.5rem;font-weight:800;margin-bottom:6px;}
+.section .desc{font-size:.88rem;color:var(--ink3);margin-bottom:22px;max-width:750px;}
+.card{background:#fff;border-radius:18px;box-shadow:var(--shadow);padding:22px;margin-bottom:16px;transition:all .3s;}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.1);}
+.card h3{font-size:1rem;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px;}
+.card h3 .ic{width:30px;height:30px;border-radius:10px;background:linear-gradient(135deg,rgba(0,180,216,.12),rgba(196,56,138,.12));display:flex;align-items:center;justify-content:center;font-size:15px;color:var(--purple);}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;}
+@media(max-width:800px){.g2,.g3{grid-template-columns:1fr;}}
+table.dt{width:100%;border-collapse:collapse;font-size:.82rem;}
+table.dt th{background:linear-gradient(135deg,#f8fbfd,#eef5fa);font-weight:700;text-align:left;padding:10px 12px;color:var(--ink);border-bottom:2px solid var(--border);font-size:.7rem;text-transform:uppercase;letter-spacing:.8px;}
+table.dt td{padding:9px 12px;border-bottom:1px solid var(--border2);color:var(--ink2);}
+table.dt tr:hover td{background:rgba(0,180,216,.03);}
+table.dt td.n{text-align:right;font-variant-numeric:tabular-nums;}
+code{background:rgba(0,180,216,.08);padding:2px 7px;border-radius:6px;font-family:'JetBrains Mono',Consolas,monospace;font-size:.82em;color:var(--ink);}
+pre.code{background:var(--navy);color:#e8f0f6;border-radius:12px;padding:14px 18px;font-family:'JetBrains Mono',Consolas,'Courier New',monospace;font-size:.78rem;overflow-x:auto;margin:8px 0 12px;line-height:1.6;box-shadow:0 4px 16px rgba(26,43,95,.2);}
+.tip{background:rgba(0,180,216,.06);border-left:4px solid var(--cyan);border-radius:0 12px 12px 0;padding:14px 18px;margin:14px 0;font-size:.84rem;line-height:1.6;}
+.warn{background:rgba(245,166,35,.06);border-left:4px solid var(--orange);border-radius:0 12px 12px 0;padding:14px 18px;margin:14px 0;font-size:.84rem;line-height:1.6;}
+.alert{background:rgba(196,76,76,.06);border-left:4px solid var(--red);border-radius:0 12px 12px 0;padding:14px 18px;margin:14px 0;font-size:.84rem;line-height:1.6;}
+.checklist{list-style:none;padding:0;}
+.checklist li{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--border2);font-size:.84rem;color:var(--ink2);}
+.checklist li::before{content:'';width:20px;height:20px;border:2px solid var(--border);border-radius:6px;flex-shrink:0;margin-top:2px;}
+.metric-doc{border-left:4px solid var(--border);border-radius:0 12px 12px 0;padding:16px 20px;margin:10px 0;background:var(--bg3);}
+.metric-doc.finance{border-color:var(--green);}
+.metric-doc.product{border-color:var(--cyan);}
+.metric-doc.sales{border-color:var(--magenta);}
+.metric-doc h4{font-size:.85rem;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:8px;}
+.metric-doc h4 .tag{font-size:.62rem;padding:3px 10px;border-radius:16px;font-weight:700;}
+.metric-doc.finance h4 .tag{background:rgba(46,204,113,.12);color:#1a8a4a;}
+.metric-doc.product h4 .tag{background:rgba(0,180,216,.12);color:#0088a8;}
+.metric-doc.sales h4 .tag{background:rgba(196,56,138,.12);color:#a33;}
+.metric-doc p,.metric-doc li{font-size:.82rem;color:var(--ink2);line-height:1.65;}
+.footer{text-align:center;padding:40px 0 60px;color:var(--ink4);font-size:.78rem;}
+@media print{.topnav{position:relative;}.card{box-shadow:none;border:1px solid var(--border);}}
+/* Collapsible data dict */
+details{margin:8px 0;}
+details summary{cursor:pointer;font-weight:700;font-size:.88rem;color:var(--ink);padding:10px 0;user-select:none;}
+details summary:hover{color:var(--cyan);}
+details[open] summary{color:var(--purple);}
+details .dict-inner{padding:0 0 16px;}
+.known{font-size:.78rem;color:var(--orange);margin-top:6px;font-style:italic;}
+</style>
+</head>
+<body>
+
+<!-- Top Nav -->
+<div class="topnav">
+<div class="topnav-inner">
+  <div class="logo"><div class="logo-dot"><i class="ph-duotone ph-database"></i></div>NexusFlow</div>
+  <a href="#context">Context</a>
+  <a href="#assignment">Assignment</a>
+  <a href="#data">Data</a>
+  <a href="#dictionary">Dictionary</a>
+  <a href="#rules">Business Rules</a>
+  <a href="#change">Change Request</a>
+  <a href="#eval">Evaluation</a>
+  <a href="#hints">Hints</a>
+  <a href="#submit">Submit</a>
+</div>
+</div>
+
+<div class="wrap">
+
+<!-- Hero -->
+<div class="hero">
+  <div class="badge-row">
+    <div class="badge"><i class="ph-duotone ph-briefcase"></i> Senior Data Engineer</div>
+    <div class="badge"><i class="ph-duotone ph-clock"></i> 12&ndash;16 Hours</div>
+    <div class="badge"><i class="ph-duotone ph-house-simple"></i> Take-Home Exercise</div>
+  </div>
+  <h1>Welcome to <span>NexusFlow</span></h1>
+  <p class="sub">You&rsquo;ve been hired as the first Senior Data Engineer at a B2B SaaS company. The VP of Data needs a unified data warehouse and analytics platform built from scratch. You receive <strong>only raw CSV data</strong> and these instructions. Everything else &mdash; the stack, the schema, the pipeline, the dashboard &mdash; is yours to design and build.</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="val">~500</div><div class="lbl">Customers</div></div>
+    <div class="hero-stat"><div class="val">30</div><div class="lbl">CSV Files</div></div>
+    <div class="hero-stat"><div class="val">5</div><div class="lbl">Plans</div></div>
+    <div class="hero-stat"><div class="val">3</div><div class="lbl">Monthly Batches</div></div>
+    <div class="hero-stat"><div class="val">3</div><div class="lbl">Regions</div></div>
+  </div>
+</div>
+
+<!-- 1. Business Context -->
+<div class="section" id="context">
+  <div class="section-label"><i class="ph-duotone ph-buildings"></i> Section 1</div>
+  <h2>Business Context</h2>
+  <p class="desc">NexusFlow is a B2B SaaS company selling workflow automation to mid-market companies.</p>
+
+  <div class="g2">
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-globe-simple"></i></span>Company Profile</h3>
+      <ul style="font-size:.84rem;color:var(--ink2);padding-left:18px;line-height:2;">
+        <li><strong>~500 customers</strong> across 3 regions (NA, EMEA, APAC)</li>
+        <li><strong>5 subscription plans</strong> &mdash; Free through Enterprise</li>
+        <li>Monthly billing with usage-based overages</li>
+        <li>Support operations + product telemetry</li>
+        <li>Operating for <strong>18 months</strong></li>
+      </ul>
+    </div>
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-warning-octagon"></i></span>Key Challenge</h3>
+      <p style="font-size:.84rem;color:var(--ink2);line-height:1.7;">Data exists in CSV exports from various source systems. Three monthly batches are available (January, February, March 2024). Multiple internal teams have documented their business rules, but <strong>they don&rsquo;t always agree</strong> on metric definitions. Your job is to build the data platform that resolves this.</p>
+    </div>
+  </div>
+</div>
+
+<!-- 2. Assignment -->
+<div class="section" id="assignment">
+  <div class="section-label"><i class="ph-duotone ph-clipboard-text"></i> Section 2</div>
+  <h2>Your Assignment</h2>
+  <p class="desc">Build a complete data platform from the provided CSV files. You choose the tools and architecture. We recommend PostgreSQL + Python, but any defensible stack is acceptable.</p>
+
+  <div class="g3">
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-hard-drives"></i></span>Database</h3>
+      <p style="font-size:.84rem;color:var(--ink2);">Set up a database. Load, clean, and model data through a layered architecture (e.g., <strong>raw &rarr; stage &rarr; core &rarr; mart</strong>).</p></div>
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-flow-arrow"></i></span>ETL Pipeline</h3>
+      <p style="font-size:.84rem;color:var(--ink2);">Build transforms that handle deduplication, identity resolution, data quality, and incremental loading.</p></div>
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-cube"></i></span>Data Model</h3>
+      <p style="font-size:.84rem;color:var(--ink2);">Design an analytical model (star schema or similar). Fact tables, dimensions, appropriate SCD strategy.</p></div>
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-chart-line-up"></i></span>Dashboard</h3>
+      <p style="font-size:.84rem;color:var(--ink2);">A lightweight web application or report with charts, filters, and key business KPIs.</p></div>
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-lock-key"></i></span>Access Control</h3>
+      <p style="font-size:.84rem;color:var(--ink2);">Implement role-based access. At minimum: admin, analyst, viewer, regional manager (region-filtered).</p></div>
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-magnifying-glass"></i></span>Data Quality</h3>
+      <p style="font-size:.84rem;color:var(--ink2);">Anomaly detection, reconciliation between layers, quarantine strategy for bad data.</p></div>
+  </div>
+
+  <div class="card" style="margin-top:8px;"><h3><span class="ic"><i class="ph-duotone ph-check-square"></i></span>Deliverables</h3>
+    <ul class="checklist">
+      <li>Working database with all layers populated</li>
+      <li>ETL scripts &mdash; idempotent and restartable</li>
+      <li>Schema DDL files for all layers</li>
+      <li>Functional analytics dashboard with access control</li>
+      <li><code>decision_log.md</code> &mdash; your choices, tradeoffs, and <strong>rejected alternatives</strong></li>
+      <li><code>architecture.md</code> &mdash; design documentation</li>
+      <li>Data quality checks and reconciliation report</li>
+      <li>Change request response (see Section 6)</li>
+      <li>README with setup instructions so we can run your solution</li>
+    </ul>
+  </div>
+
+  <div class="tip"><strong>Tech stack guidance:</strong> We recommend <strong>PostgreSQL</strong> for the database and <strong>SQL &amp; Python</strong> for ETL/application, but any reasonable stack is acceptable. Use whatever tools you&rsquo;re most productive with &mdash; including AI assistants.</div>
+</div>
+
+<!-- 3. Source Data Overview -->
+<div class="section" id="data">
+  <div class="section-label"><i class="ph-duotone ph-file-csv"></i> Section 3</div>
+  <h2>Source Data</h2>
+  <p class="desc">You receive a <code>data/</code> folder with 3 monthly batches of CSV files. Each batch represents one month&rsquo;s export from NexusFlow&rsquo;s various systems.</p>
+
+  <div class="card" style="overflow-x:auto;">
+    <table class="dt">
+      <tr><th>File</th><th>Approx Rows</th><th>Description</th><th>Batches</th></tr>
+      <tr><td><code>customers.csv</code></td><td class="n">500</td><td>Customer master data &mdash; region, source system, creation date</td><td>1, 2, 3</td></tr>
+      <tr><td><code>plans.csv</code></td><td class="n">5</td><td>Subscription plans &mdash; pricing, tiers</td><td>1, 2, 3</td></tr>
+      <tr><td><code>subscriptions.csv</code></td><td class="n">820</td><td>Customer subscriptions &mdash; plan, status, dates, MRR</td><td>1, 2, 3</td></tr>
+      <tr><td><code>invoices.csv</code></td><td class="n">1,400</td><td>Monthly invoices &mdash; amounts, line types, billing periods</td><td>1, 2, 3</td></tr>
+      <tr><td><code>payments.csv</code></td><td class="n">1,300</td><td>Payment records &mdash; amounts, methods, timestamps</td><td>1, 2, 3</td></tr>
+      <tr><td><code>usage_events.csv</code></td><td class="n">5,000</td><td>Product usage telemetry &mdash; API calls, logins, workflows</td><td>1, 2, 3</td></tr>
+      <tr><td><code>support_tickets.csv</code></td><td class="n">700</td><td>Support tickets &mdash; priority, resolution, status</td><td>1, 2, 3</td></tr>
+      <tr><td><code>product_events.csv</code></td><td class="n">2,700</td><td>Feature adoption events</td><td>1, 2, 3</td></tr>
+      <tr><td><code>adjustments.csv</code></td><td class="n">180</td><td>Financial adjustments &mdash; credits, refunds</td><td>2, 3</td></tr>
+      <tr><td><code>contract_amendments.csv</code></td><td class="n">120</td><td>Contract changes &mdash; upgrades, downgrades</td><td>2, 3</td></tr>
+      <tr><td><code>corrections.csv</code></td><td class="n">~30</td><td>Data corrections for prior batches</td><td>3 only</td></tr>
+      <tr><td><code>late_usage_jan.csv</code></td><td class="n">~50</td><td>Late-arriving usage events for January</td><td>3 only</td></tr>
+    </table>
+  </div>
+
+  <div class="warn"><strong>Not all files appear in all batches.</strong> Batch 1 has 8 files. Batch 2 adds <code>adjustments</code> and <code>contract_amendments</code>. Batch 3 adds <code>corrections</code> and <code>late_usage_jan</code>. Your pipeline must handle evolving source schemas gracefully.</div>
+</div>
+
+<!-- 4. Data Dictionary -->
+<div class="section" id="dictionary">
+  <div class="section-label"><i class="ph-duotone ph-book-open-text"></i> Section 4</div>
+  <h2>Data Dictionary</h2>
+  <p class="desc">Schema details for each source file. Click to expand. Pay attention to the <em>Known Issues</em> &mdash; they&rsquo;re real.</p>
+
+  <div class="card">
+  <!-- customers -->
+  <details>
+    <summary><i class="ph-duotone ph-users" style="color:var(--cyan);margin-right:6px;"></i> customers.csv</summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per customer (company) as of export.</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>customer_id</code></td><td>string</td><td>Internal identifier (format varies by source)</td></tr>
+        <tr><td><code>company_name</code></td><td>string</td><td>Legal or display company name</td></tr>
+        <tr><td><code>region</code></td><td>string</td><td>Geographic region: NA, EMEA, APAC</td></tr>
+        <tr><td><code>created_at</code></td><td>datetime</td><td>Account creation timestamp</td></tr>
+        <tr><td><code>source_system</code></td><td>string</td><td>Originating system (salesforce, hubspot)</td></tr>
+      </table>
+      <p class="known">Known issues: Customer IDs use different formats across source systems (CUST-001, cust_1234, C001). Some records have null or duplicate company names.</p>
+    </div>
+  </details>
+
+  <!-- subscriptions -->
+  <details>
+    <summary><i class="ph-duotone ph-repeat" style="color:var(--cyan);margin-right:6px;"></i> subscriptions.csv</summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per active subscription at export time.</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>subscription_id</code></td><td>string</td><td>Unique subscription identifier</td></tr>
+        <tr><td><code>customer_id</code></td><td>string</td><td>Reference to customer</td></tr>
+        <tr><td><code>plan_id</code></td><td>string</td><td>Plan identifier</td></tr>
+        <tr><td><code>status</code></td><td>string</td><td>active, cancelled, suspended</td></tr>
+        <tr><td><code>start_date</code></td><td>date</td><td>Subscription start</td></tr>
+        <tr><td><code>end_date</code></td><td>date</td><td>Subscription end (null if active)</td></tr>
+        <tr><td><code>mrr_amount</code></td><td>decimal</td><td>Monthly recurring amount (USD)</td></tr>
+        <tr><td><code>updated_at</code></td><td>datetime</td><td>Last update timestamp</td></tr>
+      </table>
+      <p class="known">Known issues: Status values may have inconsistent casing. Some subscriptions have overlapping date ranges for the same customer.</p>
+    </div>
+  </details>
+
+  <!-- invoices -->
+  <details>
+    <summary><i class="ph-duotone ph-receipt" style="color:var(--cyan);margin-right:6px;"></i> invoices.csv</summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per invoice line item.</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>invoice_id</code></td><td>string</td><td>Invoice identifier</td></tr>
+        <tr><td><code>customer_id</code></td><td>string</td><td>Billing customer</td></tr>
+        <tr><td><code>subscription_id</code></td><td>string</td><td>Related subscription</td></tr>
+        <tr><td><code>invoice_date</code></td><td>date</td><td>Invoice issue date</td></tr>
+        <tr><td><code>due_date</code></td><td>date</td><td>Payment due date</td></tr>
+        <tr><td><code>amount</code></td><td>decimal</td><td>Invoice amount (USD)</td></tr>
+        <tr><td><code>line_type</code></td><td>string</td><td>subscription, overage, adjustment</td></tr>
+        <tr><td><code>period_start</code></td><td>date</td><td>Billing period start</td></tr>
+        <tr><td><code>period_end</code></td><td>date</td><td>Billing period end</td></tr>
+      </table>
+      <p class="known">Known issues: Invoice dates may not align with service periods. Some invoices reference customers or subscriptions not present in other files.</p>
+    </div>
+  </details>
+
+  <!-- payments -->
+  <details>
+    <summary><i class="ph-duotone ph-credit-card" style="color:var(--cyan);margin-right:6px;"></i> payments.csv</summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per payment transaction.</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>payment_id</code></td><td>string</td><td>Unique payment identifier</td></tr>
+        <tr><td><code>invoice_id</code></td><td>string</td><td>Related invoice</td></tr>
+        <tr><td><code>customer_id</code></td><td>string</td><td>Paying customer</td></tr>
+        <tr><td><code>amount</code></td><td>decimal</td><td>Payment amount (USD)</td></tr>
+        <tr><td><code>payment_date</code></td><td>datetime</td><td>When payment was received</td></tr>
+        <tr><td><code>payment_method</code></td><td>string</td><td>credit_card, ach, wire</td></tr>
+        <tr><td><code>status</code></td><td>string</td><td>completed, failed, refunded</td></tr>
+      </table>
+      <p class="known">Known issues: Payment timestamps may use different timezones than other files. Partial payments and refunds require careful aggregation.</p>
+    </div>
+  </details>
+
+  <!-- usage_events -->
+  <details>
+    <summary><i class="ph-duotone ph-chart-bar" style="color:var(--cyan);margin-right:6px;"></i> usage_events.csv</summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per usage event.</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>event_id</code></td><td>string</td><td>Unique event identifier</td></tr>
+        <tr><td><code>customer_id</code></td><td>string</td><td>Customer who generated usage</td></tr>
+        <tr><td><code>event_type</code></td><td>string</td><td>api_call, login, workflow_run</td></tr>
+        <tr><td><code>event_timestamp</code></td><td>datetime</td><td>When the event occurred</td></tr>
+        <tr><td><code>quantity</code></td><td>integer</td><td>Count or magnitude</td></tr>
+        <tr><td><code>metadata</code></td><td>string</td><td>JSON extras</td></tr>
+      </table>
+      <p class="known">Known issues: Timestamps may use different timezones. Some events reference unknown customers. Quantity interpretation varies by event_type.</p>
+    </div>
+  </details>
+
+  <!-- support_tickets -->
+  <details>
+    <summary><i class="ph-duotone ph-lifebuoy" style="color:var(--cyan);margin-right:6px;"></i> support_tickets.csv</summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per support ticket.</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>ticket_id</code></td><td>string</td><td>Unique ticket identifier</td></tr>
+        <tr><td><code>customer_id</code></td><td>string</td><td>Customer who opened ticket</td></tr>
+        <tr><td><code>subject</code></td><td>string</td><td>Ticket subject</td></tr>
+        <tr><td><code>priority</code></td><td>string</td><td>high, medium, low</td></tr>
+        <tr><td><code>status</code></td><td>string</td><td>open, resolved, closed</td></tr>
+        <tr><td><code>created_at</code></td><td>datetime</td><td>Ticket creation time</td></tr>
+        <tr><td><code>resolved_at</code></td><td>datetime</td><td>Resolution time (null if open)</td></tr>
+      </table>
+      <p class="known">Known issues: Status values may vary. Some customer_id formats don&rsquo;t match the customers table.</p>
+    </div>
+  </details>
+
+  <!-- contract_amendments -->
+  <details>
+    <summary><i class="ph-duotone ph-pencil-line" style="color:var(--cyan);margin-right:6px;"></i> contract_amendments.csv <span style="font-size:.7rem;color:var(--orange);font-weight:600;margin-left:8px;">Batch 2+</span></summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per contract amendment.</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>amendment_id</code></td><td>string</td><td>Unique amendment identifier</td></tr>
+        <tr><td><code>subscription_id</code></td><td>string</td><td>Affected subscription</td></tr>
+        <tr><td><code>customer_id</code></td><td>string</td><td>Customer</td></tr>
+        <tr><td><code>amendment_type</code></td><td>string</td><td>upgrade, downgrade, renewal</td></tr>
+        <tr><td><code>effective_date</code></td><td>date</td><td>When change takes effect</td></tr>
+        <tr><td><code>created_at</code></td><td>datetime</td><td>When recorded (may differ from effective_date)</td></tr>
+        <tr><td><code>previous_mrr</code></td><td>decimal</td><td>MRR before change</td></tr>
+        <tr><td><code>new_mrr</code></td><td>decimal</td><td>MRR after change</td></tr>
+      </table>
+      <p class="known">Known issues: Effective dates may be before created_at (retroactive amendments). Some reference cancelled subscriptions.</p>
+    </div>
+  </details>
+
+  <!-- plans -->
+  <details>
+    <summary><i class="ph-duotone ph-package" style="color:var(--cyan);margin-right:6px;"></i> plans.csv</summary>
+    <div class="dict-inner">
+      <p style="font-size:.82rem;color:var(--ink3);margin-bottom:8px;"><strong>Grain:</strong> One row per plan (reference data).</p>
+      <table class="dt">
+        <tr><th>Column</th><th>Type</th><th>Description</th></tr>
+        <tr><td><code>plan_id</code></td><td>string</td><td>Plan identifier</td></tr>
+        <tr><td><code>plan_name</code></td><td>string</td><td>Display name</td></tr>
+        <tr><td><code>tier</code></td><td>string</td><td>free, paid, enterprise</td></tr>
+        <tr><td><code>base_price</code></td><td>decimal</td><td>Base monthly price (USD)</td></tr>
+        <tr><td><code>overage_rate</code></td><td>decimal</td><td>Per-unit overage rate</td></tr>
+        <tr><td><code>effective_from</code></td><td>date</td><td>When plan became available</td></tr>
+      </table>
+      <p class="known">Known issues: Plan IDs may change between batches. Deprecated plans still referenced by historical subscriptions.</p>
+    </div>
+  </details>
+  </div>
+
+  <div class="tip"><strong>General data notes:</strong> Column names may vary slightly between batches. Date/time formats are generally ISO 8601 but verify. Sentinel values (<code>"-"</code>, <code>"N/A"</code>, empty strings) should be treated as null.</p></div>
+</div>
+
+<!-- 5. Business Rules -->
+<div class="section" id="rules">
+  <div class="section-label"><i class="ph-duotone ph-warning-circle"></i> Section 5</div>
+  <h2>Business Rules &mdash; Read Carefully</h2>
+  <p class="desc">Three teams have documented their KPI definitions. <strong>They do not agree.</strong> You must decide the canonical definitions and document why you chose each one &mdash; including what you rejected.</p>
+
+  <div class="alert"><strong>This is critical.</strong> Read all three documents below before making any metric decisions. The conflicts are intentional. Your decision log is a key deliverable.</div>
+
+  <!-- Finance -->
+  <div class="metric-doc finance">
+    <h4><i class="ph-duotone ph-bank"></i> Finance Team <span class="tag">VP Finance &mdash; Sarah Chen, Jan 15 2024</span></h4>
+    <ul style="padding-left:18px;margin-top:8px;">
+      <li><strong>MRR:</strong> Active subscription amounts only. Usage overage is NOT included. Recognized on <strong>invoice date</strong>.</li>
+      <li><strong>Churn MRR:</strong> Full cancellations only. Downgrades are &ldquo;Contraction&rdquo; and excluded from churn for board reporting.</li>
+      <li><strong>NRR:</strong> <code>(Starting + Expansion - Churn) / Starting</code>. <strong>Contraction deliberately excluded.</strong></li>
+      <li><strong>Revenue recognition:</strong> At invoice date, not payment date or service delivery date.</li>
+      <li><strong>Customer churn:</strong> All subscriptions terminated.</li>
+      <li><strong>Free tier:</strong> Included in customer counts, NOT in revenue metrics.</li>
+      <li><strong>Currency:</strong> All amounts USD. No multi-currency support needed.</li>
+    </ul>
+  </div>
+
+  <!-- Product -->
+  <div class="metric-doc product">
+    <h4><i class="ph-duotone ph-rocket-launch"></i> Product Team <span class="tag">VP Product &mdash; Marcus Rivera, Feb 10 2024</span></h4>
+    <ul style="padding-left:18px;margin-top:8px;">
+      <li><strong>MRR:</strong> Subscription base <strong>+</strong> trailing 3-month average usage overage. Recognized on <strong>effective date</strong> (service delivery).</li>
+      <li><strong>Churn MRR:</strong> Cancellations + &ldquo;silent churn&rdquo; (zero usage for 90+ days, even if paying).</li>
+      <li><strong>NRR:</strong> <code>(Starting + Expansion - Contraction - Churn + Reactivation) / Starting</code>. <strong>Includes contraction.</strong></li>
+      <li><strong>Revenue recognition:</strong> Service delivery period, not invoice date.</li>
+      <li><strong>Customer churn:</strong> Usage below threshold (&lt;10 API calls AND &lt;1 login/month) for 90 days, regardless of subscription status.</li>
+      <li><strong>Free tier:</strong> Included in engagement and adoption metrics.</li>
+    </ul>
+  </div>
+
+  <!-- Sales -->
+  <div class="metric-doc sales">
+    <h4><i class="ph-duotone ph-chart-line-up"></i> Sales Team <span class="tag">CRO &mdash; Jake Torres, Jan 28 2024</span></h4>
+    <ul style="padding-left:18px;margin-top:8px;">
+      <li><strong>Expansion MRR:</strong> Any MRR increase &mdash; upgrades, add-ons, price increases, <strong>usage overage growth</strong>.</li>
+      <li><strong>Churn:</strong> A customer is NOT churned if they have any active subscription. <strong>Payment = customer. Period.</strong></li>
+      <li><strong>Customer count:</strong> Do NOT count free-tier. Active = paid plan only.</li>
+      <li><strong>Contraction:</strong> Not tracked separately. Downgrade + staying = retained customer.</li>
+      <li><strong>Win Rate:</strong> <code>Won / (Won + Lost)</code>. Exclude open deals and churned deals.</li>
+    </ul>
+  </div>
+
+  <div class="tip"><strong>Your task:</strong> For each conflicting metric, choose a canonical definition, justify it with a business rationale, and document the alternatives you rejected. Put this in your <code>decision_log.md</code>.</div>
+</div>
+
+<!-- 6. Change Request -->
+<div class="section" id="change">
+  <div class="section-label"><i class="ph-duotone ph-arrow-clockwise"></i> Section 6</div>
+  <h2>Change Request #001</h2>
+  <p class="desc">After your initial implementation, read this change request. For each item, write an impact analysis. Implement CR-1 if time permits.</p>
+
+  <div class="card"><h3><span class="ic"><i class="ph-duotone ph-shield-check"></i></span>CR-1: Regional Manager Role with Row-Level Security</h3>
+    <p style="font-size:.84rem;color:var(--ink2);margin-bottom:8px;">Add a &ldquo;Regional Manager&rdquo; role. Each manager sees <strong>only their region&rsquo;s data</strong> (NA, EMEA, or APAC). Enforced at the <strong>data layer</strong>, not just UI.</p>
+    <p style="font-size:.82rem;color:var(--ink3);"><strong>Answer:</strong> How do you implement this? How does it affect queries and API? What about company-wide aggregate KPIs?</p>
+  </div>
+
+  <div class="card"><h3><span class="ic"><i class="ph-duotone ph-calendar-check"></i></span>CR-2: NRR by Contract Effective Date</h3>
+    <p style="font-size:.84rem;color:var(--ink2);margin-bottom:8px;">Finance wants NRR calculated using the contract <strong>amendment effective_date</strong> instead of invoice date. Some amendments are retroactive.</p>
+    <p style="font-size:.82rem;color:var(--ink3);"><strong>Answer:</strong> Impact on fact tables? Need to restate historical data? How to handle amendments with effective dates before subscription start?</p>
+  </div>
+
+  <div class="card"><h3><span class="ic"><i class="ph-duotone ph-handshake"></i></span>CR-3: New Partner Referral Source</h3>
+    <p style="font-size:.84rem;color:var(--ink2);margin-bottom:8px;">New file <code>partner_referrals.csv</code> with partner_id, partner_name, referred_customer_name, referred_customer_email, referral_date, status. <strong>No customer_id</strong> &mdash; you must match by name or email.</p>
+    <p style="font-size:.82rem;color:var(--ink3);"><strong>Answer:</strong> Integration with customer dimension? Matching strategy? How to handle partial matches and non-matches?</p>
+  </div>
+</div>
+
+<!-- 7. What We Evaluate -->
+<div class="section" id="eval">
+  <div class="section-label"><i class="ph-duotone ph-exam"></i> Section 7</div>
+  <h2>What We Evaluate</h2>
+  <p class="desc">We evaluate thinking and documentation, not just code.</p>
+
+  <div class="g2">
+    <div class="card" style="border-left:3px solid var(--green);"><h3>What Matters</h3>
+      <ul style="font-size:.84rem;color:var(--ink2);padding-left:18px;line-height:2;">
+        <li>Data modeling decisions and tradeoffs</li>
+        <li>ETL architecture &mdash; idempotency, error handling</li>
+        <li>Data quality reasoning &mdash; anomaly detection, triage</li>
+        <li>Business rule resolution and documentation</li>
+        <li>Code quality and testing</li>
+        <li>Decision log with <strong>rejected alternatives</strong></li>
+        <li>Security / access control design</li>
+      </ul>
+    </div>
+    <div class="card" style="border-left:3px solid var(--ink4);"><h3>What Doesn&rsquo;t Matter</h3>
+      <ul style="font-size:.84rem;color:var(--ink2);padding-left:18px;line-height:2;">
+        <li>UI aesthetics (functional beats pretty)</li>
+        <li>Speed of execution</li>
+        <li>Whether you used AI tools (use any freely)</li>
+        <li>100% completion (depth beats breadth)</li>
+        <li>Which specific tech stack you chose</li>
+      </ul>
+      <div class="alert" style="margin-top:12px;"><strong>Important:</strong> We DO evaluate whether you <strong>understand what you built</strong>. Be prepared to explain every design choice verbally in a follow-up conversation.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 8. Hints -->
+<div class="section" id="hints">
+  <div class="section-label"><i class="ph-duotone ph-lightbulb"></i> Section 8</div>
+  <h2>Hints</h2>
+  <p class="desc">Use sparingly. Part of the exercise is discovering things on your own.</p>
+
+  <div class="card">
+    <ul style="font-size:.88rem;color:var(--ink2);padding-left:18px;line-height:2.4;">
+      <li><i class="ph-duotone ph-magnifying-glass" style="color:var(--cyan);margin-right:6px;"></i> <strong>Profile your data</strong> before writing transforms</li>
+      <li><i class="ph-duotone ph-identification-card" style="color:var(--cyan);margin-right:6px;"></i> Customer IDs are <strong>not always what they seem</strong></li>
+      <li><i class="ph-duotone ph-clock" style="color:var(--cyan);margin-right:6px;"></i> Not all timestamps use the <strong>same timezone</strong></li>
+      <li><i class="ph-duotone ph-check-circle" style="color:var(--cyan);margin-right:6px;"></i> Some apparent &ldquo;errors&rdquo; are actually <strong>valid business records</strong></li>
+      <li><i class="ph-duotone ph-books" style="color:var(--cyan);margin-right:6px;"></i> Read <strong>all three</strong> business rules documents before choosing metrics</li>
+      <li><i class="ph-duotone ph-arrows-clockwise" style="color:var(--cyan);margin-right:6px;"></i> Think about what happens if your pipeline <strong>runs twice</strong></li>
+      <li><i class="ph-duotone ph-folder-open" style="color:var(--cyan);margin-right:6px;"></i> Later batches introduce <strong>new files</strong> and <strong>corrections to earlier data</strong></li>
+    </ul>
+  </div>
+</div>
+
+<!-- 9. Time & Submission -->
+<div class="section" id="submit">
+  <div class="section-label"><i class="ph-duotone ph-paper-plane-tilt"></i> Section 9</div>
+  <h2>Time &amp; Submission</h2>
+
+  <div class="g2">
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-timer"></i></span>Time Expectation</h3>
+      <p style="font-size:1.4rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:6px;">12&ndash;16 hours</p>
+      <p style="font-size:.84rem;color:var(--ink2);">One weekend. Focus on quality of the core pipeline and modeling over completeness of the UI. A partial solution with clear documentation and reasoning is preferred over a complete solution with no rationale.</p>
+    </div>
+    <div class="card"><h3><span class="ic"><i class="ph-duotone ph-upload-simple"></i></span>Submission</h3>
+      <ul style="font-size:.84rem;color:var(--ink2);padding-left:18px;line-height:2.2;">
+        <li>Zip your completed project directory</li>
+        <li>Email it to the hiring team</li>
+        <li>Include a <strong>README</strong> with setup instructions so we can run it</li>
+        <li>Include a brief <strong>cover note</strong> summarizing your approach</li>
+        <li>Note any areas you didn&rsquo;t complete and how you&rsquo;d address them</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tip"><strong>After submission:</strong> We&rsquo;ll review your work and schedule a 45&ndash;60 minute conversation where we&rsquo;ll walk through your design decisions together. This is collaborative, not adversarial &mdash; we want to understand your thinking.</div>
+</div>
+
+</div><!-- /wrap -->
+
+<div class="footer">
+  NexusFlow &mdash; Senior Data Engineer Take-Home Exercise<br>
+  Good luck. We look forward to seeing how you think.
+</div>
+
+<script>
+const sections=document.querySelectorAll('.section[id]');
+const navLinks=document.querySelectorAll('.topnav a');
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      navLinks.forEach(l=>l.classList.remove('active'));
+      const link=document.querySelector('.topnav a[href="#'+e.target.id+'"]');
+      if(link) link.classList.add('active');
+    }
+  });
+},{threshold:0.3,rootMargin:'-60px 0px -60% 0px'});
+sections.forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>

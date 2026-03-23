@@ -1,0 +1,701 @@
+ticket_id,customer_id,category,priority,created_at,resolved_at,resolution_hours,satisfaction_score,agent_name,channel,description
+TKT-00001,CUST-255,Technical,Medium,2024-02-22T08:34:40Z,2024-02-22T18:34:40Z,10.0,6.0,Angie Henderson,chat,Term herself law street class.
+TKT-00002,CUST-053,Onboarding,Low,2024-02-15T16:11:32Z,2024-02-15T18:11:32Z,2.0,,Jamie Arnold,phone,Decide environment view possible participant commercial.
+TKT-00003,CUST-432,Technical,Low,2024-02-12T14:33:10Z,2024-02-14T06:33:10Z,40.0,1.0,Angie Henderson,chat,Support request: Clear here writer policy news.
+TKT-00004,CUST-276,Account,Medium,2024-02-19T10:39:27Z,2024-02-20T17:39:27Z,31.0,10.0,Allison Hill,phone,Successful simply director allow firm environment.
+TKT-00005,CUST-106,Technical,Low,2024-02-10T15:19:06Z,2024-02-13T04:19:06Z,61.0,6.0,Abigail Shaffer,phone,Tree note responsibility defense material.
+TKT-00006,CUST-286,Security,Low,2024-02-01T17:14:16Z,2024-02-03T12:14:16Z,43.0,8.0,Dylan Miller,portal,Central cause seat much section investment on.
+TKT-00007,CUST-138,Performance,Low,2024-02-10T09:33:59Z,,,,Monica Herrera,portal,Despite young meeting before another body.
+TKT-00008,CUST-195,Billing,Medium,2024-02-18T22:18:30Z,2024-02-21T14:18:30Z,64.0,1.0,Gabrielle Davis,phone,Support request: Civil quite others his other life edge network.
+TKT-00009,CUST-274,Feature Request,High,2024-02-21T08:27:31Z,2024-02-21T14:27:31Z,6.0,6.0,Allison Hill,portal,Quite boy those.
+TKT-00010,CUST-108,Account,Low,2024-02-05T12:48:47Z,2024-02-06T21:48:47Z,33.0,,Daniel Wagner,portal,Customer escalation: Shoulder future fall citizen about.. Reach out at teresa28@example.org.
+TKT-00011,CUST-260,Performance,Medium,2024-02-27T22:39:46Z,2024-02-29T20:39:46Z,46.0,,Dylan Miller,chat,Upon these story film.
+TKT-00012,CUST-114,Onboarding,Medium,2024-02-27T14:42:48Z,2024-02-28T06:42:48Z,16.0,6.0,Monica Herrera,chat,Drive note bad rule.
+TKT-00013,CUST-416,Performance,Medium,2024-02-21T00:15:00Z,2024-02-23T05:15:00Z,53.0,,Ryan Munoz,phone,Within mouth call process.
+TKT-00014,CUST-359,Account,High,2024-02-09T14:34:47Z,,,,Ryan Munoz,chat,Close month parent who up sense ready.
+TKT-00015,CUST-238,Integration,Low,2024-02-08T17:43:56Z,2024-02-10T22:43:56Z,53.0,4.0,Allison Hill,phone,Human public health tonight later.
+TKT-00016,CUST-028,Security,High,2024-02-09T19:58:24Z,2024-02-12T03:58:24Z,56.0,1.0,Dylan Miller,phone,Different full open discover detail.
+TKT-00017,CUST-259,Onboarding,Medium,2024-02-07T21:04:41Z,2024-02-09T09:04:41Z,36.0,3.0,Jamie Arnold,email,Remain arrive attack all.
+TKT-00018,CUST-046,Billing,Critical,2024-02-05T06:03:55Z,2024-02-07T00:03:55Z,42.0,9.0,Abigail Shaffer,chat,Audience draw protect Democrat car very.
+TKT-00019,CUST-069,Performance,Medium,2024-02-04T04:44:16Z,2024-02-05T12:44:16Z,32.0,5.0,Ryan Munoz,portal,Issue description: Office drug list imagine behind probably great.. Call +1-610-965-1333x87262 if urgent.
+TKT-00020,CUST-182,Integration,Critical,2024-02-04T14:38:34Z,2024-02-06T02:38:34Z,36.0,4.0,Jamie Arnold,email,Themselves away space task better.
+TKT-00021,CUST-340,Feature Request,Medium,2024-02-17T15:43:04Z,2024-02-19T18:43:04Z,51.0,2.0,Abigail Shaffer,portal,Structure why unit support coach magazine degree.
+TKT-00022,CUST-147,Security,Medium,2024-02-16T23:52:17Z,2024-02-17T16:52:17Z,17.0,3.0,Jamie Arnold,chat,Support request: Total clearly able hospital unit size.
+TKT-00023,CUST-370,Billing,High,2024-02-20T10:47:40Z,,,,Lisa Hensley,phone,Institution whatever yet new responsibility.
+TKT-00024,CUST-135,Technical,Medium,2024-02-06T04:01:05Z,2024-02-08T12:01:05Z,56.0,7.0,Allison Hill,email,Support request: Couple design around save.
+TKT-00025,CUST-004,Security,Low,2024-02-09T22:49:57Z,2024-02-10T04:49:57Z,6.0,,Gabrielle Davis,email,Security arm once me.
+TKT-00026,CUST-145,Performance,Low,2024-02-08T19:27:35Z,2024-02-09T12:27:35Z,17.0,,Abigail Shaffer,email,Church whether bag control organization push dog.
+TKT-00027,CUST-366,Integration,Low,2024-02-17T02:08:21Z,2024-02-17T14:08:21Z,12.0,1.0,Abigail Shaffer,email,Support request: Walk now often always.
+TKT-00028,CUST-443,Technical,Low,2024-02-23T12:13:45Z,,,,Allison Hill,email,Information on mission various.
+TKT-00029,CUST-145,Feature Request,Low,2024-02-16T01:53:56Z,2024-02-16T08:53:56Z,7.0,1.0,Gabrielle Davis,email,Prove fire enter capital population.
+TKT-00030,CUST-256,Security,Medium,2024-02-14T21:41:10Z,2024-02-16T16:41:10Z,43.0,8.0,Lisa Hensley,chat,First sell authority leader your you available.
+TKT-00031,CUST-031,Performance,Medium,2024-02-22T02:23:10Z,2024-02-23T16:23:10Z,38.0,9.0,Gina Moore,chat,Media car give attention each.
+TKT-00032,CUST-173,Billing,Medium,2024-02-03T00:44:17Z,2024-02-05T07:44:17Z,55.0,,Jamie Arnold,email,Citizen street region particularly would.
+TKT-00033,CUST-059,Technical,Low,2024-02-12T07:44:01Z,2024-02-15T05:44:01Z,70.0,5.0,Connie Lawrence,chat,Support request: Account stage federal professional voice care break.
+TKT-00034,CUST-090,Feature Request,High,2024-02-03T11:57:59Z,2024-02-04T18:57:59Z,31.0,10.0,Allison Hill,email,Issue description: Score choice example decision.. Call 801-264-0052x427 if urgent.
+TKT-00035,CUST-385,Performance,Medium,2024-02-17T02:48:23Z,2024-02-19T05:48:23Z,51.0,3.0,Jamie Arnold,email,Support request: Away third tough nation.. Email brandi26@example.org for details.
+TKT-00036,CUST-290,Billing,Medium,2024-02-04T10:18:27Z,2024-02-06T20:18:27Z,58.0,4.0,Abigail Shaffer,email,User reported issue with Ten wish specific thing agent.. Please contact kimberly63@example.com or (616)507-3375 for follow-up.
+TKT-00037,CUST-216,Billing,Medium,2024-02-03T07:30:06Z,2024-02-05T02:30:06Z,43.0,,Abigail Shaffer,email,Age cover foreign ten whom.
+TKT-00038,CUST-330,Technical,Low,2024-02-13T16:46:22Z,2024-02-16T04:46:22Z,60.0,8.0,Abigail Shaffer,email,Go meeting quickly such former.
+TKT-00039,CUST-151,Performance,High,2024-02-17T07:50:07Z,2024-02-19T23:50:07Z,64.0,9.0,Jamie Arnold,chat,Support request: Boy wife condition.
+TKT-00040,CUST-201,Performance,Critical,2024-02-11T18:15:15Z,,,,Daniel Wagner,portal,Although others generation skill job.
+TKT-00041,CUST-160,Security,High,2024-02-12T07:44:01Z,2024-02-13T08:44:01Z,25.0,3.0,Lisa Hensley,portal,Break tonight couple and job mind southern.
+TKT-00042,CUST-062,Feature Request,Medium,2024-02-06T16:17:32Z,2024-02-07T08:17:32Z,16.0,,Gina Moore,chat,Hair attorney professional form finish.
+TKT-00043,CUST-086,Billing,High,2024-02-25T19:01:19Z,2024-02-26T05:01:19Z,10.0,7.0,Cristian Santos,portal,Rest feel finally impact.
+TKT-00044,CUST-078,Onboarding,Low,2024-02-20T23:38:50Z,,,,Gina Moore,chat,Recent never court professor here security.
+TKT-00045,CUST-491,Security,Low,2024-02-25T15:38:33Z,2024-02-28T12:38:33Z,69.0,8.0,Noah Rhodes,email,Past feeling nature a.
+TKT-00046,CUST-380,Performance,Low,2024-02-08T05:51:25Z,2024-02-11T01:51:25Z,68.0,6.0,Monica Herrera,portal,Decision size parent focus kid.
+TKT-00047,CUST-129,Feature Request,Medium,2024-02-27T00:46:28Z,2024-02-27T18:46:28Z,18.0,4.0,Angie Henderson,portal,Memory soldier where save probably.
+TKT-00048,CUST-356,Account,Low,2024-02-21T04:12:09Z,2024-02-23T17:12:09Z,61.0,10.0,Michele Williams,email,Middle plan friend stand seem.
+TKT-00049,CUST-171,Security,High,2024-02-27T06:15:19Z,2024-03-01T00:15:19Z,66.0,7.0,Noah Rhodes,email,Different current agency each little.
+TKT-00050,CUST-051,Security,Low,2024-02-09T21:56:58Z,2024-02-10T00:56:58Z,3.0,3.0,Ryan Munoz,portal,User reported issue with Lay though offer responsibility.. Please contact psnyder@example.org or +1-401-963-2870x8317 for follow-up.
+TKT-00051,CUST-054,Performance,High,2024-02-09T04:44:39Z,2024-02-09T06:44:39Z,2.0,8.0,Dylan Miller,email,Support request: Write other wear through partner rest measure.
+TKT-00052,CUST-349,Feature Request,Medium,2024-02-04T16:00:50Z,2024-02-04T17:00:50Z,1.0,10.0,Abigail Shaffer,chat,User reported issue with Knowledge city technology late seem style everyone.. Please contact rsims@example.com or 443-545-5812 for follow-up.
+TKT-00053,CUST-407,Onboarding,High,2024-02-13T18:50:52Z,2024-02-13T19:50:52Z,1.0,6.0,Gina Moore,portal,Really relationship ask imagine my indeed.
+TKT-00054,CUST-165,Performance,Low,2024-02-08T00:19:41Z,2024-02-08T19:19:41Z,19.0,6.0,Abigail Shaffer,chat,Support request: Strategy hope show watch affect.
+TKT-00055,CUST-032,Technical,Low,2024-02-09T00:04:44Z,2024-02-10T08:04:44Z,32.0,,Angie Henderson,phone,Herself accept goal send table well industry.
+TKT-00056,CUST-185,Billing,Low,2024-02-12T05:05:48Z,2024-02-12T14:05:48Z,9.0,6.0,Ryan Munoz,email,Son today major event magazine home protect.
+TKT-00057,CUST-198,Technical,High,2024-02-08T00:44:16Z,,,,Gabrielle Davis,portal,Right subject try wonder move trade.
+TKT-00058,CUST-053,Onboarding,Medium,2024-02-26T00:41:01Z,2024-02-27T04:41:01Z,28.0,4.0,Monica Herrera,portal,North agree poor career left anyone here deep.
+TKT-00059,CUST-131,Integration,High,2024-02-28T14:17:31Z,2024-02-29T00:17:31Z,10.0,4.0,Cristian Santos,chat,Front they everything week instead strong.
+TKT-00060,CUST-104,Feature Request,Low,2024-02-02T06:33:28Z,,,,Ryan Munoz,portal,Support request: Affect much yourself glass practice sit prepare.
+TKT-00061,CUST-338,Onboarding,High,2024-02-03T09:43:57Z,2024-02-04T02:43:57Z,17.0,1.0,Abigail Shaffer,phone,Wear current after.
+TKT-00062,CUST-455,Integration,High,2024-02-21T07:32:18Z,2024-02-21T17:32:18Z,10.0,6.0,Abigail Shaffer,email,Draw list boy way.
+TKT-00063,CUST-289,Performance,High,2024-02-14T03:18:01Z,2024-02-15T16:18:01Z,37.0,10.0,Daniel Wagner,chat,Support request: Record short cold parent security boy standard.
+TKT-00064,CUST-187,Onboarding,Low,2024-02-06T22:34:51Z,2024-02-08T11:34:51Z,37.0,10.0,Michele Williams,chat,Blue agent find quality when.
+TKT-00065,CUST-076,Account,Critical,2024-02-23T15:06:35Z,2024-02-24T07:06:35Z,16.0,5.0,Ryan Munoz,chat,Walk cup option store drug recent.
+TKT-00066,CUST-057,Account,Low,2024-02-02T02:32:17Z,2024-02-03T07:32:17Z,29.0,9.0,Monica Herrera,chat,Sure outside building worker site.
+TKT-00067,CUST-222,Onboarding,Medium,2024-02-22T07:37:34Z,2024-02-23T02:37:34Z,19.0,6.0,Monica Herrera,email,Support request: Mouth product attention positive actually information.
+TKT-00068,CUST-348,Billing,Low,2024-02-15T19:09:21Z,2024-02-18T18:09:21Z,71.0,10.0,Jamie Arnold,portal,Black whether player stock religious itself safe.
+TKT-00069,CUST-079,Billing,Medium,2024-02-08T09:37:14Z,,,,Lisa Hensley,portal,Support request: Pattern try simple let stay.. Email marcus31@example.com for details.
+TKT-00070,CUST-328,Billing,High,2024-02-22T01:35:49Z,2024-02-22T19:35:49Z,18.0,3.0,Connie Lawrence,chat,Future they red everybody act.
+TKT-00071,CUST-175,Onboarding,Low,2024-02-19T20:20:46Z,2024-02-22T15:20:46Z,67.0,4.0,Gabrielle Davis,email,Beat result major serve real.
+TKT-00072,CUST-280,Technical,High,2024-02-05T06:49:14Z,2024-02-07T00:49:14Z,42.0,9.0,Cristian Santos,phone,Large admit family identify during professional hard.
+TKT-00073,CUST-257,Account,Low,2024-02-24T12:30:19Z,2024-02-25T04:30:19Z,16.0,6.0,Dylan Miller,chat,Most international second former reflect even edge.
+TKT-00074,CUST-164,Feature Request,Medium,2024-02-12T13:38:39Z,2024-02-13T21:38:39Z,32.0,1.0,Allison Hill,chat,Return firm sea week.
+TKT-00075,CUST-272,Performance,Medium,2024-02-02T14:08:28Z,2024-02-03T07:08:28Z,17.0,3.0,Gabrielle Davis,phone,Support request: Course school everybody operation.
+TKT-00076,CUST-290,Account,Low,2024-02-01T19:46:38Z,2024-02-03T20:46:38Z,49.0,4.0,Gina Moore,email,Support request: Others wonder strategy fast guess few remain.
+TKT-00077,CUST-101,Account,Medium,2024-02-09T16:09:55Z,2024-02-11T22:09:55Z,54.0,2.0,Dylan Miller,phone,Ever window network recently.
+TKT-00078,CUST-374,Performance,Low,2024-02-27T19:15:54Z,2024-02-29T03:15:54Z,32.0,2.0,Daniel Wagner,chat,Issue description: Point sell bill activity.. Call 2474116719 if urgent.
+TKT-00079,CUST-260,Account,Low,2024-02-13T22:09:30Z,2024-02-16T15:09:30Z,65.0,,Monica Herrera,email,Specific we be easy.
+TKT-00080,CUST-136,Feature Request,Medium,2024-02-21T04:12:15Z,2024-02-22T23:12:15Z,43.0,10.0,Daniel Wagner,chat,Share paper so difficult mission late kind.
+TKT-00081,CUST-271,Onboarding,Medium,2024-02-25T19:55:47Z,2024-02-26T16:55:47Z,21.0,5.0,Daniel Wagner,phone,Wrong figure perform participant science way debate decision.
+TKT-00082,CUST-016,Technical,Medium,2024-02-12T17:07:28Z,2024-02-14T07:07:28Z,38.0,3.0,Jamie Arnold,phone,Church community avoid able.
+TKT-00083,CUST-160,Onboarding,Medium,2024-02-06T22:14:31Z,,,,Allison Hill,chat,Ready like allow explain executive teacher author.
+TKT-00084,CUST-458,Billing,Medium,2024-02-06T16:44:28Z,2024-02-08T19:44:28Z,51.0,10.0,Abigail Shaffer,phone,Under skin person product value.
+TKT-00085,CUST-129,Performance,High,2024-02-14T18:00:04Z,2024-02-16T05:00:04Z,35.0,1.0,Jamie Arnold,chat,Boy different chance enter central arrive.
+TKT-00086,CUST-129,Performance,Low,2024-02-26T23:14:13Z,2024-02-27T15:14:13Z,16.0,7.0,Ryan Munoz,chat,Organization station TV keep light.
+TKT-00087,CUST-477,Security,Low,2024-02-13T19:51:50Z,2024-02-16T00:51:50Z,53.0,6.0,Daniel Wagner,portal,Support request: Record wall matter management ball.
+TKT-00088,CUST-222,Performance,High,2024-02-16T01:26:16Z,2024-02-17T16:26:16Z,39.0,10.0,Ryan Munoz,chat,Support request: Threat same page.
+TKT-00089,CUST-390,Account,Medium,2024-02-09T02:29:07Z,2024-02-09T06:29:07Z,4.0,10.0,Noah Rhodes,portal,Support request: Before while structure.
+TKT-00090,CUST-466,Integration,Medium,2024-02-27T18:30:57Z,2024-02-28T06:30:57Z,12.0,3.0,Daniel Wagner,portal,Onto again share start office several compare.
+TKT-00091,CUST-313,Integration,Low,2024-02-24T14:51:03Z,,,,Lisa Hensley,email,Prepare trouble consider one play man before.
+TKT-00092,CUST-049,Billing,Medium,2024-02-10T21:03:40Z,2024-02-12T20:03:40Z,47.0,3.0,Allison Hill,email,Impact fly bit claim in many.
+TKT-00093,CUST-280,Technical,Low,2024-02-06T04:13:35Z,,,,Gina Moore,email,Spend nearly lawyer fire follow wife.
+TKT-00094,CUST-049,Feature Request,Medium,2024-02-08T09:44:26Z,2024-02-09T07:44:26Z,22.0,3.0,Monica Herrera,portal,Ten stay ability thank left approach.
+TKT-00095,CUST-270,Technical,High,2024-02-24T21:33:04Z,,,,Lisa Hensley,chat,Gun series personal service data near until.
+TKT-00096,CUST-209,Security,Medium,2024-02-02T05:27:11Z,2024-02-02T11:27:11Z,6.0,7.0,Gina Moore,email,Support request: Thing machine ahead picture son report.
+TKT-00097,CUST-001,Technical,High,2024-02-19T17:41:36Z,2024-02-22T03:41:36Z,58.0,5.0,Gina Moore,phone,Nearly need behavior yeah tree.
+TKT-00098,CUST-283,Security,Medium,2024-02-28T07:48:47Z,,,,Cristian Santos,email,Water positive child usually factor relate indeed.
+TKT-00099,CUST-393,Integration,Medium,2024-02-27T16:16:39Z,2024-02-28T19:16:39Z,27.0,8.0,Dylan Miller,chat,Woman during necessary himself two meet these.
+TKT-00100,CUST-068,Billing,Medium,2024-02-23T08:42:17Z,2024-02-23T23:42:17Z,15.0,4.0,Jamie Arnold,email,User reported issue with Everybody so increase various.. Please contact lori44@example.net or 001-872-978-7558 for follow-up.
+TKT-00101,CUST-479,Account,Critical,2024-02-26T03:35:45Z,2024-02-28T18:35:45Z,63.0,5.0,Ryan Munoz,chat,Thank wonder draw him task improve.
+TKT-00102,CUST-358,Account,Low,2024-02-01T17:26:25Z,2024-02-03T10:26:25Z,41.0,1.0,Jamie Arnold,phone,Seat relate specific history professional star.
+TKT-00103,CUST-015,Security,Low,2024-02-03T14:47:13Z,2024-02-06T05:47:13Z,63.0,2.0,Monica Herrera,portal,Manager already maybe opportunity.
+TKT-00104,CUST-456,Account,Medium,2024-02-20T06:14:52Z,2024-02-22T11:14:52Z,53.0,3.0,Dylan Miller,chat,Them key moment lead.
+TKT-00105,CUST-289,Integration,Medium,2024-02-13T03:25:17Z,2024-02-15T17:25:17Z,62.0,7.0,Dylan Miller,phone,Improve pressure child light.
+TKT-00106,CUST-388,Account,Low,2024-02-22T07:02:26Z,,,,Allison Hill,phone,Support request: Full realize power system system.
+TKT-00107,CUST-058,Technical,High,2024-02-16T05:21:48Z,2024-02-17T01:21:48Z,20.0,,Angie Henderson,portal,Here first responsibility service their along attention.
+TKT-00108,CUST-331,Technical,Low,2024-02-13T02:26:53Z,2024-02-14T20:26:53Z,42.0,3.0,Connie Lawrence,email,Support request: Range explain dinner bed within set region beyond.
+TKT-00109,CUST-101,Security,Medium,2024-02-25T19:05:53Z,2024-02-26T02:05:53Z,7.0,8.0,Gina Moore,chat,Really tough animal someone.
+TKT-00110,CUST-159,Feature Request,Low,2024-02-22T15:44:36Z,2024-02-23T09:44:36Z,18.0,9.0,Ryan Munoz,chat,Support request: Grow issue each include radio.
+TKT-00111,CUST-258,Technical,Medium,2024-02-17T15:04:44Z,2024-02-19T22:04:44Z,55.0,,Michele Williams,email,Color bad that people.
+TKT-00112,CUST-168,Performance,Medium,2024-02-02T06:21:02Z,2024-02-04T10:21:02Z,52.0,,Gabrielle Davis,email,Marriage on discussion point least.
+TKT-00113,CUST-311,Feature Request,Low,2024-02-01T06:40:05Z,2024-02-01T20:40:05Z,14.0,7.0,Ryan Munoz,phone,User reported issue with Together let explain.. Please contact charleslandry@example.net or 664-674-3671x3695 for follow-up.
+TKT-00114,CUST-079,Integration,Low,2024-02-07T08:35:25Z,2024-02-08T01:35:25Z,17.0,3.0,Ryan Munoz,chat,Within probably ever.
+TKT-00115,CUST-384,Performance,Low,2024-02-01T13:18:49Z,2024-02-01T23:18:49Z,10.0,8.0,Noah Rhodes,portal,Ten sing wind treat seat strategy total.
+TKT-00116,CUST-339,Performance,Medium,2024-02-02T19:01:53Z,2024-02-03T19:01:53Z,24.0,7.0,Abigail Shaffer,phone,Parent good PM per question.
+TKT-00117,CUST-053,Integration,Low,2024-02-03T16:16:57Z,2024-02-05T08:16:57Z,40.0,5.0,Dylan Miller,phone,Support request: Pick tough position final.
+TKT-00118,CUST-387,Integration,Medium,2024-02-17T21:18:32Z,2024-02-20T10:18:32Z,61.0,7.0,Monica Herrera,email,Support request: Almost half capital travel force indeed.. Email davidryan@example.com for details.
+TKT-00119,CUST-235,Onboarding,High,2024-02-01T21:01:33Z,2024-02-03T20:01:33Z,47.0,1.0,Gabrielle Davis,chat,Add Mr lawyer pull public once.
+TKT-00120,CUST-157,Performance,Medium,2024-02-27T23:25:39Z,2024-03-01T06:25:39Z,55.0,,Monica Herrera,chat,Support request: Board doctor agent this no trip.. Email deborahreid@example.com for details.
+TKT-00121,CUST-334,Onboarding,Medium,2024-02-22T09:08:15Z,,,,Jamie Arnold,portal,He we recent music onto risk those.
+TKT-00122,CUST-165,Onboarding,High,2024-02-25T16:17:35Z,2024-02-26T01:17:35Z,9.0,1.0,Daniel Wagner,portal,Street past voice evidence.
+TKT-00123,CUST-423,Technical,Low,2024-02-02T20:57:01Z,,,,Jamie Arnold,portal,Describe know door guy wonder happen.
+TKT-00124,CUST-053,Security,Medium,2024-02-04T21:39:17Z,2024-02-04T22:39:17Z,1.0,5.0,Gabrielle Davis,email,Art every why we station begin.
+TKT-00125,CUST-438,Security,Low,2024-02-13T14:32:42Z,2024-02-15T03:32:42Z,37.0,,Monica Herrera,portal,Politics others again skill during.
+TKT-00126,CUST-242,Billing,Medium,2024-02-05T00:50:58Z,,,,Lisa Hensley,phone,Skin day stop never.
+TKT-00127,CUST-220,Feature Request,Medium,2024-02-02T18:24:04Z,2024-02-03T05:24:04Z,11.0,9.0,Ryan Munoz,phone,Democratic thank forget challenge too able teach certain.
+TKT-00128,CUST-060,Feature Request,Critical,2024-02-08T10:46:59Z,,,,Cristian Santos,phone,Music sometimes body term.
+TKT-00129,CUST-392,Account,High,2024-02-23T17:17:43Z,2024-02-25T22:17:43Z,53.0,5.0,Dylan Miller,email,Address so draw food.
+TKT-00130,CUST-329,Technical,Critical,2024-02-11T19:04:21Z,2024-02-13T16:04:21Z,45.0,8.0,Michele Williams,email,Enter camera inside box.
+TKT-00131,CUST-485,Security,Critical,2024-02-28T11:58:25Z,2024-03-02T10:58:25Z,71.0,6.0,Angie Henderson,portal,Live sing message board.
+TKT-00132,CUST-446,Performance,Medium,2024-02-12T18:08:34Z,2024-02-13T17:08:34Z,23.0,6.0,Dylan Miller,phone,Develop past road training probably feeling poor.
+TKT-00133,CUST-267,Billing,Low,2024-02-16T04:13:32Z,2024-02-18T21:13:32Z,65.0,5.0,Monica Herrera,chat,Article look husband.
+TKT-00134,CUST-187,Onboarding,High,2024-02-21T22:07:29Z,2024-02-22T10:07:29Z,12.0,10.0,Angie Henderson,chat,Make travel available ball.
+TKT-00135,CUST-016,Feature Request,Medium,2024-02-05T09:01:50Z,2024-02-06T07:01:50Z,22.0,6.0,Gina Moore,chat,Chance call person one Republican herself our far.
+TKT-00136,CUST-260,Security,Low,2024-02-28T06:13:22Z,2024-03-01T09:13:22Z,51.0,,Gabrielle Davis,chat,Painting between reduce table prepare shoulder result.
+TKT-00137,CUST-408,Feature Request,Low,2024-02-06T07:08:02Z,2024-02-08T06:08:02Z,47.0,8.0,Lisa Hensley,portal,Involve thousand including still human.
+TKT-00138,CUST-379,Performance,Medium,2024-02-22T01:17:50Z,2024-02-24T09:17:50Z,56.0,4.0,Monica Herrera,phone,Issue description: Fine fine effort well.. Call (215)628-0988x51656 if urgent.
+TKT-00139,CUST-145,Billing,High,2024-02-17T17:39:22Z,2024-02-19T17:39:22Z,48.0,4.0,Abigail Shaffer,phone,Fine billion medical choice lot suggest glass news.
+TKT-00140,CUST-361,Onboarding,Medium,2024-02-06T23:23:29Z,2024-02-09T02:23:29Z,51.0,,Lisa Hensley,phone,Several off southern suddenly.
+TKT-00141,CUST-060,Billing,High,2024-02-24T19:48:54Z,2024-02-26T04:48:54Z,33.0,5.0,Noah Rhodes,email,Party poor ago upon stop environment Congress reflect.
+TKT-00142,CUST-182,Technical,Low,2024-02-21T02:36:48Z,2024-02-21T10:36:48Z,8.0,2.0,Connie Lawrence,phone,Tv go consider century price.
+TKT-00143,CUST-059,Security,Low,2024-02-14T10:50:50Z,2024-02-16T00:50:50Z,38.0,,Lisa Hensley,portal,Center plan air second.
+TKT-00144,CUST-472,Security,Medium,2024-02-22T22:21:32Z,,,,Ryan Munoz,phone,Support request: Heavy law church find food.
+TKT-00145,CUST-073,Technical,High,2024-02-08T08:00:31Z,2024-02-08T22:00:31Z,14.0,,Gabrielle Davis,email,Other third choose senior anyone bank kitchen.
+TKT-00146,CUST-245,Onboarding,Low,2024-02-02T19:06:06Z,2024-02-03T03:06:06Z,8.0,1.0,Noah Rhodes,phone,Support request: Magazine kind event sense box involve.
+TKT-00147,CUST-258,Technical,Critical,2024-02-08T20:08:23Z,2024-02-10T02:08:23Z,30.0,3.0,Cristian Santos,email,Question or money final determine.
+TKT-00148,CUST-009,Performance,Low,2024-02-15T12:50:12Z,2024-02-18T10:50:12Z,70.0,9.0,Cristian Santos,phone,Area daughter war should share face build market.
+TKT-00149,CUST-367,Integration,Medium,2024-02-17T02:03:32Z,,,,Jamie Arnold,chat,Compare herself region matter street south.
+TKT-00150,CUST-072,Feature Request,Medium,2024-02-16T08:27:24Z,2024-02-18T06:27:24Z,46.0,6.0,Daniel Wagner,phone,Support request: However score job least.
+TKT-00151,CUST-477,Performance,Low,2024-02-08T09:24:27Z,2024-02-10T13:24:27Z,52.0,7.0,Daniel Wagner,portal,Television office of remember.
+TKT-00152,CUST-446,Onboarding,Medium,2024-02-14T05:21:19Z,2024-02-16T11:21:19Z,54.0,,Dylan Miller,phone,Support request: Face if whom commercial way least.
+TKT-00153,CUST-011,Feature Request,High,2024-02-15T04:46:58Z,2024-02-16T20:46:58Z,40.0,2.0,Monica Herrera,email,Because such during open model how.
+TKT-00154,CUST-067,Billing,Low,2024-02-13T12:50:12Z,2024-02-15T09:50:12Z,45.0,4.0,Monica Herrera,chat,Second develop single baby plan.
+TKT-00155,CUST-386,Integration,Medium,2024-02-14T04:32:30Z,2024-02-16T21:32:30Z,65.0,2.0,Jamie Arnold,chat,Member town glass road standard spring door.
+TKT-00156,CUST-169,Security,Medium,2024-02-18T18:51:28Z,2024-02-19T15:51:28Z,21.0,7.0,Dylan Miller,phone,Support request: Eight community check service.
+TKT-00157,CUST-430,Feature Request,Low,2024-02-22T18:04:15Z,,,,Connie Lawrence,portal,Concern significant management senior.
+TKT-00158,CUST-104,Account,Medium,2024-02-06T07:53:06Z,2024-02-08T19:53:06Z,60.0,4.0,Ryan Munoz,chat,Large under north play person ten physical character.
+TKT-00159,CUST-240,Integration,Medium,2024-02-22T07:33:22Z,,,,Angie Henderson,email,Light place someone option.
+TKT-00160,CUST-401,Account,Medium,2024-02-16T02:55:13Z,2024-02-17T11:55:13Z,33.0,4.0,Dylan Miller,email,Medical financial later arm story baby.
+TKT-00161,CUST-394,Feature Request,Medium,2024-02-06T15:28:57Z,,,,Cristian Santos,phone,Past medical leg never.
+TKT-00162,CUST-001,Integration,Medium,2024-02-26T06:58:51Z,2024-02-26T15:58:51Z,9.0,7.0,Abigail Shaffer,portal,Last special prepare.
+TKT-00163,CUST-363,Billing,High,2024-02-28T03:22:25Z,2024-02-28T10:22:25Z,7.0,4.0,Allison Hill,email,Painting may whatever late specific study.
+TKT-00164,CUST-147,Integration,Low,2024-02-01T02:27:54Z,2024-02-01T05:27:54Z,3.0,8.0,Lisa Hensley,phone,Mean common easy just.
+TKT-00165,CUST-314,Security,High,2024-02-06T14:49:50Z,2024-02-08T00:49:50Z,34.0,3.0,Monica Herrera,phone,Support request: Model particular hair truth hold simple.. Email mccormickdeborah@example.org for details.
+TKT-00166,CUST-299,Security,Medium,2024-02-06T23:38:47Z,2024-02-08T16:38:47Z,41.0,8.0,Gina Moore,chat,Remember be next poor foreign campaign reflect water.
+TKT-00167,CUST-367,Technical,Low,2024-02-01T03:59:38Z,2024-02-02T17:59:38Z,38.0,2.0,Angie Henderson,chat,Behavior provide meet adult final week game.
+TKT-00168,CUST-045,Onboarding,Critical,2024-02-15T22:32:48Z,,,,Noah Rhodes,email,Court yourself choice fast small medical music.
+TKT-00169,CUST-095,Integration,Medium,2024-02-08T00:47:24Z,2024-02-08T06:47:24Z,6.0,2.0,Michele Williams,chat,Also from short capital heavy class story.
+TKT-00170,CUST-339,Performance,Critical,2024-02-04T18:33:01Z,2024-02-05T12:33:01Z,18.0,4.0,Connie Lawrence,email,Speak close join improve put down know expect.
+TKT-00171,CUST-443,Account,Medium,2024-02-20T03:43:25Z,,,,Allison Hill,phone,Support request: Doctor dream whole six tough create question.
+TKT-00172,CUST-495,Feature Request,High,2024-02-08T08:44:18Z,2024-02-10T07:44:18Z,47.0,3.0,Connie Lawrence,email,Worker left example high month whom stage.
+TKT-00173,CUST-398,Account,Medium,2024-02-22T08:35:03Z,2024-02-23T07:35:03Z,23.0,4.0,Angie Henderson,chat,Support request: Catch economic political them never bill suffer surface.
+TKT-00174,CUST-348,Technical,Low,2024-02-07T17:10:09Z,2024-02-08T06:10:09Z,13.0,5.0,Gabrielle Davis,chat,Support request: Base civil last message store.
+TKT-00175,CUST-337,Billing,Low,2024-02-26T14:41:03Z,2024-02-26T15:41:03Z,1.0,10.0,Lisa Hensley,email,Watch develop later glass.
+TKT-00176,CUST-082,Integration,Medium,2024-02-13T19:45:12Z,2024-02-16T02:45:12Z,55.0,8.0,Noah Rhodes,email,Increase how hear.
+TKT-00177,CUST-184,Integration,Medium,2024-02-05T21:37:38Z,2024-02-07T07:37:38Z,34.0,7.0,Jamie Arnold,phone,Yes heart agreement us stuff practice.
+TKT-00178,CUST-048,Billing,High,2024-02-07T03:43:50Z,2024-02-09T18:43:50Z,63.0,4.0,Angie Henderson,phone,Case expert stop receive.
+TKT-00179,CUST-442,Onboarding,Low,2024-02-10T22:37:09Z,2024-02-11T17:37:09Z,19.0,9.0,Daniel Wagner,chat,Serve light past town.
+TKT-00180,CUST-397,Integration,Medium,2024-02-25T11:48:31Z,,,,Connie Lawrence,chat,Eight strong nature.
+TKT-00181,CUST-085,Performance,Medium,2024-02-07T20:45:53Z,2024-02-10T07:45:53Z,59.0,2.0,Lisa Hensley,email,User reported issue with Month book explain feeling answer information soldier lead.. Please contact copelandvincent@example.net or 7895324609 for follow-up.
+TKT-00182,CUST-343,Performance,Medium,2024-02-21T10:11:28Z,2024-02-22T01:11:28Z,15.0,9.0,Daniel Wagner,email,Indicate professor beat window attack moment medical.
+TKT-00183,CUST-369,Integration,Medium,2024-02-14T13:37:26Z,2024-02-15T14:37:26Z,25.0,7.0,Jamie Arnold,chat,User reported issue with Never hospital like player wonder effect administration.. Please contact cooperjessica@example.net or 995-920-5852 for follow-up.
+TKT-00184,CUST-380,Integration,Medium,2024-02-06T09:47:26Z,2024-02-06T16:47:26Z,7.0,1.0,Jamie Arnold,phone,Support request: Consider care respond want already cut social though.
+TKT-00185,CUST-438,Account,Medium,2024-02-17T14:16:00Z,2024-02-18T03:16:00Z,13.0,7.0,Gina Moore,email,Support request: Value middle writer myself education send.
+TKT-00186,CUST-459,Feature Request,High,2024-02-15T02:24:54Z,2024-02-17T00:24:54Z,46.0,5.0,Monica Herrera,phone,Experience television answer pretty event.
+TKT-00187,CUST-410,Security,Medium,2024-02-16T18:39:36Z,2024-02-17T21:39:36Z,27.0,1.0,Monica Herrera,email,Customer escalation: Join hundred keep what fund cost.. Reach out at zrichardson@example.net.
+TKT-00188,CUST-221,Account,Low,2024-02-28T14:38:50Z,2024-03-02T04:38:50Z,62.0,7.0,Michele Williams,email,Knowledge response coach know language.
+TKT-00189,CUST-165,Billing,Low,2024-02-02T21:39:41Z,2024-02-03T08:39:41Z,11.0,6.0,Allison Hill,email,Past itself police social arm provide.
+TKT-00190,CUST-014,Onboarding,Medium,2024-02-01T13:35:28Z,,,,Lisa Hensley,chat,Guy song quickly well central parent.
+TKT-00191,CUST-324,Onboarding,High,2024-02-05T23:30:41Z,2024-02-06T02:30:41Z,3.0,,Allison Hill,portal,Alone attack sing hand him note.
+TKT-00192,CUST-092,Performance,Low,2024-02-15T04:20:45Z,2024-02-17T18:20:45Z,62.0,5.0,Allison Hill,chat,Check last he know baby case happen fire.
+TKT-00193,CUST-248,Onboarding,High,2024-02-21T22:47:23Z,2024-02-23T22:47:23Z,48.0,10.0,Cristian Santos,phone,Economic box save material hit.
+TKT-00194,CUST-375,Account,Medium,2024-02-05T08:14:30Z,,,,Gabrielle Davis,chat,Brother simple region Democrat partner really your.
+TKT-00195,CUST-485,Account,Low,2024-02-26T23:27:37Z,2024-02-27T09:27:37Z,10.0,,Ryan Munoz,phone,But table later together knowledge.
+TKT-00196,CUST-329,Technical,Medium,2024-02-01T07:18:11Z,,,,Dylan Miller,chat,Specific whose worry property.
+TKT-00197,CUST-339,Technical,Medium,2024-02-28T10:54:01Z,2024-03-01T14:54:01Z,52.0,9.0,Angie Henderson,chat,Nearly face feel church.
+TKT-00198,CUST-092,Account,High,2024-02-26T04:50:44Z,2024-02-27T19:50:44Z,39.0,7.0,Allison Hill,chat,Support request: Soldier meeting building cut.
+TKT-00199,CUST-303,Performance,High,2024-02-05T23:35:52Z,2024-02-08T06:35:52Z,55.0,4.0,Gina Moore,email,Door management guess occur.
+TKT-00200,CUST-419,Integration,Low,2024-02-06T05:02:25Z,2024-02-06T17:02:25Z,12.0,1.0,Dylan Miller,email,Sound necessary partner beat finally yourself rest.
+TKT-00201,CUST-278,Billing,Medium,2024-02-09T14:51:18Z,2024-02-10T01:51:18Z,11.0,9.0,Angie Henderson,chat,Improve important offer by first avoid letter.
+TKT-00202,CUST-361,Security,Low,2024-02-07T18:55:42Z,2024-02-10T07:55:42Z,61.0,10.0,Daniel Wagner,phone,General there sister policy consider whom item.
+TKT-00203,CUST-301,Performance,Low,2024-02-11T05:24:39Z,2024-02-13T23:24:39Z,66.0,7.0,Gina Moore,email,Story million fight class.
+TKT-00204,CUST-396,Performance,Medium,2024-02-22T19:08:58Z,,,,Ryan Munoz,chat,Generation wait thus suffer economy.
+TKT-00205,CUST-044,Integration,Low,2024-02-15T22:31:04Z,2024-02-17T14:31:04Z,40.0,9.0,Dylan Miller,email,Ever person pass behavior political option oil.
+TKT-00206,CUST-461,Integration,High,2024-02-18T05:47:33Z,2024-02-20T06:47:33Z,49.0,,Lisa Hensley,portal,Probably result painting successful.
+TKT-00207,CUST-025,Performance,Low,2024-02-28T01:36:26Z,2024-03-01T12:36:26Z,59.0,,Noah Rhodes,phone,Customer escalation: American tell ball we side enough decision.. Reach out at bmontgomery@example.com.
+TKT-00208,CUST-099,Onboarding,Low,2024-02-22T14:58:30Z,,,,Monica Herrera,email,Daughter parent fine responsibility safe team wish.
+TKT-00209,CUST-307,Account,Low,2024-02-05T14:38:02Z,2024-02-07T01:38:02Z,35.0,3.0,Michele Williams,email,Support request: Set middle blood drop.
+TKT-00210,CUST-219,Performance,Medium,2024-02-21T13:34:36Z,2024-02-23T05:34:36Z,40.0,7.0,Connie Lawrence,email,Environment easy best face.
+TKT-00211,CUST-060,Onboarding,Medium,2024-02-02T22:22:36Z,2024-02-05T16:22:36Z,66.0,7.0,Abigail Shaffer,email,Ten industry while total spend value.
+TKT-00212,CUST-296,Billing,High,2024-02-01T09:01:43Z,2024-02-01T11:01:43Z,2.0,,Daniel Wagner,chat,Couple city you level these market.
+TKT-00213,CUST-460,Onboarding,High,2024-02-27T23:14:35Z,2024-03-01T03:14:35Z,52.0,7.0,Gina Moore,portal,War measure whom Democrat.
+TKT-00214,CUST-420,Feature Request,Medium,2024-02-27T02:35:42Z,,,,Connie Lawrence,chat,Any example our successful pull experience.
+TKT-00215,CUST-003,Billing,Low,2024-02-24T04:49:44Z,2024-02-25T20:49:44Z,40.0,3.0,Abigail Shaffer,chat,Suggest issue think.
+TKT-00216,CUST-453,Account,Medium,2024-02-01T18:44:34Z,2024-02-02T03:44:34Z,9.0,1.0,Angie Henderson,chat,Shake hand hundred now crime network.
+TKT-00217,CUST-200,Security,Low,2024-02-20T20:23:15Z,2024-02-22T18:23:15Z,46.0,6.0,Connie Lawrence,email,Customer escalation: Hit late near stay.. Reach out at andersoncolin@example.com.
+TKT-00218,CUST-411,Security,Low,2024-02-25T04:39:51Z,2024-02-25T09:39:51Z,5.0,7.0,Angie Henderson,email,Issue description: Paper middle foreign party.. Call 001-258-788-7947 if urgent.
+TKT-00219,CUST-360,Integration,Low,2024-02-11T23:11:25Z,2024-02-13T13:11:25Z,38.0,6.0,Abigail Shaffer,phone,Purpose woman on someone rise read.
+TKT-00220,CUST-233,Onboarding,High,2024-02-01T13:20:09Z,2024-02-02T15:20:09Z,26.0,5.0,Monica Herrera,chat,User reported issue with Others enter pretty.. Please contact jennifersilva@example.org or 896.523.0913x07562 for follow-up.
+TKT-00221,CUST-103,Security,Low,2024-02-10T06:00:21Z,2024-02-11T10:00:21Z,28.0,10.0,Ryan Munoz,portal,Maybe particularly likely summer road relationship.
+TKT-00222,CUST-267,Technical,Medium,2024-02-05T17:40:31Z,2024-02-08T10:40:31Z,65.0,9.0,Daniel Wagner,chat,Debate foot production moment finish community treatment.
+TKT-00223,CUST-078,Feature Request,Medium,2024-02-18T05:40:18Z,2024-02-20T05:40:18Z,48.0,9.0,Gabrielle Davis,email,National put test race sound enough.
+TKT-00224,CUST-271,Security,Low,2024-02-25T00:23:20Z,2024-02-27T14:23:20Z,62.0,9.0,Cristian Santos,portal,Court east newspaper different win father eye.
+TKT-00225,CUST-351,Onboarding,Medium,2024-02-10T15:53:48Z,2024-02-12T21:53:48Z,54.0,2.0,Gina Moore,email,Real major look night various.
+TKT-00226,CUST-322,Integration,Medium,2024-02-14T22:23:59Z,,,,Cristian Santos,chat,Explain of myself time house.
+TKT-00227,CUST-162,Security,Low,2024-02-03T09:48:36Z,2024-02-05T18:48:36Z,57.0,2.0,Angie Henderson,email,West source fact explain research get.
+TKT-00228,CUST-268,Feature Request,Medium,2024-02-03T21:16:01Z,2024-02-06T04:16:01Z,55.0,9.0,Gina Moore,email,Pretty section degree still even no.
+TKT-00229,CUST-020,Account,Low,2024-02-22T09:39:02Z,2024-02-24T12:39:02Z,51.0,6.0,Abigail Shaffer,chat,User reported issue with Case past only drug prove.. Please contact danawilliams@example.com or 271-320-8267x73454 for follow-up.
+TKT-00230,CUST-268,Onboarding,Medium,2024-02-15T10:46:52Z,,,,Cristian Santos,phone,Discussion school sure also TV individual study.
+TKT-00231,CUST-395,Account,Low,2024-02-16T10:40:54Z,2024-02-17T18:40:54Z,32.0,2.0,Gabrielle Davis,portal,Young however many.
+TKT-00232,CUST-123,Technical,Medium,2024-02-11T12:26:41Z,2024-02-12T18:26:41Z,30.0,10.0,Lisa Hensley,chat,Support request: Theory across nothing blue work.
+TKT-00233,CUST-298,Feature Request,High,2024-02-24T20:14:20Z,,,,Dylan Miller,email,Lawyer political modern threat care.
+TKT-00234,CUST-174,Account,Low,2024-02-02T05:00:42Z,2024-02-04T20:00:42Z,63.0,1.0,Gabrielle Davis,portal,Life cover both class learn either control.
+TKT-00235,CUST-089,Feature Request,Critical,2024-02-13T05:44:04Z,2024-02-14T07:44:04Z,26.0,3.0,Dylan Miller,phone,So nothing serious compare task today.
+TKT-00236,CUST-117,Integration,Low,2024-02-24T03:08:19Z,2024-02-26T02:08:19Z,47.0,5.0,Cristian Santos,email,Middle beautiful protect continue cell food.
+TKT-00237,CUST-369,Technical,Low,2024-02-18T21:19:15Z,2024-02-21T10:19:15Z,61.0,8.0,Daniel Wagner,phone,Support request: According himself land environment form.
+TKT-00238,CUST-065,Security,High,2024-02-05T13:20:13Z,2024-02-07T07:20:13Z,42.0,9.0,Gina Moore,portal,Reveal activity president realize artist brother fill if.
+TKT-00239,CUST-012,Performance,High,2024-02-28T23:31:37Z,2024-03-02T08:31:37Z,57.0,9.0,Daniel Wagner,phone,Support request: Type thousand show real police wait happen.
+TKT-00240,CUST-474,Security,Low,2024-02-16T15:24:09Z,2024-02-18T10:24:09Z,43.0,2.0,Angie Henderson,chat,User reported issue with Despite card check security paper.. Please contact emiles@example.net or +1-533-491-8785x19108 for follow-up.
+TKT-00241,CUST-001,Onboarding,Low,2024-02-25T05:06:04Z,2024-02-26T13:06:04Z,32.0,,Dylan Miller,chat,Foreign minute break day.
+TKT-00242,CUST-398,Security,Medium,2024-02-01T22:23:37Z,2024-02-03T08:23:37Z,34.0,5.0,Daniel Wagner,email,Major together knowledge argue car indeed nor next.
+TKT-00243,CUST-432,Technical,Medium,2024-02-23T11:03:48Z,2024-02-26T03:03:48Z,64.0,6.0,Gina Moore,chat,Rich how staff second official.
+TKT-00244,CUST-353,Feature Request,Low,2024-02-05T18:06:14Z,2024-02-08T00:06:14Z,54.0,10.0,Angie Henderson,email,Interest red must.
+TKT-00245,CUST-417,Feature Request,Low,2024-02-26T05:23:38Z,2024-02-28T15:23:38Z,58.0,1.0,Gina Moore,email,Various attorney value all.
+TKT-00246,CUST-165,Onboarding,Medium,2024-02-28T23:11:41Z,,,,Noah Rhodes,chat,Conference career political role white hear.
+TKT-00247,CUST-275,Technical,Low,2024-02-09T06:15:29Z,2024-02-11T21:15:29Z,63.0,4.0,Lisa Hensley,portal,Large true help bag who themselves.
+TKT-00248,CUST-388,Account,Medium,2024-02-06T19:25:53Z,2024-02-08T14:25:53Z,43.0,,Michele Williams,email,President girl condition Mr.
+TKT-00249,CUST-341,Billing,Medium,2024-02-27T04:20:57Z,,,,Cristian Santos,email,Camera without strong series without leg rest.
+TKT-00250,CUST-234,Performance,Low,2024-02-10T22:42:07Z,2024-02-13T07:42:07Z,57.0,9.0,Abigail Shaffer,portal,Mother statement easy get every visit.
+TKT-00251,CUST-469,Security,Medium,2024-02-05T16:15:24Z,2024-02-05T21:15:24Z,5.0,2.0,Cristian Santos,email,Support request: Allow produce past view.
+TKT-00252,CUST-391,Onboarding,Critical,2024-02-03T03:41:31Z,2024-02-05T00:41:31Z,45.0,4.0,Jamie Arnold,chat,Drive attack order.
+TKT-00253,CUST-445,Onboarding,Low,2024-02-25T02:20:24Z,2024-02-27T22:20:24Z,68.0,4.0,Gabrielle Davis,phone,Our reflect any scientist I doctor describe.
+TKT-00254,CUST-192,Feature Request,Low,2024-02-25T12:56:36Z,2024-02-26T07:56:36Z,19.0,4.0,Jamie Arnold,chat,Cell year doctor trouble.
+TKT-00255,CUST-354,Onboarding,Medium,2024-02-11T06:31:09Z,2024-02-13T22:31:09Z,64.0,1.0,Angie Henderson,portal,Five our pull fly few century produce.
+TKT-00256,CUST-018,Technical,Medium,2024-02-12T09:35:43Z,,,,Abigail Shaffer,email,Support request: Including every news option same.
+TKT-00257,CUST-195,Billing,High,2024-02-24T21:17:53Z,,,,Michele Williams,email,User reported issue with Personal interview many win.. Please contact ufloyd@example.net or (862)846-2873x34270 for follow-up.
+TKT-00258,CUST-272,Performance,Medium,2024-02-28T07:14:25Z,2024-03-01T14:14:25Z,55.0,,Abigail Shaffer,email,Morning home effort form bad last he.
+TKT-00259,CUST-272,Technical,Low,2024-02-04T08:06:09Z,,,,Jamie Arnold,chat,Right couple environmental purpose owner them could.
+TKT-00260,CUST-466,Integration,High,2024-02-09T04:30:00Z,2024-02-11T01:30:00Z,45.0,8.0,Jamie Arnold,phone,Right next look thank four whatever address view.
+TKT-00261,CUST-152,Performance,Low,2024-02-11T12:55:40Z,2024-02-12T05:55:40Z,17.0,1.0,Ryan Munoz,chat,Section senior trial receive.
+TKT-00262,CUST-195,Billing,High,2024-02-09T19:45:19Z,,,,Lisa Hensley,chat,Support request: However dream focus executive letter.
+TKT-00263,CUST-184,Performance,Low,2024-02-09T07:55:52Z,2024-02-11T15:55:52Z,56.0,5.0,Noah Rhodes,chat,Final growth third letter sort reveal.
+TKT-00264,CUST-096,Account,Low,2024-02-01T07:14:28Z,2024-02-02T02:14:28Z,19.0,3.0,Cristian Santos,phone,Support request: Trial have including none determine certainly.
+TKT-00265,CUST-166,Onboarding,Low,2024-02-10T19:10:03Z,2024-02-11T05:10:03Z,10.0,9.0,Michele Williams,phone,Network once result far cultural.
+TKT-00266,CUST-098,Technical,Medium,2024-02-03T20:48:25Z,,,,Jamie Arnold,portal,Here street material pressure range.
+TKT-00267,CUST-167,Onboarding,Low,2024-02-10T10:53:45Z,2024-02-12T12:53:45Z,50.0,6.0,Jamie Arnold,email,Shake major rich science leave.
+TKT-00268,CUST-102,Onboarding,Medium,2024-02-21T02:30:57Z,2024-02-23T20:30:57Z,66.0,10.0,Jamie Arnold,email,Customer escalation: College result major true my politics.. Reach out at warrenmary@example.org.
+TKT-00269,CUST-401,Integration,High,2024-02-18T07:29:15Z,2024-02-20T13:29:15Z,54.0,4.0,Gina Moore,email,According necessary activity.
+TKT-00270,CUST-227,Technical,Low,2024-02-09T14:29:50Z,2024-02-09T15:29:50Z,1.0,4.0,Daniel Wagner,chat,Reveal movie expert maybe recently issue vote.
+TKT-00271,CUST-398,Integration,Low,2024-02-15T23:06:21Z,2024-02-16T03:06:21Z,4.0,10.0,Allison Hill,email,Blood benefit chance court.
+TKT-00272,CUST-424,Onboarding,Low,2024-02-18T13:36:43Z,2024-02-19T01:36:43Z,12.0,2.0,Abigail Shaffer,email,Education great some bad where learn during.
+TKT-00273,CUST-091,Feature Request,Low,2024-02-12T14:38:24Z,2024-02-14T13:38:24Z,47.0,,Abigail Shaffer,email,Customer escalation: Feel stock ball yard practice.. Reach out at davisnicholas@example.net.
+TKT-00274,CUST-017,Billing,High,2024-02-22T09:17:58Z,2024-02-24T04:17:58Z,43.0,2.0,Cristian Santos,portal,Another avoid understand tonight nor.
+TKT-00275,CUST-240,Security,Low,2024-02-09T14:28:59Z,2024-02-10T16:28:59Z,26.0,4.0,Michele Williams,chat,Conference sure administration.
+TKT-00276,CUST-374,Account,Low,2024-02-13T10:58:55Z,2024-02-15T05:58:55Z,43.0,10.0,Dylan Miller,email,Support request: Onto sell require huge baby.
+TKT-00277,CUST-129,Feature Request,High,2024-02-18T09:49:23Z,2024-02-18T11:49:23Z,2.0,7.0,Gina Moore,email,Nor note support quality.
+TKT-00278,CUST-253,Performance,Low,2024-02-22T16:37:44Z,2024-02-23T23:37:44Z,31.0,8.0,Gabrielle Davis,phone,Forward sense cause write right may window.
+TKT-00279,CUST-212,Billing,Medium,2024-02-03T18:56:26Z,2024-02-05T23:56:26Z,53.0,2.0,Dylan Miller,chat,Issue description: Best discussion away.. Call +1-647-573-5866x2961 if urgent.
+TKT-00280,CUST-329,Billing,Low,2024-02-24T23:47:15Z,2024-02-25T11:47:15Z,12.0,1.0,Daniel Wagner,email,Support request: Bank child Republican plant.
+TKT-00281,CUST-323,Integration,Critical,2024-02-16T07:30:56Z,2024-02-18T10:30:56Z,51.0,9.0,Abigail Shaffer,portal,First blood accept final growth especially.
+TKT-00282,CUST-430,Account,Low,2024-02-05T02:28:32Z,2024-02-05T10:28:32Z,8.0,1.0,Gina Moore,email,Beautiful issue news mention.
+TKT-00283,CUST-251,Technical,Low,2024-02-16T23:57:19Z,2024-02-19T14:57:19Z,63.0,4.0,Michele Williams,email,Ago government behavior our.
+TKT-00284,CUST-456,Feature Request,Low,2024-02-10T13:01:04Z,2024-02-12T11:01:04Z,46.0,,Allison Hill,chat,Tell activity including single right nice.
+TKT-00285,CUST-365,Account,Medium,2024-02-05T21:30:45Z,2024-02-07T07:30:45Z,34.0,6.0,Gabrielle Davis,email,Occur college herself catch feeling.
+TKT-00286,CUST-270,Feature Request,Low,2024-02-28T02:11:52Z,2024-02-29T13:11:52Z,35.0,10.0,Gabrielle Davis,phone,Certainly cold every feel site guess want.
+TKT-00287,CUST-475,Onboarding,High,2024-02-03T07:51:30Z,2024-02-05T17:51:30Z,58.0,9.0,Daniel Wagner,email,Many pattern leader career according how success here.
+TKT-00288,CUST-409,Feature Request,Critical,2024-02-17T18:51:53Z,2024-02-19T17:51:53Z,47.0,6.0,Cristian Santos,portal,Key issue statement prepare organization feel.
+TKT-00289,CUST-176,Integration,Medium,2024-02-15T03:19:26Z,2024-02-16T04:19:26Z,25.0,8.0,Lisa Hensley,phone,Water cut fire who why fact reason make.
+TKT-00290,CUST-171,Performance,Medium,2024-02-17T03:37:57Z,2024-02-18T05:37:57Z,26.0,5.0,Monica Herrera,email,Issue description: Site for exactly skill half usually customer.. Call 837.841.6724x342 if urgent.
+TKT-00291,CUST-323,Billing,Low,2024-02-13T08:52:40Z,2024-02-15T19:52:40Z,59.0,7.0,Noah Rhodes,portal,Last our old move.
+TKT-00292,CUST-255,Billing,Low,2024-02-24T09:54:01Z,2024-02-26T16:54:01Z,55.0,8.0,Jamie Arnold,portal,Myself so growth time Mr point.
+TKT-00293,CUST-273,Feature Request,High,2024-02-01T16:03:46Z,2024-02-04T04:03:46Z,60.0,5.0,Allison Hill,email,Body eat professor coach.
+TKT-00294,CUST-012,Security,Medium,2024-02-26T18:42:56Z,,,,Abigail Shaffer,chat,Support request: And worker quality hundred sell whole involve action.. Email jeffrey88@example.net for details.
+TKT-00295,CUST-218,Feature Request,High,2024-02-23T05:02:11Z,2024-02-24T07:02:11Z,26.0,6.0,Michele Williams,phone,Indeed which break wait center.
+TKT-00296,CUST-250,Account,Critical,2024-02-26T04:16:44Z,2024-02-28T23:16:44Z,67.0,,Monica Herrera,email,Gas six miss give best.
+TKT-00297,CUST-076,Performance,Low,2024-02-01T15:16:14Z,2024-02-03T00:16:14Z,33.0,10.0,Monica Herrera,email,Support request: Five feel special boy support possible quality.
+TKT-00298,CUST-297,Billing,Low,2024-02-06T21:03:42Z,,,,Noah Rhodes,phone,Upon scientist might necessary.
+TKT-00299,CUST-095,Performance,High,2024-02-26T02:02:36Z,2024-02-29T01:02:36Z,71.0,1.0,Daniel Wagner,email,Support request: Nice when discussion if continue policy.
+TKT-00300,CUST-266,Technical,Low,2024-02-18T05:21:21Z,2024-02-18T13:21:21Z,8.0,,Dylan Miller,phone,How scene third last involve above.
+TKT-00301,CUST-118,Security,Medium,2024-02-11T08:25:15Z,2024-02-12T12:25:15Z,28.0,5.0,Jamie Arnold,chat,Day sell speak artist big.
+TKT-00302,CUST-039,Onboarding,High,2024-02-07T14:32:12Z,2024-02-08T09:32:12Z,19.0,4.0,Michele Williams,email,Support request: Cost for leader energy television month police.
+TKT-00303,CUST-247,Performance,Low,2024-02-04T14:09:25Z,2024-02-06T18:09:25Z,52.0,,Ryan Munoz,portal,Home hotel box goal leader common purpose song.
+TKT-00304,CUST-080,Onboarding,Medium,2024-02-18T12:30:53Z,2024-02-18T19:30:53Z,7.0,3.0,Gabrielle Davis,email,Opportunity public finish draw bring health center home.
+TKT-00305,CUST-155,Performance,High,2024-02-10T19:54:22Z,2024-02-12T01:54:22Z,30.0,3.0,Allison Hill,chat,Case himself control player really population yourself never.
+TKT-00306,CUST-230,Performance,Medium,2024-02-24T21:29:58Z,2024-02-26T19:29:58Z,46.0,7.0,Connie Lawrence,chat,User reported issue with Eye cost success people tend weight machine.. Please contact lisamaynard@example.net or +1-276-676-7721x9034 for follow-up.
+TKT-00307,CUST-056,Account,Low,2024-02-23T07:33:56Z,2024-02-25T05:33:56Z,46.0,9.0,Abigail Shaffer,email,Mrs collection leader score she.
+TKT-00308,CUST-420,Feature Request,Low,2024-02-12T08:06:13Z,2024-02-13T18:06:13Z,34.0,7.0,Connie Lawrence,email,Member of environmental myself yard my series.
+TKT-00309,CUST-252,Integration,Low,2024-02-28T00:56:34Z,2024-03-01T05:56:34Z,53.0,,Monica Herrera,portal,Issue description: National wrong bill stop seem fear.. Call 513.239.5962x923 if urgent.
+TKT-00310,CUST-147,Security,Medium,2024-02-04T18:24:34Z,2024-02-06T00:24:34Z,30.0,4.0,Connie Lawrence,chat,Go exactly much food region eye environment.
+TKT-00311,CUST-315,Technical,Low,2024-02-22T17:01:46Z,,,,Ryan Munoz,email,Support request: World quickly believe while size try yeah.
+TKT-00312,CUST-184,Integration,Medium,2024-02-07T16:40:45Z,2024-02-09T14:40:45Z,46.0,2.0,Monica Herrera,email,Reduce car chair focus.
+TKT-00313,CUST-236,Account,Low,2024-02-04T20:15:08Z,2024-02-04T22:15:08Z,2.0,2.0,Daniel Wagner,email,Seven put majority officer environmental.
+TKT-00314,CUST-038,Technical,Low,2024-02-08T19:22:13Z,2024-02-11T16:22:13Z,69.0,8.0,Gabrielle Davis,phone,Heart away some shoulder idea seek.
+TKT-00315,CUST-075,Security,Medium,2024-02-10T06:13:02Z,2024-02-11T11:13:02Z,29.0,4.0,Michele Williams,chat,Lawyer maintain old than suggest behavior.
+TKT-00316,CUST-164,Performance,Medium,2024-02-13T02:21:44Z,2024-02-14T03:21:44Z,25.0,3.0,Monica Herrera,chat,Play recently sure somebody huge why station.
+TKT-00317,CUST-036,Billing,Medium,2024-02-16T05:05:37Z,2024-02-18T01:05:37Z,44.0,9.0,Lisa Hensley,email,Support request: Environmental stock front official not magazine gas.
+TKT-00318,CUST-214,Integration,Medium,2024-02-10T02:45:28Z,2024-02-10T15:45:28Z,13.0,5.0,Connie Lawrence,chat,Animal phone student.
+TKT-00319,CUST-308,Security,Medium,2024-02-17T15:04:21Z,2024-02-20T08:04:21Z,65.0,8.0,Monica Herrera,portal,Support request: Buy tax kid.
+TKT-00320,CUST-040,Billing,Medium,2024-02-14T23:14:15Z,,,,Daniel Wagner,chat,Yeah into yet.
+TKT-00321,CUST-028,Feature Request,Low,2024-02-03T14:32:35Z,2024-02-06T11:32:35Z,69.0,,Ryan Munoz,portal,Think few themselves theory.
+TKT-00322,CUST-480,Performance,High,2024-02-17T11:48:06Z,,,,Gabrielle Davis,email,Pressure economy head tough.
+TKT-00323,CUST-105,Feature Request,Low,2024-02-09T15:06:44Z,2024-02-11T10:06:44Z,43.0,3.0,Jamie Arnold,email,Appear personal rise sense.
+TKT-00324,CUST-007,Technical,High,2024-02-03T06:00:34Z,2024-02-03T23:00:34Z,17.0,,Allison Hill,email,Support request: Pretty region ability live car difficult.
+TKT-00325,CUST-194,Feature Request,Critical,2024-02-24T04:09:17Z,2024-02-24T20:09:17Z,16.0,5.0,Dylan Miller,portal,Support request: Act receive stage write institution car.
+TKT-00326,CUST-040,Security,High,2024-02-18T17:17:24Z,2024-02-20T11:17:24Z,42.0,,Daniel Wagner,chat,Director become south billion.
+TKT-00327,CUST-287,Technical,Low,2024-02-27T05:49:19Z,2024-03-01T00:49:19Z,67.0,1.0,Jamie Arnold,chat,Thing case similar send card year.
+TKT-00328,CUST-219,Feature Request,Low,2024-02-07T18:36:33Z,2024-02-10T03:36:33Z,57.0,5.0,Michele Williams,phone,User reported issue with Attention none particular clearly.. Please contact jennifer26@example.net or +1-673-311-2196x56523 for follow-up.
+TKT-00329,CUST-100,Performance,Critical,2024-02-11T18:24:20Z,2024-02-14T01:24:20Z,55.0,,Monica Herrera,chat,Network outside parent single real.
+TKT-00330,CUST-066,Account,High,2024-02-10T21:29:23Z,2024-02-13T19:29:23Z,70.0,3.0,Angie Henderson,chat,Day parent country hot position.
+TKT-00331,CUST-342,Feature Request,Medium,2024-02-06T01:12:53Z,2024-02-07T00:12:53Z,23.0,2.0,Cristian Santos,email,Support request: Manager both matter order month.
+TKT-00332,CUST-359,Billing,Medium,2024-02-05T21:26:09Z,2024-02-08T07:26:09Z,58.0,9.0,Gabrielle Davis,email,Would value car.
+TKT-00333,CUST-119,Integration,Low,2024-02-19T18:10:29Z,2024-02-22T10:10:29Z,64.0,,Connie Lawrence,email,Support request: Inside national common likely would authority onto.. Email bakerbill@example.org for details.
+TKT-00334,CUST-314,Technical,Medium,2024-02-15T06:28:24Z,2024-02-18T04:28:24Z,70.0,5.0,Dylan Miller,email,Customer escalation: Memory data space movie.. Reach out at wwillis@example.net.
+TKT-00335,CUST-439,Integration,Critical,2024-02-02T21:23:19Z,2024-02-03T22:23:19Z,25.0,2.0,Cristian Santos,email,Actually case activity market.
+TKT-00336,CUST-037,Security,Medium,2024-02-18T17:58:32Z,2024-02-18T18:58:32Z,1.0,2.0,Gina Moore,portal,Mission situation result cold camera sit.
+TKT-00337,CUST-182,Technical,Low,2024-02-04T06:36:02Z,2024-02-06T20:36:02Z,62.0,3.0,Gina Moore,portal,Support request: Run brother tonight friend investment.. Email bakertheresa@example.net for details.
+TKT-00338,CUST-206,Onboarding,Medium,2024-02-04T00:29:22Z,2024-02-04T11:29:22Z,11.0,,Gabrielle Davis,chat,Significant thus purpose boy scientist.
+TKT-00339,CUST-232,Billing,Medium,2024-02-06T20:19:28Z,2024-02-09T05:19:28Z,57.0,3.0,Cristian Santos,email,Analysis television each.
+TKT-00340,CUST-028,Feature Request,Low,2024-02-18T12:05:09Z,2024-02-20T06:05:09Z,42.0,4.0,Jamie Arnold,email,Support request: Hair turn condition whether along sort research.. Email pwalker@example.com for details.
+TKT-00341,CUST-401,Security,Low,2024-02-19T14:17:47Z,2024-02-19T17:17:47Z,3.0,,Monica Herrera,chat,Tend similar financial beat lead hard factor.
+TKT-00342,CUST-274,Feature Request,Low,2024-02-23T12:28:22Z,2024-02-25T14:28:22Z,50.0,9.0,Allison Hill,chat,Science drug happy will young.
+TKT-00343,CUST-267,Account,Low,2024-02-09T21:50:11Z,,,,Gina Moore,phone,Run national somebody character usually.
+TKT-00344,CUST-474,Onboarding,Low,2024-02-22T09:07:38Z,2024-02-23T15:07:38Z,30.0,7.0,Michele Williams,phone,Do get style.
+TKT-00345,CUST-167,Feature Request,Medium,2024-02-25T15:36:25Z,2024-02-28T12:36:25Z,69.0,1.0,Ryan Munoz,email,Support request: Week ability price.
+TKT-00346,CUST-250,Technical,High,2024-02-24T03:31:12Z,2024-02-27T02:31:12Z,71.0,3.0,Michele Williams,phone,Billion morning draw man art.
+TKT-00347,CUST-192,Technical,Medium,2024-02-12T02:35:09Z,2024-02-12T21:35:09Z,19.0,2.0,Lisa Hensley,phone,Republican behavior TV today.
+TKT-00348,CUST-204,Account,Low,2024-02-01T16:33:06Z,2024-02-02T19:33:06Z,27.0,4.0,Michele Williams,chat,Including time learn security oil measure PM.
+TKT-00349,CUST-439,Integration,Low,2024-02-09T19:11:31Z,2024-02-10T22:11:31Z,27.0,,Ryan Munoz,email,Avoid nothing itself who door end.
+TKT-00350,CUST-009,Billing,Critical,2024-02-27T12:12:22Z,2024-02-29T16:12:22Z,52.0,,Dylan Miller,chat,Unit hotel story for laugh do.
+TKT-00351,CUST-328,Performance,Medium,2024-02-27T01:15:52Z,2024-02-29T10:15:52Z,57.0,4.0,Allison Hill,portal,Carry show board black last.
+TKT-00352,CUST-424,Security,Low,2024-02-21T23:18:22Z,2024-02-22T13:18:22Z,14.0,1.0,Dylan Miller,email,Image movie who debate final enter.
+TKT-00353,CUST-414,Onboarding,High,2024-02-13T08:42:26Z,2024-02-15T15:42:26Z,55.0,10.0,Michele Williams,phone,Bed space fight relate.
+TKT-00354,CUST-267,Security,Medium,2024-02-24T05:53:21Z,2024-02-25T01:53:21Z,20.0,8.0,Gina Moore,chat,American structure foreign before eat green message quality.
+TKT-00355,CUST-164,Billing,Low,2024-02-16T18:21:42Z,2024-02-17T05:21:42Z,11.0,7.0,Ryan Munoz,phone,Star community weight take new.
+TKT-00356,CUST-239,Performance,Critical,2024-02-18T08:21:39Z,2024-02-21T05:21:39Z,69.0,8.0,Lisa Hensley,phone,Economic left sound cause activity store work.
+TKT-00357,CUST-273,Billing,Medium,2024-02-26T02:07:18Z,2024-02-26T18:07:18Z,16.0,6.0,Dylan Miller,chat,Cup hundred rather visit.
+TKT-00358,CUST-040,Feature Request,Medium,2024-02-06T13:06:13Z,2024-02-07T04:06:13Z,15.0,3.0,Gina Moore,email,Old else spend against.
+TKT-00359,CUST-410,Performance,Medium,2024-02-07T00:23:07Z,2024-02-07T07:23:07Z,7.0,9.0,Allison Hill,email,User reported issue with Cup position speak begin.. Please contact david70@example.org or 001-566-470-6625 for follow-up.
+TKT-00360,CUST-143,Security,Medium,2024-02-13T17:12:16Z,,,,Allison Hill,chat,Evidence third alone people early.
+TKT-00361,CUST-322,Performance,Low,2024-02-10T00:58:24Z,2024-02-10T23:58:24Z,23.0,,Angie Henderson,chat,Issue description: Material third look because him.. Call 780.865.7875 if urgent.
+TKT-00362,CUST-188,Feature Request,Low,2024-02-17T05:17:59Z,2024-02-18T20:17:59Z,39.0,9.0,Cristian Santos,email,User reported issue with Conference five despite time sing.. Please contact stokesthomas@example.com or 001-493-421-3348x03965 for follow-up.
+TKT-00363,CUST-240,Feature Request,Medium,2024-02-21T20:32:04Z,2024-02-23T09:32:04Z,37.0,10.0,Ryan Munoz,chat,Or south recently trial agreement.
+TKT-00364,CUST-057,Integration,High,2024-02-26T23:26:40Z,,,,Gina Moore,phone,Way nor none could write think.
+TKT-00365,CUST-322,Technical,High,2024-02-07T01:47:00Z,2024-02-09T06:47:00Z,53.0,8.0,Connie Lawrence,email,My compare also argue own after long.
+TKT-00366,CUST-138,Account,Medium,2024-02-01T13:03:38Z,2024-02-01T18:03:38Z,5.0,7.0,Gina Moore,portal,Truth cut candidate response try such.
+TKT-00367,CUST-110,Integration,High,2024-02-21T08:36:58Z,,,,Lisa Hensley,phone,Arrive challenge relate center book money.
+TKT-00368,CUST-319,Security,Medium,2024-02-12T09:52:42Z,2024-02-14T02:52:42Z,41.0,,Monica Herrera,email,User reported issue with Whether health walk how big few.. Please contact theresaoconnor@example.com or +1-475-428-9539x2644 for follow-up.
+TKT-00369,CUST-387,Integration,Medium,2024-02-14T21:03:55Z,2024-02-17T15:03:55Z,66.0,5.0,Cristian Santos,email,Support request: We we hot.
+TKT-00370,CUST-187,Integration,Medium,2024-02-17T09:34:52Z,2024-02-18T15:34:52Z,30.0,3.0,Allison Hill,phone,Allow own TV whose determine not view.
+TKT-00371,CUST-383,Technical,Low,2024-02-07T20:24:49Z,2024-02-10T06:24:49Z,58.0,7.0,Connie Lawrence,chat,Support request: Former back get floor.
+TKT-00372,CUST-234,Onboarding,Low,2024-02-22T06:26:52Z,2024-02-23T02:26:52Z,20.0,,Michele Williams,email,Start prove role from.
+TKT-00373,CUST-306,Integration,Medium,2024-02-21T01:49:09Z,,,,Michele Williams,chat,Enter economic attack.
+TKT-00374,CUST-158,Feature Request,Low,2024-02-20T14:05:59Z,2024-02-21T21:05:59Z,31.0,8.0,Abigail Shaffer,chat,Support request: Skin result answer just information.
+TKT-00375,CUST-202,Billing,Medium,2024-02-08T06:42:34Z,2024-02-11T02:42:34Z,68.0,1.0,Connie Lawrence,email,Support request: This manage her national.
+TKT-00376,CUST-242,Onboarding,Medium,2024-02-24T22:18:09Z,2024-02-26T02:18:09Z,28.0,10.0,Gabrielle Davis,phone,Stock small official serve.
+TKT-00377,CUST-228,Feature Request,Medium,2024-02-06T22:44:04Z,2024-02-07T23:44:04Z,25.0,10.0,Abigail Shaffer,email,Class available suffer far five.
+TKT-00378,CUST-151,Onboarding,Medium,2024-02-25T05:59:13Z,2024-02-27T21:59:13Z,64.0,2.0,Dylan Miller,email,Avoid color heart rule.
+TKT-00379,CUST-043,Technical,Low,2024-02-17T14:45:10Z,2024-02-19T18:45:10Z,52.0,9.0,Abigail Shaffer,email,Walk within full world throw relate issue.
+TKT-00380,CUST-344,Technical,Medium,2024-02-03T23:59:33Z,2024-02-06T22:59:33Z,71.0,3.0,Jamie Arnold,email,Parent its approach former.
+TKT-00381,CUST-386,Billing,Medium,2024-02-25T17:58:11Z,2024-02-26T02:58:11Z,9.0,9.0,Cristian Santos,chat,Important never understand music produce.
+TKT-00382,CUST-120,Integration,Low,2024-02-24T20:30:59Z,2024-02-27T09:30:59Z,61.0,,Noah Rhodes,phone,Support request: Down anyone occur style child.. Email adam14@example.net for details.
+TKT-00383,CUST-497,Security,Medium,2024-02-26T22:58:54Z,2024-02-27T10:58:54Z,12.0,10.0,Abigail Shaffer,chat,Support request: Thus enter politics hold he high cost.
+TKT-00384,CUST-304,Feature Request,Critical,2024-02-19T05:26:52Z,,,,Daniel Wagner,phone,Support request: Enjoy let difficult.. Email anne21@example.org for details.
+TKT-00385,CUST-426,Technical,High,2024-02-07T13:40:57Z,2024-02-09T23:40:57Z,58.0,3.0,Cristian Santos,portal,Bad total research maybe too.
+TKT-00386,CUST-363,Technical,Medium,2024-02-06T17:06:48Z,,,,Michele Williams,email,Quality per build serious common worker will.
+TKT-00387,CUST-064,Onboarding,High,2024-02-17T01:07:11Z,,,,Angie Henderson,phone,Call interest write itself young.
+TKT-00388,CUST-304,Technical,Medium,2024-02-07T14:53:40Z,2024-02-09T03:53:40Z,37.0,3.0,Ryan Munoz,email,Challenge organization floor road southern beautiful news need.
+TKT-00389,CUST-268,Integration,Medium,2024-02-14T11:30:53Z,2024-02-15T07:30:53Z,20.0,8.0,Monica Herrera,phone,Mind true actually red onto.
+TKT-00390,CUST-323,Feature Request,Medium,2024-02-18T12:01:44Z,2024-02-21T10:01:44Z,70.0,3.0,Angie Henderson,portal,Both change note old who beyond.
+TKT-00391,CUST-495,Onboarding,High,2024-02-04T18:44:15Z,2024-02-06T22:44:15Z,52.0,10.0,Noah Rhodes,phone,None big experience movie.
+TKT-00392,CUST-366,Billing,Low,2024-02-12T23:32:27Z,2024-02-13T01:32:27Z,2.0,6.0,Cristian Santos,email,Issue description: There enough pressure occur list common.. Call 001-660-665-3074x505 if urgent.
+TKT-00393,CUST-231,Account,Low,2024-02-06T04:53:34Z,2024-02-09T03:53:34Z,71.0,5.0,Lisa Hensley,phone,Successful teach range win direction.
+TKT-00394,CUST-097,Technical,Critical,2024-02-12T15:19:00Z,2024-02-13T21:19:00Z,30.0,9.0,Lisa Hensley,email,Wind kitchen stay especially indicate.
+TKT-00395,CUST-141,Integration,Medium,2024-02-05T00:33:16Z,2024-02-06T00:33:16Z,24.0,1.0,Abigail Shaffer,portal,Could deep station scientist.
+TKT-00396,CUST-254,Performance,High,2024-02-10T06:52:18Z,2024-02-12T20:52:18Z,62.0,6.0,Michele Williams,phone,Test start middle city find medical career.
+TKT-00397,CUST-048,Feature Request,Low,2024-02-21T22:55:47Z,2024-02-23T01:55:47Z,27.0,1.0,Monica Herrera,chat,These ahead cover strategy student economic lead.
+TKT-00398,CUST-018,Account,Medium,2024-02-17T22:26:55Z,2024-02-19T09:26:55Z,35.0,,Daniel Wagner,chat,Relate ever statement measure play buy.
+TKT-00399,CUST-360,Onboarding,Low,2024-02-07T10:24:22Z,2024-02-09T08:24:22Z,46.0,4.0,Abigail Shaffer,portal,Drop major land.
+TKT-00400,CUST-392,Account,Medium,2024-02-20T00:40:24Z,2024-02-22T19:40:24Z,67.0,3.0,Daniel Wagner,email,Only glass clear thus see read expect.
+TKT-00401,CUST-448,Billing,Medium,2024-02-23T15:50:13Z,2024-02-24T17:50:13Z,26.0,2.0,Gabrielle Davis,chat,Anyone take sister Democrat determine different.
+TKT-00402,CUST-366,Performance,Medium,2024-02-19T01:15:58Z,2024-02-19T20:15:58Z,19.0,4.0,Gina Moore,email,Support request: Especially important after sister should.
+TKT-00403,CUST-460,Feature Request,Low,2024-02-25T19:50:57Z,2024-02-27T08:50:57Z,37.0,7.0,Daniel Wagner,email,Listen car community.
+TKT-00404,CUST-114,Integration,Low,2024-02-04T21:23:13Z,,,,Michele Williams,chat,Difference part wall.
+TKT-00405,CUST-298,Feature Request,Medium,2024-02-12T01:24:16Z,,,,Allison Hill,email,Interest heavy give edge level.
+TKT-00406,CUST-192,Account,Medium,2024-02-18T10:20:18Z,2024-02-18T21:20:18Z,11.0,9.0,Michele Williams,phone,User reported issue with Station however bill memory production successful hear.. Please contact kenneth17@example.org or 445-244-4328x30965 for follow-up.
+TKT-00407,CUST-387,Feature Request,Medium,2024-02-19T08:04:47Z,2024-02-21T18:04:47Z,58.0,2.0,Angie Henderson,chat,Young else industry home along remain occur.
+TKT-00408,CUST-256,Technical,Medium,2024-02-12T13:56:17Z,2024-02-14T13:56:17Z,48.0,4.0,Abigail Shaffer,email,Support request: Gas require rather point little.
+TKT-00409,CUST-151,Onboarding,Medium,2024-02-06T22:28:49Z,2024-02-08T10:28:49Z,36.0,,Dylan Miller,email,Issue description: Medical suddenly subject theory Congress best.. Call 001-925-313-5346x55494 if urgent.
+TKT-00410,CUST-482,Feature Request,High,2024-02-26T01:17:04Z,2024-02-26T07:17:04Z,6.0,7.0,Cristian Santos,email,Approach plant oil per line create build.
+TKT-00411,CUST-029,Technical,Low,2024-02-11T15:47:02Z,2024-02-13T05:47:02Z,38.0,8.0,Monica Herrera,phone,Support request: Morning including that character yeah garden.
+TKT-00412,CUST-169,Technical,Medium,2024-02-01T21:30:18Z,2024-02-02T19:30:18Z,22.0,2.0,Allison Hill,chat,Throughout would century television Congress ball forward.
+TKT-00413,CUST-236,Security,Medium,2024-02-26T01:54:20Z,2024-02-28T15:54:20Z,62.0,9.0,Michele Williams,chat,Finish around later decide.
+TKT-00414,CUST-269,Account,Low,2024-02-16T16:14:31Z,,,,Monica Herrera,phone,Office citizen size sister.
+TKT-00415,CUST-151,Performance,Low,2024-02-09T03:14:53Z,2024-02-11T09:14:53Z,54.0,4.0,Gina Moore,chat,Pass plant idea whole.
+TKT-00416,CUST-388,Feature Request,Medium,2024-02-09T22:07:13Z,,,,Noah Rhodes,email,Above move room wear throughout series.
+TKT-00417,CUST-165,Onboarding,Medium,2024-02-09T07:40:55Z,2024-02-11T12:40:55Z,53.0,2.0,Michele Williams,email,Course quality phone eat really general can.
+TKT-00418,CUST-413,Technical,Low,2024-02-13T07:44:02Z,2024-02-13T21:44:02Z,14.0,10.0,Gabrielle Davis,email,Me fill assume animal way lay.
+TKT-00419,CUST-357,Billing,High,2024-02-28T01:59:47Z,2024-02-28T13:59:47Z,12.0,5.0,Jamie Arnold,chat,Others full thousand yet garden top grow.
+TKT-00420,CUST-282,Integration,Medium,2024-02-28T21:54:28Z,2024-02-29T23:54:28Z,26.0,10.0,Angie Henderson,phone,User reported issue with Close trade speech affect difference.. Please contact jasonjohnson@example.net or (215)306-4890 for follow-up.
+TKT-00421,CUST-281,Security,High,2024-02-12T15:30:25Z,2024-02-13T01:30:25Z,10.0,2.0,Cristian Santos,phone,Answer break know.
+TKT-00422,CUST-003,Billing,Low,2024-02-09T13:02:56Z,2024-02-10T03:02:56Z,14.0,6.0,Cristian Santos,email,Support request: Natural listen check receive.
+TKT-00423,CUST-416,Feature Request,High,2024-02-18T12:48:57Z,2024-02-20T16:48:57Z,52.0,1.0,Noah Rhodes,phone,Act inside big minute performance red industry together.
+TKT-00424,CUST-470,Performance,Critical,2024-02-09T19:02:55Z,2024-02-10T16:02:55Z,21.0,5.0,Angie Henderson,chat,Responsibility brother box blood cup current enjoy.
+TKT-00425,CUST-181,Onboarding,Medium,2024-02-09T13:34:11Z,2024-02-11T22:34:11Z,57.0,,Connie Lawrence,phone,Win group important civil nature travel read.
+TKT-00426,CUST-497,Billing,Low,2024-02-11T08:29:01Z,2024-02-13T05:29:01Z,45.0,2.0,Michele Williams,email,Former able public trade structure protect chance.
+TKT-00427,CUST-142,Integration,Low,2024-02-17T20:02:38Z,2024-02-18T06:02:38Z,10.0,6.0,Michele Williams,email,Single avoid rich toward.
+TKT-00428,CUST-204,Performance,Critical,2024-02-02T04:28:54Z,2024-02-02T17:28:54Z,13.0,5.0,Michele Williams,email,Lead with enough anyone spend.
+TKT-00429,CUST-409,Security,Medium,2024-02-08T06:55:29Z,2024-02-09T09:55:29Z,27.0,4.0,Monica Herrera,phone,Support request: System growth quality.
+TKT-00430,CUST-106,Account,Low,2024-02-21T00:36:12Z,2024-02-22T14:36:12Z,38.0,5.0,Jamie Arnold,portal,School believe serve animal system professional.
+TKT-00431,CUST-348,Feature Request,Low,2024-02-28T10:40:38Z,2024-02-28T11:40:38Z,1.0,4.0,Michele Williams,chat,Forget thus western environmental.
+TKT-00432,CUST-438,Integration,Low,2024-02-20T02:49:53Z,2024-02-21T08:49:53Z,30.0,8.0,Monica Herrera,email,Head garden box hundred.
+TKT-00433,CUST-384,Integration,Medium,2024-02-11T08:52:34Z,2024-02-12T14:52:34Z,30.0,10.0,Gabrielle Davis,chat,Even history surface son power someone both.
+TKT-00434,CUST-493,Feature Request,High,2024-02-09T17:31:29Z,,,,Dylan Miller,email,Word such billion treat.
+TKT-00435,CUST-331,Security,Low,2024-02-21T11:04:54Z,2024-02-23T17:04:54Z,54.0,,Abigail Shaffer,chat,Support request: Soon question consider here grow agreement range.
+TKT-00436,CUST-116,Technical,Medium,2024-02-18T08:08:50Z,2024-02-20T11:08:50Z,51.0,1.0,Noah Rhodes,chat,Low maintain thought key.
+TKT-00437,CUST-465,Account,Low,2024-02-09T05:20:23Z,2024-02-11T08:20:23Z,51.0,8.0,Lisa Hensley,portal,Energy fire relate question.
+TKT-00438,CUST-068,Integration,Medium,2024-02-12T23:41:52Z,2024-02-13T15:41:52Z,16.0,7.0,Cristian Santos,chat,Rich difference what their mind read peace.
+TKT-00439,CUST-291,Performance,Low,2024-02-15T23:49:39Z,2024-02-17T07:49:39Z,32.0,2.0,Allison Hill,chat,Product eat generation put his stuff.
+TKT-00440,CUST-068,Performance,Low,2024-02-18T20:22:16Z,2024-02-19T07:22:16Z,11.0,4.0,Allison Hill,portal,Throughout party activity various measure light many.
+TKT-00441,CUST-401,Integration,High,2024-02-12T08:32:57Z,2024-02-13T14:32:57Z,30.0,8.0,Monica Herrera,chat,Avoid man drive wife.
+TKT-00442,CUST-160,Feature Request,High,2024-02-24T23:08:19Z,2024-02-26T14:08:19Z,39.0,8.0,Dylan Miller,phone,Medical nearly her.
+TKT-00443,CUST-069,Performance,Low,2024-02-08T09:52:51Z,2024-02-09T14:52:51Z,29.0,2.0,Lisa Hensley,email,Support request: Bad know of because material.
+TKT-00444,CUST-241,Feature Request,High,2024-02-28T16:54:31Z,2024-03-01T08:54:31Z,40.0,7.0,Gabrielle Davis,email,Budget market president bill include news.
+TKT-00445,CUST-328,Security,Low,2024-02-18T00:33:14Z,2024-02-20T04:33:14Z,52.0,,Daniel Wagner,chat,Stay social white.
+TKT-00446,CUST-026,Security,Low,2024-02-07T17:48:11Z,2024-02-08T16:48:11Z,23.0,3.0,Monica Herrera,chat,Customer escalation: Three none pressure lay future.. Reach out at velasquezmegan@example.com.
+TKT-00447,CUST-338,Security,Low,2024-02-13T10:23:54Z,2024-02-13T11:23:54Z,1.0,10.0,Allison Hill,portal,Stop who factor miss reduce animal.
+TKT-00448,CUST-292,Performance,Medium,2024-02-02T04:51:42Z,,,,Connie Lawrence,chat,Manage state score important.
+TKT-00449,CUST-174,Integration,Low,2024-02-15T10:05:40Z,2024-02-18T02:05:40Z,64.0,6.0,Allison Hill,phone,Particularly could us hotel lead.
+TKT-00450,CUST-259,Performance,Low,2024-02-02T20:50:41Z,2024-02-04T18:50:41Z,46.0,1.0,Jamie Arnold,chat,Response blue increase unit study.
+TKT-00451,CUST-402,Technical,Low,2024-02-11T01:12:13Z,2024-02-11T13:12:13Z,12.0,3.0,Dylan Miller,chat,But through leader operation mean white above save.
+TKT-00452,CUST-008,Technical,Low,2024-02-20T12:14:42Z,2024-02-21T23:14:42Z,35.0,5.0,Michele Williams,email,User reported issue with Very stuff lot meet TV concern official.. Please contact dalesandoval@example.net or 686-769-3465x47226 for follow-up.
+TKT-00453,CUST-148,Security,Medium,2024-02-09T22:49:46Z,2024-02-10T22:49:46Z,24.0,3.0,Jamie Arnold,chat,Support request: Plan cut person fact generation public wonder.
+TKT-00454,CUST-489,Security,Low,2024-02-01T05:11:45Z,,,,Dylan Miller,phone,Mean reason follow break.
+TKT-00455,CUST-169,Onboarding,High,2024-02-23T01:15:32Z,2024-02-24T17:15:32Z,40.0,10.0,Gina Moore,chat,No old wall report purpose throw.
+TKT-00456,CUST-063,Billing,Medium,2024-02-21T06:18:51Z,2024-02-22T21:18:51Z,39.0,4.0,Ryan Munoz,phone,Support request: Experience suggest space mission agent certainly prove.
+TKT-00457,CUST-424,Security,Medium,2024-02-07T22:23:11Z,,,,Daniel Wagner,chat,Environment size worker raise chair.
+TKT-00458,CUST-247,Billing,Medium,2024-02-09T12:08:53Z,2024-02-11T02:08:53Z,38.0,1.0,Connie Lawrence,chat,Real far send allow.
+TKT-00459,CUST-008,Onboarding,Medium,2024-02-02T14:57:52Z,2024-02-04T04:57:52Z,38.0,9.0,Noah Rhodes,chat,Bill test science ten score night down.
+TKT-00460,CUST-173,Security,Low,2024-02-14T15:15:36Z,,,,Allison Hill,email,Realize another high indicate small.
+TKT-00461,CUST-431,Onboarding,Medium,2024-02-21T18:51:49Z,,,,Allison Hill,portal,Whole approach season data than team.
+TKT-00462,CUST-321,Security,Medium,2024-02-27T19:03:41Z,2024-02-28T07:03:41Z,12.0,3.0,Connie Lawrence,email,Stop treatment relate positive sense national.
+TKT-00463,CUST-086,Technical,High,2024-02-15T16:02:10Z,2024-02-17T03:02:10Z,35.0,3.0,Connie Lawrence,phone,Cultural right cover large work avoid while same.
+TKT-00464,CUST-040,Security,Low,2024-02-03T08:27:03Z,2024-02-03T12:27:03Z,4.0,2.0,Ryan Munoz,phone,Help investment news candidate.
+TKT-00465,CUST-168,Feature Request,High,2024-02-09T16:09:07Z,2024-02-09T23:09:07Z,7.0,5.0,Noah Rhodes,chat,Suffer accept letter visit always up others similar.
+TKT-00466,CUST-482,Billing,Medium,2024-02-03T05:18:16Z,2024-02-03T10:18:16Z,5.0,6.0,Michele Williams,email,User reported issue with Past product make of group six fish detail.. Please contact abigailhartman@example.org or (988)261-5335x55439 for follow-up.
+TKT-00467,CUST-445,Feature Request,Low,2024-02-07T20:06:15Z,2024-02-09T10:06:15Z,38.0,2.0,Gabrielle Davis,email,Protect knowledge toward party.
+TKT-00468,CUST-227,Security,Medium,2024-02-20T19:24:08Z,,,,Allison Hill,email,Issue description: During always those high someone box either rich.. Call 287.370.4358x11288 if urgent.
+TKT-00469,CUST-393,Technical,Medium,2024-02-11T06:07:13Z,2024-02-14T04:07:13Z,70.0,1.0,Allison Hill,chat,Prove similar ten interest billion.
+TKT-00470,CUST-411,Billing,Low,2024-02-14T05:06:32Z,2024-02-16T23:06:32Z,66.0,,Abigail Shaffer,email,Stock these scientist itself stage authority rather.
+TKT-00471,CUST-166,Security,Low,2024-02-22T10:57:14Z,2024-02-22T23:57:14Z,13.0,,Ryan Munoz,portal,Learn forward beautiful.
+TKT-00472,CUST-282,Performance,High,2024-02-19T13:15:04Z,2024-02-20T00:15:04Z,11.0,4.0,Ryan Munoz,email,Concern edge audience.
+TKT-00473,CUST-452,Feature Request,Medium,2024-02-16T08:39:34Z,2024-02-16T23:39:34Z,15.0,5.0,Ryan Munoz,phone,Support request: Treat imagine later identify first.
+TKT-00474,CUST-127,Billing,Low,2024-02-08T10:12:03Z,2024-02-10T15:12:03Z,53.0,5.0,Gabrielle Davis,phone,Support request: Pull movement political peace series one.
+TKT-00475,CUST-062,Security,Medium,2024-02-26T12:07:04Z,2024-02-28T10:07:04Z,46.0,5.0,Gina Moore,portal,Group me face rate.
+TKT-00476,CUST-365,Integration,Medium,2024-02-22T20:45:04Z,2024-02-25T07:45:04Z,59.0,6.0,Cristian Santos,phone,Beat she join house produce listen mouth carry.
+TKT-00477,CUST-053,Account,Low,2024-02-25T07:40:52Z,2024-02-25T23:40:52Z,16.0,8.0,Noah Rhodes,chat,Support request: Someone support far plant fear thought.
+TKT-00478,CUST-084,Security,Medium,2024-02-04T12:53:44Z,2024-02-04T22:53:44Z,10.0,10.0,Abigail Shaffer,chat,Whatever action themselves center among of.
+TKT-00479,CUST-066,Integration,Low,2024-02-26T19:55:53Z,2024-02-27T17:55:53Z,22.0,,Ryan Munoz,chat,Mr water fight security tough gas.
+TKT-00480,CUST-425,Onboarding,Low,2024-02-04T00:26:56Z,2024-02-04T23:26:56Z,23.0,9.0,Gabrielle Davis,chat,Town surface central contain pattern education.
+TKT-00481,CUST-336,Performance,Medium,2024-02-03T05:15:33Z,2024-02-03T08:15:33Z,3.0,7.0,Jamie Arnold,chat,Consider son system surface.
+TKT-00482,CUST-139,Onboarding,Medium,2024-02-10T14:36:01Z,2024-02-13T08:36:01Z,66.0,5.0,Daniel Wagner,email,Leave near fact attack better rise maintain.
+TKT-00483,CUST-471,Integration,Medium,2024-02-17T04:45:10Z,2024-02-17T07:45:10Z,3.0,5.0,Gina Moore,email,Ground provide doctor expect attorney cover.
+TKT-00484,CUST-328,Billing,High,2024-02-27T02:45:32Z,2024-02-29T04:45:32Z,50.0,6.0,Michele Williams,phone,Support request: Late pattern figure once not hair first.
+TKT-00485,CUST-486,Onboarding,Medium,2024-02-22T07:09:44Z,2024-02-22T15:09:44Z,8.0,5.0,Connie Lawrence,chat,Collection finish size Republican political everybody.
+TKT-00486,CUST-289,Billing,Medium,2024-02-23T18:27:15Z,2024-02-25T18:27:15Z,48.0,7.0,Monica Herrera,email,Support request: Care run there leg grow figure.
+TKT-00487,CUST-286,Security,Low,2024-02-07T16:25:35Z,2024-02-08T03:25:35Z,11.0,6.0,Noah Rhodes,portal,Board population bank exactly step through cultural.
+TKT-00488,CUST-090,Billing,Low,2024-02-25T22:46:53Z,2024-02-26T14:46:53Z,16.0,3.0,Connie Lawrence,email,Baby away affect medical all old if operation.
+TKT-00489,CUST-298,Account,Low,2024-02-06T11:32:18Z,2024-02-07T03:32:18Z,16.0,7.0,Allison Hill,chat,Necessary myself your.
+TKT-00490,CUST-413,Feature Request,Medium,2024-02-03T22:17:37Z,2024-02-05T08:17:37Z,34.0,5.0,Lisa Hensley,portal,President chance hotel through operation tax card.
+TKT-00491,CUST-352,Account,Medium,2024-02-23T12:39:19Z,,,,Abigail Shaffer,email,Member however maybe production summer southern pass.
+TKT-00492,CUST-014,Billing,Medium,2024-02-02T08:29:46Z,2024-02-03T13:29:46Z,29.0,,Jamie Arnold,phone,Support request: Serious cell city not.
+TKT-00493,CUST-141,Integration,Medium,2024-02-20T12:34:43Z,2024-02-21T03:34:43Z,15.0,2.0,Gina Moore,phone,Process whose save low grow despite maintain.
+TKT-00494,CUST-444,Performance,Low,2024-02-04T02:17:47Z,2024-02-06T02:17:47Z,48.0,4.0,Gina Moore,phone,Enough doctor protect military.
+TKT-00495,CUST-348,Security,Low,2024-02-26T06:38:30Z,2024-02-27T18:38:30Z,36.0,7.0,Ryan Munoz,chat,Hold truth thing always possible billion.
+TKT-00496,CUST-247,Technical,Low,2024-02-21T05:38:37Z,2024-02-23T06:38:37Z,49.0,2.0,Daniel Wagner,chat,Plant event score official now heavy her.
+TKT-00497,CUST-187,Billing,Low,2024-02-19T17:31:43Z,2024-02-21T10:31:43Z,41.0,1.0,Gabrielle Davis,chat,President structure might heavy trade might good test.
+TKT-00498,CUST-094,Technical,Medium,2024-02-16T20:12:03Z,2024-02-19T17:12:03Z,69.0,1.0,Gabrielle Davis,email,Society thought according think key discover method.
+TKT-00499,CUST-251,Onboarding,High,2024-02-17T23:40:11Z,2024-02-19T11:40:11Z,36.0,1.0,Monica Herrera,phone,Support request: Deep cost gun response brother.
+TKT-00500,CUST-391,Onboarding,Medium,2024-02-14T09:33:36Z,2024-02-14T10:33:36Z,1.0,2.0,Gabrielle Davis,chat,Increase form box push look.
+TKT-00501,CUST-415,Billing,Medium,2024-02-22T13:20:43Z,,,,Monica Herrera,portal,Claim street against amount of claim picture always.
+TKT-00502,CUST-058,Integration,Low,2024-02-28T05:25:10Z,,,,Daniel Wagner,email,Customer escalation: Chair coach two might if wide point.. Reach out at stacey37@example.net.
+TKT-00503,CUST-424,Onboarding,Medium,2024-02-20T22:59:12Z,2024-02-21T08:59:12Z,10.0,2.0,Connie Lawrence,portal,User reported issue with Opportunity discover history board dark teacher mean information.. Please contact catherinethompson@example.net or +1-808-781-1729x806 for follow-up.
+TKT-00504,CUST-181,Account,Medium,2024-02-20T00:20:29Z,2024-02-22T21:20:29Z,69.0,10.0,Ryan Munoz,chat,Recently investment voice.
+TKT-00505,CUST-143,Account,Low,2024-02-03T07:57:14Z,2024-02-04T05:57:14Z,22.0,7.0,Gabrielle Davis,chat,Smile high open scientist seven recent best.
+TKT-00506,CUST-129,Security,Medium,2024-02-15T17:13:51Z,2024-02-18T13:13:51Z,68.0,6.0,Abigail Shaffer,chat,Effort she travel base.
+TKT-00507,CUST-128,Account,High,2024-02-01T14:01:21Z,2024-02-04T03:01:21Z,61.0,9.0,Monica Herrera,email,Theory impact country remember smile official brother according.
+TKT-00508,CUST-319,Feature Request,Medium,2024-02-15T19:19:13Z,2024-02-18T05:19:13Z,58.0,,Connie Lawrence,phone,Support request: Reach firm gun choice prepare.
+TKT-00509,CUST-241,Security,Low,2024-02-15T03:39:24Z,2024-02-17T13:39:24Z,58.0,2.0,Allison Hill,chat,Support request: End movie north partner yeah.
+TKT-00510,CUST-133,Billing,Medium,2024-02-17T17:14:29Z,2024-02-19T00:14:29Z,31.0,2.0,Angie Henderson,email,Sense including six lot have never.
+TKT-00511,CUST-224,Billing,Medium,2024-02-09T03:52:44Z,2024-02-09T16:52:44Z,13.0,6.0,Noah Rhodes,chat,Write officer similar huge catch.
+TKT-00512,CUST-216,Integration,Medium,2024-02-25T11:27:05Z,,,,Abigail Shaffer,portal,Security land record class.
+TKT-00513,CUST-430,Security,Low,2024-02-01T18:22:11Z,2024-02-02T02:22:11Z,8.0,2.0,Abigail Shaffer,chat,Meet skill song pass range.
+TKT-00514,CUST-334,Performance,Low,2024-02-10T13:58:56Z,2024-02-11T06:58:56Z,17.0,6.0,Gina Moore,email,Claim who accept.
+TKT-00515,CUST-120,Technical,Low,2024-02-25T03:20:22Z,2024-02-26T06:20:22Z,27.0,,Allison Hill,chat,Statement likely outside because.
+TKT-00516,CUST-046,Security,Medium,2024-02-07T16:59:26Z,2024-02-09T08:59:26Z,40.0,1.0,Noah Rhodes,email,Develop bag also his worker.
+TKT-00517,CUST-463,Security,Medium,2024-02-27T14:46:50Z,2024-02-29T04:46:50Z,38.0,,Jamie Arnold,chat,Prevent expert white arm similar compare manager action.
+TKT-00518,CUST-149,Integration,Medium,2024-02-26T11:30:03Z,2024-02-29T01:30:03Z,62.0,4.0,Allison Hill,email,Experience almost outside middle discuss college already.
+TKT-00519,CUST-165,Security,Medium,2024-02-15T04:40:01Z,2024-02-15T14:40:01Z,10.0,4.0,Dylan Miller,chat,Pretty wish beautiful every human.
+TKT-00520,CUST-292,Integration,Low,2024-02-24T12:37:29Z,,,,Noah Rhodes,chat,Support request: If customer address region try near.
+TKT-00521,CUST-415,Account,Medium,2024-02-18T18:21:06Z,2024-02-21T17:21:06Z,71.0,10.0,Abigail Shaffer,phone,Trip give white everybody paper create upon.
+TKT-00522,CUST-035,Account,Low,2024-02-05T18:46:08Z,,,,Cristian Santos,phone,Support request: Above company media next me future bring.
+TKT-00523,CUST-467,Feature Request,High,2024-02-01T15:22:00Z,2024-02-02T05:22:00Z,14.0,8.0,Daniel Wagner,email,What then spend offer reason whom none.
+TKT-00524,CUST-402,Performance,Medium,2024-02-18T08:28:38Z,2024-02-18T09:28:38Z,1.0,,Allison Hill,chat,Serious which learn leave only.
+TKT-00525,CUST-111,Integration,Medium,2024-02-24T07:07:17Z,,,,Jamie Arnold,phone,Loss election him.
+TKT-00526,CUST-066,Performance,Medium,2024-02-17T14:31:02Z,2024-02-18T01:31:02Z,11.0,10.0,Allison Hill,portal,Issue description: Quality discover firm western might.. Call 565-618-2755 if urgent.
+TKT-00527,CUST-420,Account,Low,2024-02-03T18:55:07Z,2024-02-06T17:55:07Z,71.0,5.0,Angie Henderson,phone,Water raise travel material.
+TKT-00528,CUST-040,Onboarding,Medium,2024-02-06T12:01:35Z,2024-02-07T08:01:35Z,20.0,4.0,Jamie Arnold,phone,Dog drug enter director strong.
+TKT-00529,CUST-386,Billing,Medium,2024-02-12T11:24:35Z,2024-02-14T20:24:35Z,57.0,1.0,Gina Moore,phone,Green single build bad what manage according tax.
+TKT-00530,CUST-445,Onboarding,High,2024-02-20T04:26:01Z,2024-02-21T05:26:01Z,25.0,7.0,Ryan Munoz,phone,Summer he firm.
+TKT-00531,CUST-324,Technical,Medium,2024-02-02T15:38:25Z,2024-02-05T14:38:25Z,71.0,3.0,Allison Hill,chat,Than make worker trouble exactly develop office.
+TKT-00532,CUST-173,Billing,Medium,2024-02-16T21:50:08Z,,,,Angie Henderson,portal,Moment institution vote.
+TKT-00533,CUST-127,Integration,Medium,2024-02-03T12:40:08Z,2024-02-06T05:40:08Z,65.0,1.0,Dylan Miller,chat,Maybe hour rather.
+TKT-00534,CUST-254,Integration,Low,2024-02-08T13:22:34Z,2024-02-09T17:22:34Z,28.0,9.0,Abigail Shaffer,phone,Support request: Lead build million firm.
+TKT-00535,CUST-322,Billing,Low,2024-02-13T21:47:41Z,,,,Monica Herrera,chat,Activity decision ok.
+TKT-00536,CUST-006,Account,High,2024-02-27T00:59:49Z,2024-02-29T19:59:49Z,67.0,10.0,Ryan Munoz,portal,Gun technology cost enjoy especially when.
+TKT-00537,CUST-337,Security,Medium,2024-02-28T16:32:05Z,2024-03-01T09:32:05Z,41.0,,Cristian Santos,phone,Hand material decision red head take.
+TKT-00538,CUST-113,Account,Low,2024-02-08T22:33:20Z,2024-02-09T14:33:20Z,16.0,10.0,Lisa Hensley,chat,Late number without rather sport.
+TKT-00539,CUST-476,Technical,Medium,2024-02-07T17:33:00Z,2024-02-08T05:33:00Z,12.0,1.0,Michele Williams,email,Support request: Sound new task cultural son.
+TKT-00540,CUST-081,Technical,High,2024-02-04T00:10:03Z,2024-02-06T22:10:03Z,70.0,3.0,Angie Henderson,chat,List act instead care.
+TKT-00541,CUST-326,Billing,High,2024-02-13T16:00:00Z,2024-02-15T07:00:00Z,39.0,8.0,Lisa Hensley,email,Military result size feel no nothing huge real.
+TKT-00542,CUST-449,Onboarding,Medium,2024-02-11T14:53:21Z,,,,Lisa Hensley,chat,Democratic effect stuff benefit.
+TKT-00543,CUST-246,Feature Request,Low,2024-02-13T20:47:01Z,2024-02-15T01:47:01Z,29.0,9.0,Ryan Munoz,email,Employee growth newspaper special general in.
+TKT-00544,CUST-275,Account,Critical,2024-02-26T11:06:23Z,2024-02-27T18:06:23Z,31.0,5.0,Lisa Hensley,portal,Test white current office power company.
+TKT-00545,CUST-307,Onboarding,Low,2024-02-17T23:32:32Z,2024-02-19T11:32:32Z,36.0,4.0,Daniel Wagner,portal,Great pull maintain say threat.
+TKT-00546,CUST-340,Onboarding,Low,2024-02-20T01:07:21Z,2024-02-21T20:07:21Z,43.0,8.0,Gabrielle Davis,portal,Party less what than political up.
+TKT-00547,CUST-423,Performance,Low,2024-02-14T01:16:36Z,2024-02-15T01:16:36Z,24.0,1.0,Monica Herrera,phone,Piece occur support author class direction.
+TKT-00548,CUST-368,Billing,Medium,2024-02-25T03:04:31Z,2024-02-27T07:04:31Z,52.0,1.0,Michele Williams,chat,President report painting house thought sit.
+TKT-00549,CUST-008,Onboarding,High,2024-02-01T14:49:52Z,,,,Ryan Munoz,phone,Support request: Security minute late cold take by.
+TKT-00550,CUST-456,Onboarding,Medium,2024-02-14T10:06:06Z,2024-02-16T04:06:06Z,42.0,9.0,Lisa Hensley,chat,Product wait red bag cold.
+TKT-00551,CUST-059,Integration,High,2024-02-20T22:03:29Z,2024-02-21T00:03:29Z,2.0,9.0,Daniel Wagner,email,Believe view list approach.
+TKT-00552,CUST-423,Security,Low,2024-02-03T21:07:18Z,2024-02-05T20:07:18Z,47.0,8.0,Gina Moore,email,Issue description: Model you billion peace base use.. Call 672-928-2005x5778 if urgent.
+TKT-00553,CUST-177,Feature Request,High,2024-02-06T10:50:04Z,,,,Abigail Shaffer,chat,Wide recently computer our.
+TKT-00554,CUST-338,Integration,Medium,2024-02-20T14:22:29Z,2024-02-22T10:22:29Z,44.0,5.0,Gina Moore,email,See theory itself policy move training loss dinner.
+TKT-00555,CUST-245,Onboarding,Critical,2024-02-24T18:14:08Z,2024-02-25T12:14:08Z,18.0,8.0,Noah Rhodes,phone,Support request: Kind hand employee field.
+TKT-00556,CUST-246,Technical,High,2024-02-10T03:24:32Z,2024-02-11T22:24:32Z,43.0,4.0,Noah Rhodes,chat,Model serve carry.
+TKT-00557,CUST-354,Billing,High,2024-02-11T15:19:45Z,2024-02-14T11:19:45Z,68.0,8.0,Noah Rhodes,email,Light across two water local.
+TKT-00558,CUST-093,Security,High,2024-02-14T07:31:26Z,,,,Gabrielle Davis,chat,Support request: She something others.
+TKT-00559,CUST-267,Performance,Low,2024-02-03T05:28:23Z,2024-02-03T19:28:23Z,14.0,8.0,Michele Williams,email,Nature country think.
+TKT-00560,CUST-229,Billing,High,2024-02-10T05:40:52Z,2024-02-10T08:40:52Z,3.0,,Angie Henderson,chat,Support request: House clear say hope her enjoy.. Email hgarrett@example.net for details.
+TKT-00561,CUST-153,Onboarding,Medium,2024-02-27T08:39:55Z,2024-02-29T03:39:55Z,43.0,7.0,Abigail Shaffer,portal,Support request: Red man fly charge wide.
+TKT-00562,CUST-076,Onboarding,Medium,2024-02-18T04:27:32Z,,,,Gabrielle Davis,chat,Control bill especially.
+TKT-00563,CUST-011,Technical,High,2024-02-17T12:33:02Z,2024-02-18T01:33:02Z,13.0,9.0,Gina Moore,email,Road do character management game find.
+TKT-00564,CUST-154,Integration,High,2024-02-09T07:06:11Z,,,,Monica Herrera,chat,Support request: Your less social form such weight argue.
+TKT-00565,CUST-466,Performance,High,2024-02-23T13:06:36Z,2024-02-24T01:06:36Z,12.0,7.0,Abigail Shaffer,portal,Author like court success stage stock.
+TKT-00566,CUST-358,Feature Request,Low,2024-02-17T10:11:26Z,2024-02-18T04:11:26Z,18.0,,Michele Williams,email,Window research his window.
+TKT-00567,CUST-167,Feature Request,High,2024-02-11T18:53:56Z,,,,Angie Henderson,chat,Scene almost leave side miss.
+TKT-00568,CUST-158,Technical,High,2024-02-19T17:38:29Z,,,,Dylan Miller,email,Support request: List race fine follow pick.
+TKT-00569,CUST-475,Performance,High,2024-02-24T11:31:14Z,2024-02-25T10:31:14Z,23.0,5.0,Gina Moore,chat,Seat near business.
+TKT-00570,CUST-497,Technical,High,2024-02-08T07:36:35Z,2024-02-10T05:36:35Z,46.0,9.0,Monica Herrera,phone,Police cup thought tell design both plan.
+TKT-00571,CUST-088,Security,Low,2024-02-08T02:42:54Z,2024-02-10T07:42:54Z,53.0,8.0,Ryan Munoz,chat,Support request: Address some once how during why.
+TKT-00572,CUST-253,Feature Request,Low,2024-02-08T03:50:12Z,2024-02-10T12:50:12Z,57.0,9.0,Allison Hill,email,Situation little other he become citizen before peace.
+TKT-00573,CUST-324,Feature Request,Low,2024-02-14T18:59:59Z,2024-02-16T05:59:59Z,35.0,9.0,Dylan Miller,chat,Support request: Art green child movie blue maintain first next.
+TKT-00574,CUST-313,Feature Request,Low,2024-02-15T10:44:16Z,2024-02-17T09:44:16Z,47.0,,Cristian Santos,chat,South just cover ready group care.
+TKT-00575,CUST-252,Integration,Medium,2024-02-15T01:53:19Z,,,,Allison Hill,email,Support request: Magazine join far.. Email llopez@example.net for details.
+TKT-00576,CUST-038,Onboarding,Medium,2024-02-04T07:24:35Z,2024-02-06T21:24:35Z,62.0,10.0,Noah Rhodes,portal,A point here control affect task simply.
+TKT-00577,CUST-288,Performance,Medium,2024-02-09T12:13:53Z,2024-02-10T09:13:53Z,21.0,5.0,Cristian Santos,email,Fly as whose standard couple.
+TKT-00578,CUST-199,Billing,High,2024-02-19T23:38:30Z,2024-02-21T05:38:30Z,30.0,6.0,Daniel Wagner,chat,She child executive important focus benefit probably.
+TKT-00579,CUST-286,Account,Medium,2024-02-20T18:42:23Z,2024-02-22T12:42:23Z,42.0,10.0,Allison Hill,chat,Strong candidate them.
+TKT-00580,CUST-152,Security,Medium,2024-02-24T20:14:17Z,2024-02-26T04:14:17Z,32.0,6.0,Cristian Santos,chat,User reported issue with Blood court all politics home.. Please contact sfox@example.net or 705-839-1037x170 for follow-up.
+TKT-00581,CUST-189,Onboarding,Low,2024-02-23T23:34:30Z,2024-02-25T00:34:30Z,25.0,4.0,Gabrielle Davis,chat,Some around pay more same strong.
+TKT-00582,CUST-033,Security,Low,2024-02-07T05:05:18Z,2024-02-07T17:05:18Z,12.0,,Gina Moore,email,War whether best rise.
+TKT-00583,CUST-249,Performance,Low,2024-02-19T17:58:16Z,2024-02-22T05:58:16Z,60.0,4.0,Angie Henderson,email,History cover prevent now way next newspaper.
+TKT-00584,CUST-194,Feature Request,Medium,2024-02-03T23:21:47Z,,,,Michele Williams,email,Short office purpose reflect.
+TKT-00585,CUST-005,Technical,Medium,2024-02-13T15:31:38Z,2024-02-13T18:31:38Z,3.0,1.0,Gina Moore,chat,Third coach Congress husband front citizen.
+TKT-00586,CUST-112,Technical,Low,2024-02-25T04:25:02Z,2024-02-27T21:25:02Z,65.0,,Lisa Hensley,chat,Kitchen good firm yard foot he share issue.
+TKT-00587,CUST-016,Technical,Medium,2024-02-14T15:01:29Z,2024-02-15T11:01:29Z,20.0,3.0,Dylan Miller,email,Part none degree she unit effect.
+TKT-00588,CUST-472,Onboarding,High,2024-02-19T17:31:43Z,2024-02-20T19:31:43Z,26.0,10.0,Daniel Wagner,portal,Language however risk work other military year.
+TKT-00589,CUST-456,Security,Medium,2024-02-13T00:42:20Z,2024-02-14T16:42:20Z,40.0,9.0,Jamie Arnold,email,According worker Democrat fire sign.
+TKT-00590,CUST-027,Security,Medium,2024-02-27T10:56:04Z,2024-02-27T17:56:04Z,7.0,6.0,Connie Lawrence,phone,Try memory number occur behind.
+TKT-00591,CUST-432,Technical,Medium,2024-02-14T18:42:54Z,2024-02-16T16:42:54Z,46.0,1.0,Noah Rhodes,chat,Green catch happen old do specific begin.
+TKT-00592,CUST-280,Technical,High,2024-02-11T01:24:55Z,2024-02-12T16:24:55Z,39.0,9.0,Cristian Santos,portal,Notice design baby foot lot major.
+TKT-00593,CUST-155,Integration,High,2024-02-02T07:51:51Z,,,,Ryan Munoz,email,Standard believe politics also space high sister.
+TKT-00594,CUST-125,Security,Medium,2024-02-16T02:02:01Z,2024-02-16T04:02:01Z,2.0,2.0,Ryan Munoz,email,User reported issue with Girl stage indicate test thank dinner.. Please contact walterscrystal@example.org or 980-358-9258x3206 for follow-up.
+TKT-00595,CUST-433,Integration,High,2024-02-22T04:41:08Z,2024-02-23T03:41:08Z,23.0,10.0,Connie Lawrence,email,Customer escalation: It skill challenge from live.. Reach out at kelleyjose@example.com.
+TKT-00596,CUST-456,Feature Request,Medium,2024-02-02T20:41:01Z,2024-02-04T02:41:01Z,30.0,4.0,Michele Williams,email,Support request: Entire involve range office.. Email powersrodney@example.com for details.
+TKT-00597,CUST-114,Security,Low,2024-02-13T02:30:00Z,2024-02-13T06:30:00Z,4.0,,Noah Rhodes,chat,And stand current health serious table.
+TKT-00598,CUST-337,Security,Low,2024-02-13T18:54:46Z,2024-02-16T03:54:46Z,57.0,3.0,Cristian Santos,email,Science drug per challenge.
+TKT-00599,CUST-112,Feature Request,Low,2024-02-02T12:06:09Z,2024-02-04T14:06:09Z,50.0,,Angie Henderson,phone,Add really born late age.
+TKT-00600,CUST-006,Billing,Medium,2024-02-21T15:39:55Z,2024-02-21T16:39:55Z,1.0,6.0,Gina Moore,chat,Science deep national seek nature.
+TKT-00601,CUST-304,Onboarding,High,2024-02-11T09:58:10Z,2024-02-13T15:58:10Z,54.0,3.0,Allison Hill,portal,Role center recognize adult on professional analysis color.
+TKT-00602,CUST-363,Performance,High,2024-02-15T10:15:49Z,2024-02-16T10:15:49Z,24.0,,Jamie Arnold,chat,Customer recent even let war.
+TKT-00603,CUST-194,Account,Medium,2024-02-13T01:47:37Z,,,,Monica Herrera,chat,User reported issue with Home even system process.. Please contact smithmichelle@example.net or (936)281-5798x1238 for follow-up.
+TKT-00604,CUST-234,Security,Low,2024-02-11T04:56:04Z,2024-02-13T05:56:04Z,49.0,,Ryan Munoz,chat,Easy morning four.
+TKT-00605,CUST-065,Feature Request,Medium,2024-02-27T04:16:09Z,2024-02-29T09:16:09Z,53.0,8.0,Angie Henderson,email,Season adult range green few you.
+TKT-00606,CUST-069,Integration,High,2024-02-04T15:58:53Z,2024-02-05T07:58:53Z,16.0,,Lisa Hensley,phone,Every artist election hit yourself wrong want.
+TKT-00607,CUST-267,Feature Request,Medium,2024-02-10T00:50:09Z,2024-02-12T12:50:09Z,60.0,3.0,Cristian Santos,phone,Support request: Difficult game hotel case role.
+TKT-00608,CUST-461,Performance,Medium,2024-02-11T06:13:11Z,2024-02-13T21:13:11Z,63.0,9.0,Monica Herrera,phone,Whether partner personal dinner drive check wife.
+TKT-00609,CUST-255,Technical,High,2024-02-08T17:36:52Z,2024-02-09T09:36:52Z,16.0,2.0,Michele Williams,email,Forget my deal catch must son television finally.
+TKT-00610,CUST-201,Account,Critical,2024-02-23T12:44:54Z,2024-02-25T15:44:54Z,51.0,4.0,Gina Moore,phone,User reported issue with Travel involve training show prevent north citizen.. Please contact grantstacy@example.org or (652)405-6647 for follow-up.
+TKT-00611,CUST-430,Billing,High,2024-02-01T12:17:31Z,2024-02-02T08:17:31Z,20.0,3.0,Dylan Miller,chat,Blood continue several partner environment.
+TKT-00612,CUST-300,Integration,Medium,2024-02-08T19:38:56Z,2024-02-10T11:38:56Z,40.0,7.0,Connie Lawrence,chat,Partner others discuss ago bag sister care.
+TKT-00613,CUST-497,Onboarding,Low,2024-02-14T18:15:35Z,2024-02-17T01:15:35Z,55.0,2.0,Dylan Miller,phone,Light power contain hold listen clearly difficult impact.
+TKT-00614,CUST-193,Feature Request,Low,2024-02-12T18:52:12Z,2024-02-13T02:52:12Z,8.0,1.0,Allison Hill,portal,Understand wear development.
+TKT-00615,CUST-097,Integration,Critical,2024-02-02T23:04:57Z,,,,Cristian Santos,chat,Serious at until worry term.
+TKT-00616,CUST-347,Technical,High,2024-02-06T10:56:22Z,2024-02-06T20:56:22Z,10.0,3.0,Gabrielle Davis,chat,Customer escalation: Reach term thought into simply part station.. Reach out at phillip99@example.net.
+TKT-00617,CUST-118,Technical,Medium,2024-02-01T11:30:17Z,2024-02-02T14:30:17Z,27.0,10.0,Dylan Miller,email,Keep this similar experience coach.
+TKT-00618,CUST-237,Integration,Medium,2024-02-25T15:36:29Z,2024-02-27T15:36:29Z,48.0,9.0,Angie Henderson,phone,Party approach might central stop.
+TKT-00619,CUST-280,Billing,Low,2024-02-04T14:58:45Z,2024-02-07T05:58:45Z,63.0,4.0,Cristian Santos,email,Bed may conference one thus national hotel.
+TKT-00620,CUST-422,Security,Low,2024-02-25T21:48:32Z,2024-02-26T18:48:32Z,21.0,7.0,Jamie Arnold,email,Late condition opportunity Republican dark lawyer.
+TKT-00621,CUST-058,Technical,Medium,2024-02-17T15:33:07Z,2024-02-19T05:33:07Z,38.0,3.0,Gina Moore,email,Food possible represent clearly run.
+TKT-00622,CUST-131,Integration,Medium,2024-02-12T00:51:14Z,2024-02-12T14:51:14Z,14.0,8.0,Michele Williams,chat,User reported issue with Box last guy model.. Please contact gacosta@example.net or (468)460-2592 for follow-up.
+TKT-00623,CUST-441,Performance,Critical,2024-02-14T04:41:19Z,2024-02-14T13:41:19Z,9.0,,Gina Moore,email,Shoulder anything final role.
+TKT-00624,CUST-105,Integration,Low,2024-02-19T09:54:03Z,2024-02-21T14:54:03Z,53.0,3.0,Jamie Arnold,email,User reported issue with Eye Congress together whether about she activity.. Please contact ifoley@example.org or +1-273-539-7767x199 for follow-up.
+TKT-00625,CUST-123,Feature Request,Medium,2024-02-03T15:14:12Z,2024-02-05T11:14:12Z,44.0,3.0,Allison Hill,chat,Everything pick star debate continue area give.
+TKT-00626,CUST-388,Onboarding,Low,2024-02-21T16:47:27Z,2024-02-22T01:47:27Z,9.0,,Gina Moore,chat,Take project study fear.
+TKT-00627,CUST-019,Performance,Low,2024-02-10T19:53:45Z,2024-02-12T20:53:45Z,49.0,3.0,Gina Moore,email,Any indicate condition public.
+TKT-00628,CUST-429,Account,Medium,2024-02-19T17:14:39Z,,,,Jamie Arnold,phone,Produce record occur no whom see growth along.
+TKT-00629,CUST-004,Feature Request,Low,2024-02-06T17:51:37Z,,,,Noah Rhodes,chat,Follow today star serve successful.
+TKT-00630,CUST-159,Technical,Medium,2024-02-07T19:33:54Z,2024-02-08T14:33:54Z,19.0,7.0,Daniel Wagner,chat,Fall care reason ever.
+TKT-00631,CUST-042,Technical,Medium,2024-02-15T21:32:07Z,2024-02-16T11:32:07Z,14.0,,Dylan Miller,chat,Including decide decade around number without more.
+TKT-00632,CUST-371,Technical,Low,2024-02-02T16:07:47Z,2024-02-04T02:07:47Z,34.0,2.0,Monica Herrera,phone,Low read value worry.
+TKT-00633,CUST-419,Account,Medium,2024-02-23T07:11:41Z,,,,Connie Lawrence,phone,Interview summer employee offer perhaps.
+TKT-00634,CUST-205,Technical,High,2024-02-18T22:54:57Z,2024-02-21T01:54:57Z,51.0,10.0,Gina Moore,email,Pass market role marriage.
+TKT-00635,CUST-182,Billing,High,2024-02-21T01:59:16Z,2024-02-22T14:59:16Z,37.0,10.0,Gabrielle Davis,email,This discussion fact cover.
+TKT-00636,CUST-303,Billing,High,2024-02-24T01:03:33Z,2024-02-24T16:03:33Z,15.0,8.0,Abigail Shaffer,email,Agency personal brother summer.
+TKT-00637,CUST-072,Feature Request,Medium,2024-02-17T04:24:39Z,2024-02-19T00:24:39Z,44.0,,Jamie Arnold,chat,Yourself increase free night point action cut example.
+TKT-00638,CUST-157,Integration,Medium,2024-02-28T03:14:54Z,2024-03-01T14:14:54Z,59.0,,Daniel Wagner,email,Film media food accept.
+TKT-00639,CUST-093,Security,Low,2024-02-11T16:47:12Z,2024-02-14T12:47:12Z,68.0,8.0,Daniel Wagner,portal,Game right pattern ahead compare form.
+TKT-00640,CUST-328,Performance,Medium,2024-02-28T17:08:58Z,2024-02-29T07:08:58Z,14.0,1.0,Dylan Miller,phone,Two look listen along career choice.
+TKT-00641,CUST-406,Security,Low,2024-02-06T14:10:57Z,,,,Jamie Arnold,phone,Throughout Mr friend six including sea strong.
+TKT-00642,CUST-286,Account,Low,2024-02-17T12:21:21Z,2024-02-17T21:21:21Z,9.0,6.0,Dylan Miller,chat,North question new affect officer.
+TKT-00643,CUST-285,Feature Request,High,2024-02-03T10:47:35Z,2024-02-05T23:47:35Z,61.0,10.0,Angie Henderson,phone,Son thousand government wide exactly all.
+TKT-00644,CUST-480,Account,Low,2024-02-20T11:38:16Z,2024-02-22T21:38:16Z,58.0,5.0,Jamie Arnold,phone,Phone success number hope organization ten.
+TKT-00645,CUST-417,Security,Low,2024-02-28T12:33:43Z,2024-03-01T22:33:43Z,58.0,,Noah Rhodes,email,Issue description: Relate fire all including market.. Call 984.221.5031 if urgent.
+TKT-00646,CUST-081,Billing,Low,2024-02-25T06:29:30Z,2024-02-25T22:29:30Z,16.0,1.0,Gina Moore,phone,Toward child future low them financial force.
+TKT-00647,CUST-073,Integration,Medium,2024-02-22T10:25:06Z,,,,Lisa Hensley,email,Customer escalation: State visit quality car.. Reach out at stevensjennifer@example.net.
+TKT-00648,CUST-203,Performance,High,2024-02-07T03:44:43Z,2024-02-10T01:44:43Z,70.0,2.0,Cristian Santos,email,Officer fine throughout.
+TKT-00649,CUST-132,Feature Request,High,2024-02-20T21:21:29Z,,,,Lisa Hensley,chat,Customer expert mother significant provide evening.
+TKT-00650,CUST-105,Integration,High,2024-02-22T18:16:40Z,2024-02-24T00:16:40Z,30.0,6.0,Allison Hill,portal,Event address performance method.
+TKT-00651,CUST-091,Onboarding,High,2024-02-03T19:02:52Z,2024-02-04T06:02:52Z,11.0,6.0,Jamie Arnold,phone,My near even wall sound.
+TKT-00652,CUST-483,Feature Request,Low,2024-02-09T02:15:49Z,,,,Cristian Santos,chat,Each author party full kitchen candidate likely.
+TKT-00653,CUST-207,Account,Low,2024-02-08T23:14:15Z,2024-02-10T04:14:15Z,29.0,6.0,Abigail Shaffer,email,Black approach interview.
+TKT-00654,CUST-270,Integration,Low,2024-02-22T00:26:59Z,2024-02-23T12:26:59Z,36.0,7.0,Connie Lawrence,phone,Support request: Relate through picture real.. Email tjensen@example.com for details.
+TKT-00655,CUST-316,Performance,Critical,2024-02-17T09:41:37Z,2024-02-19T16:41:37Z,55.0,4.0,Allison Hill,email,Like water century time election guy contain.
+TKT-00656,CUST-093,Security,Medium,2024-02-17T06:32:45Z,2024-02-20T01:32:45Z,67.0,,Lisa Hensley,email,Small think law air little goal.
+TKT-00657,CUST-357,Security,High,2024-02-16T18:14:25Z,2024-02-19T11:14:25Z,65.0,,Allison Hill,phone,Suffer executive give offer meet if research.
+TKT-00658,CUST-158,Onboarding,Medium,2024-02-14T20:00:41Z,2024-02-15T16:00:41Z,20.0,5.0,Abigail Shaffer,chat,For power society mouth.
+TKT-00659,CUST-364,Integration,Low,2024-02-02T04:13:56Z,2024-02-03T14:13:56Z,34.0,8.0,Daniel Wagner,portal,Opportunity draw during city lot at.
+TKT-00660,CUST-478,Feature Request,Medium,2024-02-27T18:02:20Z,2024-02-29T16:02:20Z,46.0,8.0,Daniel Wagner,portal,Customer escalation: Sport opportunity six itself skin.. Reach out at gilbertcaldwell@example.net.
+TKT-00661,CUST-349,Integration,Medium,2024-02-27T21:44:28Z,2024-03-01T00:44:28Z,51.0,8.0,Cristian Santos,email,Our rate others star.
+TKT-00662,CUST-063,Technical,High,2024-02-22T00:58:54Z,2024-02-22T23:58:54Z,23.0,2.0,Ryan Munoz,email,Management produce bed stage thought tough.
+TKT-00663,CUST-254,Onboarding,Medium,2024-02-09T10:52:38Z,2024-02-10T02:52:38Z,16.0,5.0,Gina Moore,email,Serious produce laugh.
+TKT-00664,CUST-228,Billing,Low,2024-02-01T19:55:53Z,,,,Cristian Santos,chat,Hope official crime race first.
+TKT-00665,CUST-410,Onboarding,Medium,2024-02-17T16:26:00Z,2024-02-18T17:26:00Z,25.0,6.0,Monica Herrera,portal,Some quickly truth view response trip wrong.
+TKT-00666,CUST-226,Feature Request,Medium,2024-02-05T08:38:14Z,2024-02-06T16:38:14Z,32.0,7.0,Lisa Hensley,portal,Account worry identify camera family hard nature apply.
+TKT-00667,CUST-202,Onboarding,Critical,2024-02-21T05:03:28Z,2024-02-23T16:03:28Z,59.0,5.0,Noah Rhodes,portal,Star grow technology tend dog reduce hour.
+TKT-00668,CUST-226,Billing,Low,2024-02-25T13:33:05Z,2024-02-27T18:33:05Z,53.0,6.0,Michele Williams,chat,Republican image itself deep community cause.
+TKT-00669,CUST-163,Onboarding,Medium,2024-02-06T01:50:44Z,2024-02-07T06:50:44Z,29.0,10.0,Michele Williams,phone,His under style child young prove care.
+TKT-00670,CUST-306,Feature Request,Low,2024-02-19T07:41:47Z,2024-02-19T18:41:47Z,11.0,,Allison Hill,email,Possible century those price.
+TKT-00671,CUST-129,Feature Request,Medium,2024-02-27T17:38:53Z,2024-02-28T05:38:53Z,12.0,2.0,Allison Hill,portal,Be politics indeed lay.
+TKT-00672,CUST-350,Billing,Medium,2024-02-06T15:15:27Z,2024-02-09T05:15:27Z,62.0,2.0,Daniel Wagner,chat,Us perhaps lawyer interest star his difficult interesting.
+TKT-00673,CUST-481,Feature Request,Medium,2024-02-20T06:53:15Z,2024-02-21T00:53:15Z,18.0,3.0,Gabrielle Davis,chat,Support request: Official suggest door.
+TKT-00674,CUST-389,Feature Request,Low,2024-02-05T07:40:46Z,2024-02-06T09:40:46Z,26.0,6.0,Allison Hill,portal,Especially unit office almost also low happy.
+TKT-00675,CUST-110,Security,Low,2024-02-26T04:37:26Z,,,,Allison Hill,portal,Loss real center rule worker worker single let.
+TKT-00676,CUST-070,Billing,Low,2024-02-11T16:13:35Z,2024-02-14T06:13:35Z,62.0,5.0,Lisa Hensley,portal,Model particular early piece.
+TKT-00677,CUST-271,Onboarding,Medium,2024-02-02T22:00:37Z,2024-02-05T02:00:37Z,52.0,10.0,Allison Hill,portal,Support request: Range much often party.. Email amanda07@example.com for details.
+TKT-00678,CUST-344,Technical,Low,2024-02-06T18:03:30Z,2024-02-07T02:03:30Z,8.0,10.0,Abigail Shaffer,chat,College appear wrong speak person expert bar measure.
+TKT-00679,CUST-265,Billing,Low,2024-02-15T07:26:48Z,,,,Noah Rhodes,chat,Support request: Edge past every either scientist.
+TKT-00680,CUST-474,Account,High,2024-02-16T10:30:14Z,,,,Allison Hill,chat,Company option character land space end red machine.
+TKT-00681,CUST-148,Technical,Medium,2024-02-23T05:32:28Z,2024-02-24T13:32:28Z,32.0,7.0,Monica Herrera,email,Television garden base certain value child many.
+TKT-00682,CUST-073,Account,Medium,2024-02-01T02:53:04Z,2024-02-01T19:53:04Z,17.0,9.0,Abigail Shaffer,chat,Side draw key point decision same.
+TKT-00683,CUST-172,Technical,Low,2024-02-13T11:49:00Z,2024-02-14T01:49:00Z,14.0,9.0,Abigail Shaffer,phone,Approach enough standard apply less live.
+TKT-00684,CUST-057,Security,Low,2024-02-10T00:02:35Z,2024-02-10T03:02:35Z,3.0,,Cristian Santos,portal,Second sell mouth here relationship listen certain.
+TKT-00685,CUST-351,Security,Medium,2024-02-18T19:07:36Z,2024-02-19T08:07:36Z,13.0,8.0,Dylan Miller,chat,Activity until large question which raise.
+TKT-00686,CUST-388,Onboarding,Medium,2024-02-26T18:23:56Z,2024-02-27T03:23:56Z,9.0,1.0,Abigail Shaffer,chat,Support request: Best most government.
+TKT-00687,CUST-028,Performance,Medium,2024-02-14T00:30:23Z,,,,Monica Herrera,chat,Particular present evening establish sort effort.
+TKT-00688,CUST-055,Billing,High,2024-02-10T22:14:17Z,2024-02-11T13:14:17Z,15.0,10.0,Connie Lawrence,email,Hospital significant see same open crime front real.
+TKT-00689,CUST-169,Billing,Medium,2024-02-26T00:46:30Z,,,,Abigail Shaffer,portal,Finish action across attack.
+TKT-00690,CUST-338,Security,Medium,2024-02-04T17:37:53Z,2024-02-04T20:37:53Z,3.0,7.0,Michele Williams,chat,Support request: Best billion land detail exist cover.
+TKT-00691,CUST-459,Billing,Medium,2024-02-22T14:22:29Z,2024-02-24T19:22:29Z,53.0,5.0,Dylan Miller,portal,People arm order.
+TKT-00692,CUST-163,Performance,High,2024-02-25T06:10:36Z,2024-02-26T14:10:36Z,32.0,3.0,Gabrielle Davis,email,Support request: Wear point remain build task.
+TKT-00693,CUST-029,Onboarding,High,2024-02-11T21:26:09Z,2024-02-11T22:26:09Z,1.0,,Lisa Hensley,chat,Heavy shake possible sort.
+TKT-00694,CUST-251,Performance,Medium,2024-02-19T08:37:26Z,2024-02-22T02:37:26Z,66.0,4.0,Cristian Santos,chat,To receive education level.
+TKT-00695,CUST-070,Account,Medium,2024-02-12T04:21:07Z,2024-02-14T03:21:07Z,47.0,6.0,Connie Lawrence,portal,Police two everybody interview.
+TKT-00696,CUST-280,Performance,Medium,2024-02-25T23:51:54Z,2024-02-28T14:51:54Z,63.0,,Gina Moore,phone,Either sit everyone artist home you.
+TKT-00697,CUST-198,Performance,Low,2024-02-20T20:24:14Z,2024-02-22T12:24:14Z,40.0,6.0,Noah Rhodes,phone,Support request: Western enough key man up.. Email fwhite@example.org for details.
+TKT-00698,CUST-257,Performance,Medium,2024-02-09T14:10:50Z,2024-02-10T20:10:50Z,30.0,,Ryan Munoz,chat,Support request: Number economy knowledge to.. Email denisesmith@example.org for details.
+TKT-00699,CUST-376,Performance,Critical,2024-02-16T15:04:15Z,2024-02-18T08:04:15Z,41.0,2.0,Ryan Munoz,phone,Support request: West stand lot note various grow.. Email richard15@example.net for details.
+TKT-00700,CUST-076,Security,Medium,2024-02-18T17:50:11Z,2024-02-20T16:50:11Z,47.0,6.0,Abigail Shaffer,portal,Just country along agent you draw home society.

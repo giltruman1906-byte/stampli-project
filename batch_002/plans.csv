@@ -1,0 +1,6 @@
+plan_id,plan_name,base_price,billing_model,api_limit,storage_gb,features,effective_date,is_active
+PLN-FREE,Free,0.0,flat,1000,1,"dashboard,basic_reporting",2024-02-01,True
+PLN-START,Starter,59.0,flat,10000,10,"dashboard,reporting,integrations,api_gateway",2024-02-01,True
+PLN-PRO,Professional,169.0,usage_plus_base,50000,50,"dashboard,reporting,integrations,api_gateway,workflow_builder,automation_rules,webhooks",2024-02-01,True
+PLN-BIZ,Business,449.0,usage_plus_base,200000,200,"dashboard,reporting,integrations,api_gateway,workflow_builder,automation_rules,webhooks,user_management,audit_log,custom_fields,bulk_import",2024-02-01,True
+PLN-ENT,Enterprise,1099.0,custom,1000000,1000,"dashboard,reporting,integrations,api_gateway,workflow_builder,automation_rules,webhooks,user_management,audit_log,custom_fields,bulk_import,export_tools,dedicated_support",2024-02-01,True

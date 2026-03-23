@@ -1,0 +1,501 @@
+customer_id,company_name,industry,region,country,city,signup_date,account_owner,status,email,phone,employee_count,annual_revenue_usd,notes,account_tier
+CUST-001,"Watts, Robinson and Nguyen",Financial Services,EMEA,United Kingdom,West Heatherberg,2023-03-09,Derek Zuniga,active,swood@chavez.org,4862959866,250,48759728,Star heart believe mention.,Silver
+CUST-002,Anderson-Hughes,Transportation,NA,United States,Meyerville,2022-09-04,Derek Zuniga,active,noahroberts@wilson.com,(784)669-6551,100,17541166,,Gold
+CUST-003,"Moore, Dixon and Chapman",Financial Services,NA,Canada,Robertview,2022-06-07,Cristian Santos,churned,turnerandrew@smith-campbell.com,209-212-4236x1962,100,13784258,Fly ground rise floor.,Gold
+CUST-004,Davis-Potter,Education,EMEA,United Kingdom,South Billshire,2022-09-03,Noah Rhodes,active,cynthiahernandez@valentine.com,+1-900-928-4851x6752,250,45658356,,Bronze
+CUST-005,Stevens Ltd,Legal,EMEA,Netherlands,Bryanside,2022-08-20,Lisa Jackson,active,qduncan@hughes.com,504-578-0596,100,22649017,Method kind drug night respond government game.,Silver
+CUST-006,"Gill, Allen and Pittman",Healthcare,NA,Mexico,Davidside,2023-01-20,Lisa Hensley,churned,laura83@gill.com,433.988.8273x0161,500,113651111,Week argue nature view.,Bronze
+CUST-007,"Morgan, Skinner and Nelson",Manufacturing,EMEA,France,West Robertville,2022-11-14,Angie Henderson,active,karen80@williams.com,+1-888-839-4956x0321,100,19930945,,Silver
+CUST-008,Barton-Adams,Transportation,NA,Mexico,Foleystad,2023-02-06,Derek Zuniga,active,heatherwang@miller-stewart.net,725-815-5331,50,11865825,Trip while really station.,Silver
+CUST-009,"Day, Jordan and Perez",Education,NA,United States,Port Wayne,2023-01-21,Lisa Jackson,suspended,johnchaney@scott.info,001-688-259-5646x0108,50,4562603,,Silver
+CUST-010,Lowe-Harding,Legal,NA,Mexico,Brianhaven,2023-10-25,Gina Moore,active,xwyatt@johnson-taylor.biz,(557)300-8670,50,6251481,,Silver
+CUST-011,Jackson and Sons,Media & Entertainment,EMEA,Italy,South Wayne,2023-08-13,Cristian Santos,trial,hgiles@gross-luna.com,(952)540-2053,50,12477269,,Bronze
+CUST-012,Martinez LLC,Financial Services,NA,United States,South Angela,2022-09-21,Angie Henderson,active,fwu@robinson-rivera.biz,730.678.7918,250,37941798,,Silver
+CUST-013,Nelson-Thomas,Transportation,EMEA,Netherlands,East Edwardport,2023-11-24,Daniel Wagner,active,burgesskevin@moon-nielsen.info,+1-666-286-5680,500,40975886,,Gold
+CUST-014,Palmer Inc,Media & Entertainment,EMEA,France,South Deniseport,2023-05-15,Gabrielle Davis,active,gzimmerman@montgomery-rogers.com,001-830-293-0982,10,805517,,Silver
+CUST-015,Cruz and Sons,Retail,EMEA,Spain,West Brittanytown,2022-09-17,Abigail Shaffer,trial,williedavila@riggs-kim.biz,9286956619,250,41575672,Cause central herself year spend various memory computer.,Bronze
+CUST-016,Diaz-Holmes,Energy,EMEA,Spain,East Joanna,2023-11-26,Jamie Arnold,trial,blakecole@harding-trujillo.com,896.749.1073x717,50,4165552,,Silver
+CUST-017,Garcia Ltd,Energy,APAC,Singapore,North Sarah,2023-02-01,Brian Ramirez,active,tjohnson@johnson.info,(778)642-9528x1150,1000,94561086,,Gold
+CUST-018,Williams Ltd,Real Estate,APAC,South Korea,Justinberg,2022-10-07,Holly Wood,active,jerry77@hester-williams.com,+1-222-360-3062x24928,1000,108071583,,Bronze
+CUST-019,Hernandez-Finley,Energy,NA,United States,Whiteborough,2023-12-05,Jamie Arnold,active,kelly07@howard-sullivan.com,(450)481-2506,10,1329917,,Bronze
+CUST-020,"Powell, Bullock and Rojas",Education,EMEA,United Kingdom,North Tara,2023-02-09,Lisa Jackson,active,patriciacollins@kelly.com,+1-721-907-7805x9231,10,1741666,Affect huge vote today gun too administration.,Silver
+CUST-021,Lawson-Young,Technology,NA,Mexico,Wallaceview,2022-07-31,Gina Moore,active,ykeller@miller.com,001-590-832-5349x0092,500,46022874,Police maintain deal today along game.,Silver
+CUST-022,Walton-Howe,Manufacturing,NA,Mexico,Martinezfurt,2022-10-14,Brian Ramirez,churned,harrisjoseph@pratt.com,467-330-1601,100,12130953,,Bronze
+CUST-023,"Williams, Chapman and Robinson",Media & Entertainment,NA,United States,Robertshaven,2023-08-16,Daniel Wagner,active,scottrice@mcintosh.com,387-443-7904,50,10197144,Say career rate by real happen present.,Platinum
+CUST-024,"Hall, Weeks and Reid",Manufacturing,EMEA,Sweden,West Ryanbury,2022-09-20,Connie Lawrence,active,ycarter@davis.com,882.415.2678x081,100,10383099,Agency act deal life past protect.,Silver
+CUST-025,"Webb, Torres and Carter",Legal,NA,United States,North Katiemouth,2023-08-28,Derek Zuniga,suspended,madams@freeman-ramirez.com,+1-802-240-2721x1743,10,1908646,,Gold
+CUST-026,Santos-Solomon,Real Estate,APAC,Japan,Everetthaven,2022-11-18,Noah Rhodes,active,lawsonjohn@baker-dalton.com,385.428.1087x150,10,1481768,Single above store key heart.,Gold
+CUST-027,Haynes PLC,Real Estate,NA,Canada,North Laurieland,2023-02-27,Derek Zuniga,trial,mark86@poole-bradley.net,588-572-6616x42324,50,9921027,,Gold
+CUST-028,Garcia PLC,Technology,NA,United States,West Jacquelinemouth,2023-03-31,Monica Herrera,active,marcorodriguez@leonard.biz,361.285.4671,100,17217318,Generation world agent late shoulder building sound.,Silver
+CUST-029,"Serrano, Anderson and Galvan",Transportation,EMEA,Spain,Williamtown,2023-11-26,Carla Gray,active,tonya34@gonzalez.org,280.785.7252,10,1115902,Air possible couple chance thousand join watch woman.,Gold
+CUST-030,"Smith, Munoz and Moore",Energy,APAC,India,Port Brookeburgh,2022-10-01,Carla Gray,trial,holly95@singh-jennings.org,(953)362-0370,10,1810682,Before fish adult indicate effect.,Bronze
+CUST-031,Wood-Brooks,Retail,EMEA,Spain,Davidfort,2023-11-18,Gina Moore,active,stevenwillis@powell-mason.info,904-860-6586,10,2017526,Talk visit notice dark.,Bronze
+CUST-032,"Foley, Marshall and Yates",Healthcare,NA,Mexico,West Davidport,2023-04-04,Lisa Jackson,active,nancypeck@wilson-solis.net,972-454-8908x023,10,1855970,,Platinum
+CUST-033,"Fisher, Adams and Carney",Retail,NA,United States,Richardsmouth,2023-11-01,Jamie Arnold,active,danielwillie@howe.com,651-844-7597,500,114737970,Her must raise.,Gold
+CUST-034,"Gonzalez, Gonzalez and Thomas",Legal,NA,Mexico,Stevenfurt,2023-04-06,Derek Zuniga,active,reginabrown@campbell.info,815.843.5800,100,19353674,Forward lead as pick I.,Platinum
+CUST-035,Sanchez Ltd,Healthcare,EMEA,Germany,Markbury,2023-02-26,Ryan Munoz,active,lynnwilson@benton-key.com,(888)404-0723,250,26606536,,Bronze
+CUST-036,Morris-Miller,Retail,EMEA,Germany,North Kevin,2023-02-26,Angie Henderson,active,julia02@morales.info,(280)532-5656x2255,500,111918815,,Silver
+CUST-037,Lee Group,Financial Services,APAC,Australia,South Michael,2022-06-04,Dylan Miller,active,johncummings@moore-bell.com,874-326-7591,100,12453239,,Gold
+CUST-038,Chan-Tucker,Non-Profit,NA,United States,Phillipchester,2022-09-23,Jamie Arnold,active,michael65@pierce.com,+1-406-532-8902x792,500,86375174,,Gold
+CUST-039,Gomez-Thompson,Technology,NA,United States,Morganside,2022-07-13,Gina Moore,active,bmendoza@hernandez.org,5546534291,500,57856505,,Bronze
+CUST-040,"Hansen, White and Garrison",Non-Profit,NA,Mexico,Port Tracy,2023-07-22,Connie Lawrence,trial,tanya22@green.info,001-713-748-2171,10,2380797,,Bronze
+CUST-041,Miller-Montes,Education,APAC,India,Anthonymouth,2022-06-26,Gina Moore,active,andersonaustin@lewis.com,(725)848-3737x20007,250,37497809,Rich nearly their local someone that suggest.,Platinum
+CUST-042,Hall-Lozano,Real Estate,EMEA,United Kingdom,Robinton,2023-06-27,Dylan Miller,trial,qsmith@whitaker-stevens.net,001-259-228-4876x59327,10,2188197,,Bronze
+CUST-043,Williams PLC,Manufacturing,APAC,Japan,Lake Christina,2023-01-15,Angie Henderson,active,floressonia@murray.org,868.383.9997,50,6368126,,Platinum
+CUST-044,Vega Inc,Transportation,NA,Mexico,New Marymouth,2023-11-04,Gabrielle Davis,active,mackjasmine@welch.com,916.870.9335x02641,50,4234604,Family look want management.,Silver
+CUST-045,Simmons-James,Media & Entertainment,APAC,Singapore,Lake Jaime,2022-07-10,Michele Williams,active,campbellmatthew@thornton.com,6464178913,50,10684639,,Silver
+CUST-046,"Hawkins, Miller and Johnson",Technology,EMEA,Netherlands,Beltranmouth,2024-01-12,Derek Zuniga,active,connierose@smith.com,629-427-6562,250,20071879,,Silver
+CUST-047,Marshall LLC,Healthcare,APAC,Hong Kong,Port Catherineview,2022-12-19,Carla Gray,active,maxbrown@cook-clark.com,992-279-0329,1000,236531045,,Silver
+CUST-048,"Nguyen, Luna and Jones",Legal,APAC,Hong Kong,Lake Christopher,2023-04-04,Ryan Munoz,active,cynthia57@beasley.com,(418)220-6571x288,50,7420403,,Silver
+CUST-049,"Jones, Martinez and Roberts",Financial Services,NA,Mexico,New Geraldburgh,2023-06-24,Derek Zuniga,churned,yavery@alexander.com,+1-757-833-6117x846,100,13116147,,Silver
+CUST-050,"Good, Delgado and Tate",Energy,NA,United States,Blackside,2023-08-15,Dylan Miller,churned,lauren19@ruiz.org,+1-350-400-2929x92672,100,15904799,,Silver
+CUST-051,Jones-Cox,Retail,EMEA,Sweden,Morastad,2022-11-21,Monica Herrera,churned,davisdylan@martinez-martin.com,+1-681-695-6113x372,100,18759994,Defense should TV ask collection truth.,Bronze
+CUST-052,Costa Inc,Manufacturing,APAC,Japan,North Madison,2023-04-14,Brian Ramirez,active,ryan07@crane-patterson.com,+1-206-806-5753,10,878563,,Bronze
+CUST-053,Kirby-Decker,Energy,EMEA,Netherlands,South Anthony,2023-07-30,Brian Ramirez,trial,burkecrystal@williams.net,+1-431-854-6522x265,10,1983802,,Platinum
+CUST-054,"King, Barrett and Rodriguez",Healthcare,NA,Mexico,Leonardfurt,2022-06-06,Holly Wood,trial,codypeterson@wolfe.com,(951)745-5428x09787,250,29300748,,Platinum
+CUST-055,Barker LLC,Real Estate,EMEA,Sweden,South Linda,2022-10-03,Carla Gray,active,sabrina09@grant.com,001-845-501-7715x3424,100,24794171,,Gold
+CUST-056,Roy and Sons,Transportation,EMEA,Netherlands,Baileyton,2023-10-30,Brian Ramirez,active,robert74@montoya.com,(805)400-6450x7382,50,5352842,,Gold
+CUST-057,"Porter, Lopez and Montgomery",Transportation,EMEA,Sweden,Jamesburgh,2023-03-11,Dylan Miller,active,johnwolf@daniel-schmidt.net,897-536-9935,50,6033589,Left condition note bar.,Silver
+CUST-058,"Rice, Schroeder and Harrison",Transportation,NA,Canada,South Spencer,2023-05-10,Lisa Hensley,active,janicedennis@hunter-rodriguez.com,474-403-5343,10,1056412,,Bronze
+CUST-059,Orozco LLC,Transportation,EMEA,United Kingdom,New Sandra,2023-07-30,Michele Williams,active,gwilliams@guzman.info,001-535-971-4321x785,50,4529258,,Platinum
+CUST-060,Allen-Moody,Energy,EMEA,Italy,Lake Christina,2022-06-21,Jamie Arnold,trial,angelaguerrero@cruz.biz,001-990-588-9826,50,4050116,Campaign special ready participant kid may develop.,Silver
+CUST-061,"Fox, Henry and Jenkins",Transportation,NA,Canada,Villaborough,2023-12-04,Brian Ramirez,churned,gainesjocelyn@reyes.com,412.839.0031x2984,250,58156982,Rich indeed skill occur step eat hard oil.,Gold
+CUST-062,"Montgomery, Wells and King",Legal,NA,United States,Port Jamesbury,2023-07-04,Dylan Miller,active,trivera@roman.com,621-815-5039,250,50777708,,Bronze
+CUST-063,Valentine-Jackson,Energy,APAC,South Korea,Beverlyville,2022-06-28,Michele Williams,trial,collinskayla@carter-horn.com,001-621-665-2696x77329,100,8460734,Upon yourself person bring.,Silver
+CUST-064,"Hubbard, Hobbs and Cherry",Manufacturing,NA,United States,Smithhaven,2023-02-22,Lisa Hensley,active,zbrown@ballard-lopez.info,(967)743-7472x245,50,6868754,Explain former ten cause.,Silver
+CUST-065,Johnson Ltd,Real Estate,APAC,India,New Bonnie,2023-02-14,Jamie Arnold,suspended,tolson@coleman.com,449-504-5329x328,10,1717012,Box what as could leader because.,Silver
+CUST-066,Henderson-Foley,Manufacturing,NA,Mexico,Lake Lisa,2022-07-12,Cristian Santos,churned,ychandler@cordova.com,(335)731-3186,10,834646,Defense they party tree second nor.,Platinum
+CUST-067,Johnson-Aguirre,Real Estate,NA,United States,Jeremymouth,2023-12-30,Connie Lawrence,trial,garciawayne@hart-stone.com,284.762.4885x182,100,21037267,,Platinum
+CUST-068,"Harris, George and White",Financial Services,APAC,Hong Kong,Nortonbury,2022-09-26,Allison Hill,churned,rolson@weaver.com,001-601-781-2708x6934,1000,98376787,,Silver
+CUST-069,Hunter-Chaney,Manufacturing,EMEA,Netherlands,West Troy,2023-07-12,Gina Moore,trial,zbutler@soto.biz,+1-732-976-6463,10,1974044,Finish set draw.,Platinum
+CUST-070,"Hayes, Brown and Coleman",Energy,EMEA,Sweden,Whitakershire,2022-10-02,Michele Williams,churned,holly62@walker-gibson.biz,+1-737-874-5339x278,250,34756160,,Gold
+CUST-071,"Ross, Smith and Jones",Media & Entertainment,NA,Mexico,Lake Mikaylaview,2023-05-16,Jamie Arnold,active,mendozamichael@macias-nash.com,(594)974-4656,250,24485402,,Silver
+CUST-072,Crane-Cross,Non-Profit,APAC,Hong Kong,New Corey,2022-11-04,Carla Gray,active,conniewilliams@pollard.com,+1-655-711-7619,100,19057776,,Bronze
+CUST-073,"Melton, Brady and Rangel",Non-Profit,EMEA,Netherlands,Jamesville,2023-09-20,Gina Moore,active,cookmonique@esparza.com,408.482.2042x7932,100,13479177,,Silver
+CUST-074,"Robinson, Pollard and Thomas",Energy,NA,Canada,Alanville,2023-02-05,Allison Hill,churned,timothywebb@hill.biz,001-317-815-8570,100,14442818,,Silver
+CUST-075,Jackson-Ryan,Retail,NA,Canada,East Frank,2023-01-04,Gabrielle Davis,active,jcameron@miles-baldwin.org,457-802-5612x66660,50,11482719,,Gold
+CUST-076,"White, Figueroa and Stark",Media & Entertainment,EMEA,Germany,West Corey,2022-08-27,Brian Ramirez,active,kelly04@blackwell-franklin.net,+1-659-382-9803x926,50,10444399,,Silver
+CUST-077,"Charles, Brown and Short",Media & Entertainment,NA,United States,Hectorside,2022-09-04,Lisa Jackson,active,brodriguez@maynard.com,579.406.4605,100,13205502,,Gold
+CUST-078,Smith-Morse,Transportation,EMEA,France,East Sierra,2023-08-10,Gabrielle Davis,trial,ydavis@walker.com,(321)854-2444x338,50,9974267,,Silver
+CUST-079,Mullen and Sons,Retail,NA,Mexico,East Brandyfurt,2022-12-15,Connie Lawrence,active,christinamills@mitchell-allison.biz,5964207657,100,20957223,Consumer size fly door interview major.,Bronze
+CUST-080,"Morris, Gutierrez and Thomas",Healthcare,EMEA,France,New Monica,2023-11-20,Jamie Arnold,active,blairkathleen@beltran-caldwell.org,(714)673-8662,250,32590474,Available space build policy people model treatment.,Gold
+CUST-081,Wood-Huynh,Technology,NA,Mexico,West Christopherchester,2022-10-08,Cristian Santos,active,daniel06@hart.com,385-232-0619x61057,100,19856095,,Silver
+CUST-082,Estrada and Sons,Real Estate,EMEA,United Kingdom,Amyburgh,2022-06-13,Noah Rhodes,active,butlerkristin@stewart.com,(808)579-6033x16532,50,6896000,Mrs senior color lawyer relationship painting.,Silver
+CUST-083,"Rodriguez, Carroll and Mendoza",Healthcare,APAC,Australia,East Maria,2022-08-06,Cristian Santos,active,ashley25@lawson.com,927-486-1442,100,19669667,Value tough anyone religious plan sure agreement.,Bronze
+CUST-084,"Bowman, Hammond and Thompson",Healthcare,EMEA,France,New Caitlinbury,2022-08-27,Carla Gray,trial,thomaskennedy@byrd.info,848-825-3760,100,15074958,,Silver
+CUST-085,Mendoza-Black,Real Estate,NA,Mexico,New Beverlyville,2023-06-25,Michele Williams,active,johnsonshelby@perez-leonard.com,(905)448-1611x9550,50,9002463,,Bronze
+CUST-086,"Lawson, Krause and Singleton",Manufacturing,EMEA,Spain,South William,2022-09-10,Angie Henderson,trial,timothygalloway@little-king.org,001-784-911-0451x726,100,12498984,Management money including film effect treatment.,Silver
+CUST-087,Thomas and Sons,Real Estate,NA,United States,Brandonfurt,2022-11-08,Noah Rhodes,active,markwilkins@zimmerman.com,+1-849-232-7972x14141,100,15988512,Oil use drop sister education.,Platinum
+CUST-088,Murphy-Thomas,Manufacturing,EMEA,Italy,Nelsonmouth,2023-09-08,Lisa Jackson,active,pjohnson@morgan.net,+1-918-835-0605x20765,500,106965382,,Platinum
+CUST-089,Miller-Williams,Legal,APAC,India,Nathanhaven,2022-09-26,Cristian Santos,active,longandre@bailey.com,001-523-887-7338x027,10,1251575,Across thousand market job.,Bronze
+CUST-090,Montoya Inc,Real Estate,NA,Canada,Mooreton,2024-01-04,Lisa Hensley,trial,rachaelparker@johnson.info,(796)837-9898,10,1970752,,Silver
+CUST-091,"Zamora, Gonzalez and Norton",Technology,EMEA,Netherlands,Gomezmouth,2023-08-23,Carla Gray,active,nicole90@miller.com,206.886.2142,500,102435383,Upon not Congress audience where perform.,Silver
+CUST-092,"Morris, Herman and Murphy",Technology,NA,Mexico,Millsside,2024-01-11,Gabrielle Davis,active,anthonyhines@ponce.info,698.370.1484,5000,971439346,,Silver
+CUST-093,"Perkins, Walsh and Bowman",Real Estate,EMEA,Germany,Colleenshire,2023-09-25,Lisa Jackson,active,tony17@smith-collier.com,+1-245-654-4944x4034,500,55426577,,Bronze
+CUST-094,"Arroyo, Miller and Baker",Education,APAC,Australia,Ricechester,2023-09-25,Connie Lawrence,active,bduran@taylor.com,001-390-633-9495x670,50,4889099,,Gold
+CUST-095,"Gallagher, Johnson and Mccormick",Transportation,EMEA,France,East Robertborough,2023-07-16,Gabrielle Davis,suspended,tracysmith@yoder-robertson.biz,772.568.8509x02752,10,949701,,Bronze
+CUST-096,Ali-Solis,Technology,APAC,India,South Shannon,2023-11-09,Michele Williams,suspended,jared43@thomas.com,431-678-1232x50530,100,17224091,Instead card writer hundred modern research more option.,Silver
+CUST-097,"Bennett, Johnson and Serrano",Technology,EMEA,Spain,Lake Christinaport,2023-10-24,Ryan Munoz,active,foxpamela@bailey-gillespie.com,+1-743-794-7258x082,10,1733673,,Silver
+CUST-098,Hammond PLC,Energy,EMEA,United Kingdom,North Josephside,2022-06-30,Ryan Munoz,trial,sheltonjeremy@lopez.biz,802-539-3674x0886,250,50165770,,Bronze
+CUST-099,Brown-Wallace,Healthcare,EMEA,United Kingdom,New Kristenburgh,2023-01-17,Cristian Santos,trial,rsmith@hoffman.biz,748.759.7822,50,4998462,,Bronze
+CUST-100,"Walker, Francis and King",Real Estate,EMEA,Spain,Martinport,2023-03-07,Derek Zuniga,active,michael40@carter.net,798.307.3158,5000,607171270,Low stand source build.,Bronze
+CUST-101,Dawson Inc,Financial Services,NA,Mexico,Port Stephanie,2023-11-03,Michele Williams,churned,perezjohn@ortiz.com,001-346-614-9769,500,63481029,,Silver
+CUST-102,Cox-Moore,Retail,EMEA,France,Johnsonland,2022-06-03,Brian Ramirez,active,lisadavis@crawford-young.com,660.271.3843,250,44646743,,Platinum
+CUST-103,Becker-Moreno,Transportation,NA,Canada,Bucktown,2023-05-20,Abigail Shaffer,active,ujohnson@bauer.info,001-984-214-2095,50,11929244,,Silver
+CUST-104,"Adams, Scott and Solomon",Media & Entertainment,NA,Canada,East Cindy,2023-01-26,Lisa Hensley,trial,moorejulian@reed.com,+1-464-986-2451x00706,10,2065998,,Silver
+CUST-105,"Lee, Riley and Robinson",Technology,EMEA,Sweden,South Scott,2022-11-03,Monica Herrera,active,vwhite@perry-stevens.com,951.465.5593x330,10,2441101,,Bronze
+CUST-106,"Miller, Reese and Lopez",Real Estate,APAC,India,Warnerton,2022-09-11,Cristian Santos,active,sspence@rodriguez-jimenez.com,289-636-5690x654,10,1045064,Week or nor.,Silver
+CUST-107,"Jones, Adams and Wright",Media & Entertainment,EMEA,France,North Johnathanberg,2023-05-13,Derek Zuniga,active,brianpratt@williams.com,772.916.1206,100,22480009,,Bronze
+CUST-108,Hester-Jenkins,Technology,NA,Mexico,Paulaborough,2023-10-13,Ryan Munoz,trial,kevinmendoza@fisher.com,247-260-2275x14752,100,11991094,,Bronze
+CUST-109,Owen PLC,Non-Profit,EMEA,Netherlands,Singletonborough,2022-09-09,Ryan Munoz,churned,teresa59@murray.com,416.442.9581x224,500,77712676,,Silver
+CUST-110,Morgan Inc,Media & Entertainment,NA,United States,Burtonfurt,2023-03-28,Lisa Jackson,active,laurenweber@sims.com,001-779-927-3314x89094,10,1702982,,Platinum
+CUST-111,Baker-Lewis,Media & Entertainment,NA,United States,Jonesview,2022-08-20,Lisa Jackson,active,khuang@hawkins.com,685.293.3369x91435,100,12094106,Reach them think marriage worry American.,Platinum
+CUST-112,Riley Ltd,Technology,NA,Canada,Port Sandra,2023-09-14,Ryan Munoz,active,ntucker@romero-mcclure.com,(369)607-8068x6779,500,79546526,,Bronze
+CUST-113,Martin-Johnson,Retail,NA,Canada,Tonyachester,2023-05-20,Gabrielle Davis,trial,lpatrick@owen-santos.com,001-208-512-2311,100,15213251,,Silver
+CUST-114,Miller-Tucker,Media & Entertainment,NA,Canada,Butlerbury,2023-10-08,Ryan Munoz,active,edwin22@hoffman.com,(720)370-8660,100,17771802,Small anything suffer certain three.,Gold
+CUST-115,King Inc,Legal,APAC,India,Walkertown,2023-03-09,Carla Gray,active,baileyjesse@davis.com,9164664816,250,61378119,,Bronze
+CUST-116,Holland Ltd,Education,APAC,Singapore,Port Curtis,2023-01-22,Gabrielle Davis,active,velliott@murray.com,+1-540-201-9840,10,1123224,,Bronze
+CUST-117,Barrett-Miller,Legal,EMEA,Italy,Jacksonmouth,2022-10-19,Dylan Miller,active,zacharygonzalez@smith.info,(504)863-7645x4530,100,13251859,List arrive she contain suffer name eat.,Platinum
+CUST-118,"Hall, Ferguson and Combs",Education,NA,United States,New Matthewburgh,2022-09-01,Cristian Santos,trial,jennifer87@solomon.com,615-603-0668x574,250,27464702,,Gold
+CUST-119,"Frazier, Smith and Harvey",Retail,APAC,Singapore,New Gary,2023-11-26,Brian Ramirez,active,sjohnson@dyer.com,791.997.0048x4673,250,30921228,,Gold
+CUST-120,"Green, Hernandez and Williams",Healthcare,NA,Canada,Lake Rebeccaborough,2022-09-26,Lisa Hensley,active,robertcarrillo@cole-johnson.com,(558)417-9041x26700,10,2443050,,Silver
+CUST-121,"Blackburn, Smith and Rodriguez",Technology,APAC,Singapore,Velezburgh,2022-09-01,Jamie Arnold,churned,yshields@robinson-harris.com,(929)301-5201,50,5050504,,Bronze
+CUST-122,"Stone, Ramos and Diaz",Education,EMEA,Spain,Lake Kevinview,2023-06-26,Allison Hill,suspended,yburns@miller.com,001-332-345-1791,10,1197497,,Bronze
+CUST-123,"Richardson, Barton and Campbell",Transportation,APAC,Singapore,North Suzannechester,2023-01-13,Ryan Munoz,active,snydersheila@barry-nunez.com,001-270-831-6296,250,58648974,,Silver
+CUST-124,"Bennett, Sanchez and Mendoza",Real Estate,NA,United States,Lake Carrie,2022-07-09,Derek Zuniga,active,csmith@manning-mcmahon.com,+1-932-407-1361x02493,10,1199160,Later ever miss door science walk.,Gold
+CUST-125,Baker Group,Non-Profit,NA,Mexico,Port Christopher,2023-12-06,Daniel Wagner,active,xmorris@bowen.biz,+1-473-301-1246x084,250,57630085,,Silver
+CUST-126,Smith PLC,Manufacturing,EMEA,France,New Mikeburgh,2022-07-04,Jamie Arnold,churned,amandagonzalez@hunt.org,+1-961-216-8555x92684,50,12079718,Decide rather choice.,Gold
+CUST-127,Griffin-Larson,Retail,EMEA,Spain,Aprilburgh,2023-06-03,Dylan Miller,active,schmidtmariah@adams.org,5277037208,10,1007671,No issue commercial course around.,Gold
+CUST-128,"Snyder, Hendricks and Ramirez",Legal,NA,Mexico,Reneeshire,2022-06-22,Lisa Jackson,active,leonard35@carpenter-robinson.com,(784)497-1859x3027,10,1014070,Not protect follow side my road see.,Silver
+CUST-129,"Rodriguez, Riley and Allen",Manufacturing,APAC,South Korea,Mcgrathville,2022-12-30,Carla Gray,active,lmclean@forbes-morris.com,(423)228-9331,50,5254210,Page population base former huge brother ready.,Silver
+CUST-130,Lucas PLC,Media & Entertainment,APAC,Japan,Jamesport,2022-10-12,Cristian Santos,active,joy67@ramos.com,749.716.0823x874,10,2272961,East including approach look.,Silver
+CUST-131,"Simmons, Hayes and Mendoza",Non-Profit,EMEA,Germany,Tonyhaven,2023-04-28,Holly Wood,active,pamela36@joseph.info,(473)731-9907,10,2060920,Better hit fill everyone heavy accept.,Silver
+CUST-132,"Jackson, Harrison and Anderson",Healthcare,NA,Canada,South Tonyafort,2023-06-06,Carla Gray,active,carlos31@cooper.org,255-695-7081,50,5883172,Material article hear left four staff.,Gold
+CUST-133,"Jimenez, Johnson and Sellers",Legal,EMEA,Sweden,Youngshire,2023-11-16,Brian Ramirez,active,vickilarson@jimenez.info,001-504-992-8427x87759,1000,90340319,,Gold
+CUST-134,Burke-Kennedy,Real Estate,NA,United States,North Katrinabury,2023-10-16,Carla Gray,churned,rivaspaul@burton-duncan.com,7048955744,10,937343,Why think conference trip strong ready add.,Silver
+CUST-135,Campbell Group,Media & Entertainment,NA,Mexico,South Robert,2023-12-14,Dylan Miller,churned,jennastokes@patterson.org,001-344-311-1856x5876,5000,850973311,,Gold
+CUST-136,"Deleon, Sherman and Phillips",Legal,NA,Mexico,New Patriciabury,2022-09-26,Abigail Shaffer,trial,samantha74@miller.com,+1-934-373-2886,500,86863494,,Silver
+CUST-137,Sandoval Ltd,Media & Entertainment,APAC,India,North Makayla,2023-05-14,Michele Williams,suspended,calhounkevin@silva.com,001-634-458-7252,50,4808229,,Silver
+CUST-138,Lee LLC,Healthcare,NA,United States,North Emily,2023-09-29,Jamie Arnold,active,david87@greene.com,3026312687,10,964159,,Silver
+CUST-139,Johnson-Young,Legal,EMEA,Spain,North Matthewmouth,2023-12-28,Michele Williams,active,karenmolina@cole.com,830-704-5444,10,1401116,,Gold
+CUST-140,Cowan-Mora,Energy,EMEA,France,Gomezbury,2023-04-16,Brian Ramirez,active,michael41@adams.com,513-250-1292,100,10630412,Doctor leader can mother population question close here.,Silver
+CUST-141,Gillespie Group,Retail,NA,Mexico,North Julietown,2023-06-12,Derek Zuniga,active,kevin31@atkins.com,269-893-8070,100,21722763,,Bronze
+CUST-142,Williams-Hernandez,Legal,APAC,South Korea,Alanmouth,2023-12-23,Connie Lawrence,active,matthew98@bruce.com,(484)352-5315,250,31366528,Authority short five win size organization available.,Bronze
+CUST-143,Medina-Ward,Financial Services,EMEA,France,East Ericshire,2023-05-26,Cristian Santos,active,zalvarez@smith.com,001-446-880-3648x947,100,14813333,,Bronze
+CUST-144,Pacheco-Anderson,Media & Entertainment,APAC,Australia,Donnaside,2023-11-26,Ryan Munoz,active,eferrell@martinez.net,375-707-6772,50,5337978,,Silver
+CUST-145,"Miller, Oconnell and Ramsey",Financial Services,EMEA,Spain,Lynnshire,2022-08-26,Angie Henderson,trial,brandijohnson@dunn.info,001-729-875-3534x99571,10,1850324,Organization citizen such politics remain which.,Gold
+CUST-146,Munoz-Montgomery,Manufacturing,EMEA,Netherlands,West Robin,2023-08-27,Michele Williams,active,chadadams@orr-evans.com,208-777-5134,250,24837244,Day little thought or current us.,Platinum
+CUST-147,"Lopez, Peterson and Duncan",Retail,EMEA,Spain,Wilkinsview,2023-10-12,Carla Gray,active,barbarawilson@navarro-rice.com,001-323-944-0619,10,1471947,Deal how sign difficult picture issue talk.,Silver
+CUST-148,Frank-Barton,Retail,NA,United States,East Karenstad,2022-10-19,Michele Williams,churned,jeffreylong@moore.net,7985185460,50,4065704,Really team low tend north nature.,Bronze
+CUST-149,"Anderson, Clark and Smith",Legal,NA,Mexico,Port Richard,2023-01-22,Noah Rhodes,active,hbrown@sullivan.biz,(701)534-0885x044,250,23063208,,Gold
+CUST-150,Ward Ltd,Energy,NA,United States,Marissaland,2023-04-17,Ryan Munoz,active,bparker@bullock-ramirez.com,(922)862-2473x454,50,9441204,Dog player edge word method small education price.,Silver
+CUST-151,Pacheco LLC,Energy,NA,Canada,Mercadoburgh,2022-11-23,Jamie Arnold,suspended,angela83@collins.net,+1-693-437-8845x85833,50,9861685,Wall involve speech practice view.,Bronze
+CUST-152,"Cook, Klein and Gordon",Transportation,APAC,Japan,New Elijahfurt,2023-08-21,Monica Herrera,active,jody67@jordan.com,+1-326-519-3818x2574,10,2279891,Time I leader kind detail.,Gold
+CUST-153,Hale Inc,Transportation,EMEA,United Kingdom,Williamsborough,2023-11-05,Jamie Arnold,active,raymondmay@hart.com,318.286.2131,100,23400686,,Gold
+CUST-154,Thomas PLC,Financial Services,APAC,Hong Kong,Port Sarahchester,2022-10-30,Cristian Santos,active,lauren42@ramirez.com,+1-245-896-1978x942,50,5474741,,Platinum
+CUST-155,Higgins-Cruz,Energy,EMEA,Germany,East Frankborough,2023-10-19,Lisa Jackson,active,williamstodd@boyle.biz,692.929.7678,250,39078473,,Gold
+CUST-156,Moran-Sanchez,Healthcare,APAC,Singapore,New Jenniferville,2023-04-20,Gabrielle Davis,active,hbryant@gonzalez-white.biz,001-209-578-9954x53991,50,9366773,,Silver
+CUST-157,Gardner-Hunter,Technology,NA,United States,Julieview,2023-04-14,Angie Henderson,active,alexander85@allen-berry.net,(808)796-7837x2985,10,2213884,,Silver
+CUST-158,Watson-Smith,Energy,APAC,Australia,East Jessicatown,2023-11-02,Noah Rhodes,active,christinelindsey@holt.com,001-307-947-7331x465,100,21460902,,Platinum
+CUST-159,Hall-Shah,Energy,APAC,Hong Kong,Lake Marktown,2022-12-10,Dylan Miller,active,mark79@hayes-hancock.org,629.470.8333x0413,100,24281280,Program air offer back poor imagine Mrs.,Silver
+CUST-160,"Vega, Carter and Davis",Financial Services,APAC,Singapore,Newmanchester,2022-08-26,Dylan Miller,active,jamessanders@patterson.com,253.537.9836x57267,10,2002956,,Platinum
+CUST-161,Griffin-Sawyer,Media & Entertainment,EMEA,France,North Meganborough,2023-06-17,Carla Gray,trial,chanbrooke@carr-cummings.com,(512)911-8594x967,50,6876120,Fear available other else.,Bronze
+CUST-162,Wilson Group,Transportation,EMEA,France,Daltonshire,2022-08-07,Carla Gray,active,davidolson@rodriguez-cunningham.com,(617)917-8523x34332,100,12830498,,Bronze
+CUST-163,Harris-Mullen,Retail,NA,Mexico,Olsonville,2022-10-23,Lisa Hensley,trial,tmcdonald@mata.com,633-723-9508,1000,198741593,Service task beat bank fall development again yet.,Gold
+CUST-164,"Taylor, Turner and Harper",Legal,EMEA,United Kingdom,North Kevinbury,2023-04-14,Holly Wood,active,paulastanton@rogers.com,+1-383-723-4647x6184,250,54560353,First beyond way receive program meet.,Silver
+CUST-165,Davis Group,Retail,EMEA,Spain,Lake Ernest,2023-06-06,Brian Ramirez,active,edwin71@edwards.com,459-373-6638,10,1164127,Amount small ready gas service under.,Bronze
+CUST-166,Jimenez-Campos,Healthcare,APAC,Japan,Aliciaborough,2022-08-19,Holly Wood,active,armstronganna@dean.info,(562)523-4826x464,100,17176102,Movie necessary eat student magazine still together rest.,Bronze
+CUST-167,"Swanson, Stanley and Wilcox",Financial Services,NA,Mexico,East Tammyport,2022-10-13,Carla Gray,active,dayian@martin-walker.biz,723-341-6751x02397,10,2213286,,Gold
+CUST-168,"May, Stark and Morrison",Legal,NA,Canada,Smithfurt,2022-07-15,Carla Gray,active,hannahdouglas@williams.com,+1-771-381-7262,250,61207515,Executive what former sister.,Gold
+CUST-169,Phillips LLC,Retail,EMEA,Netherlands,Joycetown,2023-01-26,Abigail Shaffer,active,nicole89@carroll-aguilar.com,(569)492-5283x58372,1000,213342940,,Silver
+CUST-170,"Ruiz, Mcpherson and Carroll",Media & Entertainment,APAC,India,Lynchton,2023-09-16,Connie Lawrence,churned,evansdavid@carter.net,621-564-6140x20740,100,15117234,,Platinum
+CUST-171,Peterson-Hicks,Real Estate,APAC,Japan,South Jeffrey,2023-02-12,Daniel Wagner,active,lopezamy@moore-hamilton.com,+1-758-577-3999x414,500,87135963,,Silver
+CUST-172,"Cole, Morgan and Bailey",Financial Services,EMEA,United Kingdom,Robertside,2023-03-19,Cristian Santos,active,akerr@king.com,+1-224-889-0399x02553,50,11695102,,Silver
+CUST-173,Chavez-Smith,Technology,NA,United States,Lake Samanthaville,2023-09-05,Jamie Arnold,trial,john08@phillips-johnson.com,+1-824-518-7682x799,50,7369858,Car establish occur under eat military.,Bronze
+CUST-174,Moore LLC,Healthcare,APAC,Singapore,Lake Jack,2023-01-16,Cristian Santos,active,yalvarez@ray.com,001-287-227-6472x017,250,47623329,Help especially eye.,Platinum
+CUST-175,"Price, Vasquez and Manning",Media & Entertainment,NA,Canada,Joeview,2022-10-21,Angie Henderson,churned,davidhernandez@nguyen.org,001-783-611-4108x514,50,4044635,That clear lose national whole table.,Silver
+CUST-176,"Roberts, Torres and Beasley",Energy,NA,United States,Jacobstad,2023-12-14,Ryan Munoz,trial,jamie08@abbott.org,439.477.3377,100,9890176,Candidate left open leave.,Platinum
+CUST-177,Ramirez-Wilson,Energy,NA,United States,Alisonmouth,2023-08-04,Brian Ramirez,active,harringtonsamuel@werner-williams.com,+1-375-392-2204x5658,50,4942292,,Silver
+CUST-178,Morris-Mccarthy,Financial Services,NA,Mexico,Lake John,2024-01-10,Jamie Arnold,active,jennifer67@mckinney.info,(565)269-3091,50,4013296,Film according author technology consider affect record.,Bronze
+CUST-179,Chen-Nguyen,Education,NA,Mexico,South Clayton,2022-08-27,Holly Wood,active,angela35@hayes.com,+1-414-826-7315x1490,10,1694301,,Silver
+CUST-180,Mcintosh Group,Technology,EMEA,United Kingdom,East Justinton,2023-07-05,Gabrielle Davis,trial,olsonsean@alexander.biz,978-535-3857,100,24677670,,Silver
+CUST-181,Valenzuela Inc,Legal,NA,United States,Michaelborough,2023-05-20,Monica Herrera,active,ojefferson@mack.com,001-899-850-1155x46512,100,21115523,Spend notice everybody.,Bronze
+CUST-182,Jones Ltd,Retail,NA,Canada,Port Jamesland,2022-11-27,Connie Lawrence,suspended,craigpruitt@rice.net,812.665.3646,50,9910808,,Silver
+CUST-183,"Garcia, Jackson and Perry",Technology,NA,Canada,East Jessica,2022-07-08,Monica Herrera,active,jakekhan@cantrell.com,3848833844,250,57646091,,Platinum
+CUST-184,Love-Garza,Technology,EMEA,Sweden,Johnsonside,2023-12-09,Jamie Arnold,active,jacksonmatthew@payne-bryant.net,001-351-895-8028x5568,250,28121895,,Silver
+CUST-185,Marshall Ltd,Education,NA,Mexico,Blankenshipstad,2023-05-06,Dylan Miller,active,griffinjohn@jenkins-campos.com,(931)537-0355,50,7400185,,Gold
+CUST-186,Willis-Young,Education,NA,United States,New Jeremy,2023-10-22,Angie Henderson,active,mknight@mccarty.com,001-524-364-5969,500,84138447,,Bronze
+CUST-187,"Andrews, Walters and Snyder",Energy,NA,Mexico,East Rebekah,2022-12-02,Ryan Munoz,active,opope@mendez.info,001-541-880-2315x400,10,1357463,,Bronze
+CUST-188,"Bishop, Mcdaniel and Turner",Education,EMEA,Netherlands,West Marcia,2022-11-18,Jamie Arnold,churned,kellerkatie@chen-ibarra.info,(898)949-0530x54227,50,10177922,,Gold
+CUST-189,Murphy-Smith,Legal,NA,Mexico,East Lynnmouth,2022-07-29,Connie Lawrence,active,jamiemcbride@perry-frank.org,001-846-219-1025x44500,50,8361231,,Bronze
+CUST-190,"Hayes, Hays and Williams",Healthcare,NA,Mexico,Davidland,2023-08-23,Jamie Arnold,active,wyattjoseph@ponce-martin.com,815.345.5134x77296,10,1896776,,Silver
+CUST-191,Jones-Thompson,Education,EMEA,Spain,New Jerry,2022-11-05,Lisa Jackson,churned,fpierce@adams.com,339-634-1753,50,10486218,Moment change participant friend write maybe scene.,Bronze
+CUST-192,Leblanc-Morales,Healthcare,NA,Canada,Josephton,2023-03-13,Holly Wood,active,ewagner@donaldson.com,891.646.6906x6440,10,1116281,,Silver
+CUST-193,Wilson Ltd,Energy,EMEA,France,Jessicaton,2023-02-22,Brian Ramirez,churned,charlesjohnson@brown.info,(325)764-7281,5000,642740346,Member morning with boy entire hour crime.,Silver
+CUST-194,"Gutierrez, Brooks and Rogers",Non-Profit,NA,United States,Tylerstad,2023-09-06,Monica Herrera,active,jameseric@turner.com,001-757-323-3281x6001,50,4746221,,Gold
+CUST-195,Schwartz Group,Retail,EMEA,Spain,Steinbury,2023-12-08,Connie Lawrence,active,lbrown@gross.net,001-907-891-9557x417,500,100503773,,Bronze
+CUST-196,Smith Ltd,Manufacturing,EMEA,United Kingdom,Christopherland,2022-12-23,Derek Zuniga,churned,thomasmichelle@wilson.org,001-601-624-4606,250,21117071,,Silver
+CUST-197,Marks and Sons,Healthcare,NA,Mexico,East Mariaberg,2022-10-11,Brian Ramirez,active,dgarcia@ortiz-garrison.com,942-280-8110x345,10,1476871,,Gold
+CUST-198,"Vega, Terry and Hamilton",Education,EMEA,Sweden,North Stephaniemouth,2024-01-10,Holly Wood,active,christinerose@mcbride.com,001-857-348-9928x33806,100,15649566,,Gold
+CUST-199,Abbott-Adkins,Financial Services,APAC,South Korea,West Sandraland,2022-12-04,Noah Rhodes,churned,caitlynwiggins@soto.com,001-220-329-3889x3852,50,11741054,,Silver
+CUST-200,Adkins and Sons,Non-Profit,EMEA,France,Anthonyhaven,2022-11-16,Holly Wood,active,xpalmer@smith.net,539.260.9565,10,2410721,,Silver
+CUST-201,Dunn Group,Transportation,APAC,Singapore,Rogermouth,2022-12-19,Carla Gray,active,gabriel10@diaz.org,+1-935-490-0824x90231,50,9312690,,Bronze
+CUST-202,Holland Group,Energy,EMEA,Germany,Reyesshire,2022-11-05,Lisa Jackson,active,gjones@moore.com,+1-323-536-3150x657,250,45718403,Least station hotel watch.,Platinum
+CUST-203,"Oliver, Crosby and Sanchez",Energy,APAC,Australia,West Thomas,2022-07-17,Lisa Jackson,trial,vrivera@reid.com,(474)676-3804,50,5791871,,Silver
+CUST-204,Bates PLC,Retail,EMEA,Netherlands,New Paulstad,2023-12-11,Lisa Hensley,active,simongregory@cook.com,001-353-284-7210x003,50,10839849,Than store clear measure technology stage.,Gold
+CUST-205,Rice-Estes,Real Estate,NA,United States,Morganstad,2022-11-09,Cristian Santos,active,dharrell@howard.com,+1-239-968-8243x1814,50,6891636,,Platinum
+CUST-206,"Sanders, Williams and Williams",Financial Services,EMEA,Italy,Ramseyfort,2023-05-20,Daniel Wagner,trial,hollysutton@green-perkins.info,551.669.7147x9972,250,41886655,,Platinum
+CUST-207,Cole-Hall,Healthcare,NA,Canada,Brandiview,2023-09-04,Carla Gray,active,irowe@smith.net,(715)481-8273x27558,10,2407154,,Silver
+CUST-208,Kent Group,Non-Profit,APAC,Japan,Moralesburgh,2023-05-02,Brian Ramirez,trial,warneranita@mcintosh.com,(878)994-9226x37439,50,10486531,,Silver
+CUST-209,"Lambert, Cruz and Riley",Media & Entertainment,NA,Canada,Kellershire,2023-10-23,Abigail Shaffer,active,twright@davis-harris.info,(538)992-4917x5280,100,24433672,,Silver
+CUST-210,"Harris, Carlson and Perry",Legal,NA,Canada,Lake Kellyberg,2023-10-20,Allison Hill,active,matthewbryant@smith-waters.com,001-694-371-4043x49025,100,12857722,,Silver
+CUST-211,"Pearson, Allen and Parker",Education,NA,Canada,Russellberg,2023-06-10,Derek Zuniga,active,bryangriffin@ramirez.net,001-605-533-0664x7714,10,886968,Play oil with create even to action.,Silver
+CUST-212,Atkins-Walsh,Transportation,EMEA,United Kingdom,Walterchester,2023-07-01,Carla Gray,active,jeff85@webb.com,233-894-1580,50,12407270,Huge police represent economic.,Gold
+CUST-213,Reed Ltd,Education,APAC,India,West Danielleshire,2023-06-18,Cristian Santos,churned,dorseynathan@black.net,464-797-2974x618,100,14215308,Tell dark miss free research.,Bronze
+CUST-214,Giles LLC,Financial Services,EMEA,Spain,Collinsstad,2022-07-12,Holly Wood,active,daguirre@sanchez-hunt.com,+1-958-255-9184x82408,250,54168548,,Silver
+CUST-215,"Castaneda, Braun and Robinson",Energy,EMEA,Spain,Robertview,2022-10-22,Carla Gray,active,alexandercopeland@murray.com,(397)822-0820x711,50,7340113,,Silver
+CUST-216,Gaines Ltd,Transportation,NA,Canada,East Sarahchester,2023-11-02,Brian Ramirez,suspended,donaldperez@smith.com,(883)531-1239,50,8784856,,Silver
+CUST-217,"Mathis, Garcia and Fernandez",Energy,NA,Mexico,Port Andreachester,2022-09-21,Allison Hill,trial,ppena@davenport.net,(913)394-2221x792,50,11639520,,Gold
+CUST-218,Vincent-Travis,Non-Profit,NA,Mexico,North Sharon,2024-01-14,Holly Wood,active,dlewis@walton.org,730-814-8999,10,1616762,,Bronze
+CUST-219,Cain-Richardson,Legal,EMEA,Sweden,Downstown,2023-06-25,Daniel Wagner,active,stephaniepayne@watkins.com,(876)233-2461x1430,10,1773369,Remain natural recently brother.,Silver
+CUST-220,"Spencer, Phillips and Jackson",Manufacturing,NA,Canada,Katelynchester,2022-11-03,Brian Ramirez,active,vcooper@cobb.org,001-736-422-5839,50,10587264,,Silver
+CUST-221,"Johnson, Holmes and Horton",Transportation,EMEA,United Kingdom,Morganfurt,2022-10-20,Holly Wood,active,dennis70@mills.net,+1-558-726-9521x432,50,9628927,,Silver
+CUST-222,Rivers and Sons,Education,APAC,India,Amyhaven,2023-11-28,Gabrielle Davis,active,manuelzamora@dorsey.org,001-818-259-7063x820,100,22750124,,Silver
+CUST-223,Flores-Hill,Manufacturing,NA,United States,Woodsmouth,2023-03-13,Ryan Munoz,active,umills@thornton.com,+1-338-505-2673x37894,1000,246984250,,Gold
+CUST-224,Robinson PLC,Transportation,EMEA,Netherlands,New Erinville,2023-04-21,Gabrielle Davis,active,jrojas@butler-valenzuela.com,228-609-5321,1000,215218910,Ever year young center.,Bronze
+CUST-225,"Turner, Long and Medina",Media & Entertainment,EMEA,Spain,North Sean,2023-06-24,Cristian Santos,trial,tanya08@johnson-fuller.org,2997082876,250,60570876,As nation picture than step leader.,Bronze
+CUST-226,Villarreal PLC,Real Estate,NA,Mexico,Blakechester,2022-08-20,Abigail Shaffer,active,swansonlaura@walker-smith.com,(523)226-6348x152,100,20704754,Gun government successful fact owner behind decide.,Silver
+CUST-227,"Norris, Duke and Montoya",Energy,EMEA,Spain,North Nicoleport,2023-03-06,Noah Rhodes,active,matthewnunez@bruce.com,(660)700-7751x403,250,30169487,,Gold
+CUST-228,Rivas Inc,Media & Entertainment,EMEA,Italy,West Lisa,2023-01-25,Cristian Santos,active,andrew20@gardner-adams.net,265-292-9790x059,50,8015433,Collection fire though seem market food gun key.,Silver
+CUST-229,Avila-Reed,Real Estate,EMEA,Germany,Penamouth,2023-07-22,Ryan Munoz,churned,nathantran@mendoza.biz,961-256-1542,50,5695375,,Silver
+CUST-230,Ramirez-Williams,Non-Profit,EMEA,Sweden,Howardfort,2022-08-31,Noah Rhodes,churned,micheal94@bishop.com,(903)335-2389x3882,100,20293000,,Silver
+CUST-231,West-Werner,Media & Entertainment,NA,United States,Lake Cynthia,2022-07-08,Ryan Munoz,trial,kevinobrien@martinez-richard.net,581.476.4265,250,27918244,,Bronze
+CUST-232,Lane PLC,Education,NA,Mexico,South Mike,2022-09-18,Derek Zuniga,trial,baueranthony@robinson-mejia.com,6562750665,50,12407345,,Gold
+CUST-233,Perez-Juarez,Manufacturing,APAC,Japan,New Jessicaside,2023-10-30,Dylan Miller,active,luke52@gomez.biz,433.999.0853x5356,250,34054074,,Bronze
+CUST-234,"Chavez, Cox and Jimenez",Energy,EMEA,United Kingdom,Chadmouth,2023-05-12,Carla Gray,churned,joshua62@baker-stewart.biz,8258306003,100,11283741,,Silver
+CUST-235,Dodson-King,Financial Services,APAC,India,East Jayton,2023-11-10,Cristian Santos,active,thomaschapman@ruiz.net,333.541.1277,100,11141280,,Platinum
+CUST-236,Howell-Williams,Real Estate,APAC,Australia,Tylerton,2023-02-23,Ryan Munoz,active,rwalters@ward-ellis.com,755-306-8196x036,250,60546479,,Silver
+CUST-237,"Jackson, Adams and Henson",Technology,EMEA,France,Kellyton,2023-06-04,Connie Lawrence,churned,llopez@miller-berry.com,412.765.0284x7926,100,15911714,,Silver
+CUST-238,Wilson-Scott,Media & Entertainment,EMEA,Italy,Sethland,2023-04-15,Carla Gray,churned,shannon58@henry.com,+1-637-773-9687x554,500,65078196,Save art hope.,Platinum
+CUST-239,Wolfe-Thomas,Energy,APAC,India,West Johnnymouth,2022-11-04,Brian Ramirez,active,zcrane@wolf.net,001-948-821-6092x21640,50,9966496,,Silver
+CUST-240,"Black, Taylor and Smith",Energy,APAC,Japan,Lake Timothyfurt,2023-02-09,Dylan Miller,churned,edward03@cunningham-stewart.info,+1-897-899-7294x2565,500,46958976,,Silver
+CUST-241,Adams Group,Transportation,NA,Mexico,East Melissaview,2022-09-23,Derek Zuniga,active,orubio@hamilton-park.com,001-530-682-7667,500,57183326,Have cover heart which culture them magazine.,Silver
+CUST-242,Rivera and Sons,Manufacturing,NA,Mexico,Port Joshuaville,2023-08-27,Holly Wood,active,gevans@kennedy.com,952-209-3358x42265,250,40775188,,Bronze
+CUST-243,Noble-Gomez,Energy,NA,United States,Paulshire,2023-11-08,Ryan Munoz,active,wdavis@valencia-williams.info,(524)560-1585,10,1586043,,Gold
+CUST-244,Mitchell Group,Technology,NA,United States,Jonesland,2023-01-10,Derek Zuniga,active,fletcherricky@patel.com,261-423-6981x11079,50,9953271,,Silver
+CUST-245,Pope PLC,Media & Entertainment,APAC,Australia,West Josephburgh,2023-09-27,Michele Williams,active,gwilliamson@johnson.com,(461)809-8573,10,1030229,,Silver
+CUST-246,Best PLC,Legal,APAC,India,Sherylfort,2023-06-22,Cristian Santos,active,bwilliams@dawson.info,(472)875-9155,1000,228674132,,Bronze
+CUST-247,"Richardson, Thompson and Olson",Financial Services,NA,United States,Lisaburgh,2023-12-03,Allison Hill,active,ramoskrista@curtis-beard.biz,217.909.6212x0002,250,29464334,,Bronze
+CUST-248,Atkinson and Sons,Media & Entertainment,APAC,India,Nicoleshire,2023-12-10,Jamie Arnold,active,andersonblake@wilson-martinez.net,001-565-670-4274x28996,250,30519261,Federal million represent forget unit.,Gold
+CUST-249,Jones-Fisher,Legal,NA,Mexico,Grosshaven,2022-09-24,Allison Hill,active,myersdonna@wilson-ray.com,799-345-6129x341,50,10511454,Ask cut work establish take participant move.,Silver
+CUST-250,"Melton, Johnson and Patterson",Legal,NA,Mexico,Port Kelly,2022-07-05,Noah Rhodes,active,james89@phillips-lopez.biz,001-501-209-8723x7819,250,22068743,,Silver
+CUST-251,Henson-Thomas,Retail,NA,United States,Harrisonbury,2022-07-28,Lisa Jackson,active,urodriguez@dunlap.com,471.808.8036,10,2357874,,Silver
+CUST-252,Adams LLC,Financial Services,EMEA,Italy,North Todd,2023-04-25,Michele Williams,active,samanthadavis@guzman.info,639-735-4758x8944,5000,843063396,,Platinum
+CUST-253,Hayes-Moore,Media & Entertainment,NA,Mexico,Lindsayfort,2022-11-27,Jamie Arnold,active,kristin97@herman.com,001-803-234-4613x6729,100,8797029,,Gold
+CUST-254,Rice and Sons,Media & Entertainment,EMEA,Sweden,West Nathanton,2023-11-20,Connie Lawrence,active,hdyer@roberts.com,5689529312,50,6549052,,Platinum
+CUST-255,Peterson-Walters,Financial Services,NA,United States,Kaitlinfurt,2023-04-04,Derek Zuniga,trial,griffithmegan@jackson.info,(547)667-5486x8950,250,58876499,,Bronze
+CUST-256,Simmons Ltd,Retail,NA,Mexico,New Deborah,2022-10-16,Dylan Miller,active,christinestewart@murray-calhoun.org,680.244.9720x78678,10,1899399,,Bronze
+CUST-257,Rios Inc,Media & Entertainment,NA,Mexico,Brittanyborough,2022-12-13,Angie Henderson,active,ellisadrienne@calderon.org,+1-508-317-5566x85366,100,18249674,Write and recognize card country artist.,Platinum
+CUST-258,"Green, Blake and Long",Manufacturing,EMEA,Italy,Melvintown,2023-12-25,Allison Hill,active,breed@riley.com,001-623-619-8801,500,68301966,Author meet offer affect source beautiful data.,Bronze
+CUST-259,Turner-Schroeder,Real Estate,NA,Mexico,Garrettfort,2022-09-29,Abigail Shaffer,churned,qpearson@scott.com,978-540-2485,500,99128234,,Bronze
+CUST-260,"Rojas, Ellis and Sosa",Transportation,NA,Canada,Wellsborough,2023-03-17,Jamie Arnold,active,grayjames@morgan-booker.com,+1-980-839-2808x15674,100,13243178,,Bronze
+CUST-261,"Roberts, Taylor and Brown",Education,NA,United States,East Tanyaborough,2023-09-24,Michele Williams,churned,gamblestacey@knight-downs.com,(279)814-8809x16274,500,71509918,Relationship although democratic chance debate.,Bronze
+CUST-262,Flynn-Miles,Transportation,APAC,Hong Kong,East Ronald,2022-10-28,Michele Williams,active,ybrown@cortez.com,9447146226,1000,178454297,Way finally share learn big environmental fish however.,Silver
+CUST-263,Owen-Davis,Manufacturing,NA,United States,New Ashley,2023-06-24,Monica Herrera,active,april92@ruiz.com,001-420-279-7343x402,50,9564167,Make exactly yet learn choose position.,Bronze
+CUST-264,"Jennings, Jones and Terry",Non-Profit,APAC,Hong Kong,Rangelborough,2023-10-16,Derek Zuniga,active,kathryn36@pratt.net,6996051998,250,27193792,,Bronze
+CUST-265,Gonzalez-Perry,Healthcare,APAC,South Korea,Kathyport,2022-07-31,Allison Hill,active,bsimmons@hughes.com,537-446-0253,1000,193596642,,Bronze
+CUST-266,Martin-Brown,Technology,APAC,Japan,East Tammy,2022-08-09,Noah Rhodes,churned,nathaniel84@graham.biz,001-265-922-8111,10,1575216,,Bronze
+CUST-267,Huffman Ltd,Technology,EMEA,Spain,West Aaronborough,2023-10-08,Allison Hill,churned,jameschandler@brown-davenport.com,(208)531-9909x91504,10,1737794,Close buy social hospital rate question study.,Bronze
+CUST-268,"Swanson, Butler and Cox",Non-Profit,EMEA,Spain,East Elizabethburgh,2023-03-21,Connie Lawrence,active,sherri85@ruiz-harding.com,(794)825-3292,100,21704850,North film radio have.,Silver
+CUST-269,Burton-Mayer,Transportation,NA,United States,Jonathanland,2023-02-02,Lisa Hensley,active,jwells@tran-patel.com,001-654-712-9441x939,50,7012749,Land leave very along seem.,Silver
+CUST-270,"Gay, Buchanan and Schmidt",Non-Profit,APAC,India,Lake Patrick,2023-12-31,Angie Henderson,active,markhall@mcdaniel-alexander.com,001-752-505-4224x054,10,1962870,,Bronze
+CUST-271,White and Sons,Media & Entertainment,APAC,Australia,Lake Ronald,2022-09-04,Allison Hill,active,leedonald@murphy-thomas.biz,596.725.3180x8386,100,8953953,,Platinum
+CUST-272,Williams Group,Healthcare,NA,Canada,South Daniel,2023-05-06,Gina Moore,active,mccoykelly@clark-payne.info,2225130394,500,118127938,Give stage might note.,Gold
+CUST-273,Mendez Ltd,Healthcare,APAC,South Korea,Holtmouth,2023-09-30,Derek Zuniga,active,brooksdawn@moore.com,+1-341-880-1833x81496,100,12766341,,Bronze
+CUST-274,Johnson-Bryant,Energy,NA,Canada,Port Staceytown,2022-06-17,Lisa Hensley,trial,nicole03@washington.info,717.883.3025x38787,10,2195174,,Bronze
+CUST-275,"Santos, Williams and Hernandez",Real Estate,NA,Mexico,Smithfurt,2023-02-02,Lisa Hensley,active,gonzalezangela@wells.com,567-251-1865x143,100,17189561,,Silver
+CUST-276,Burch Inc,Manufacturing,NA,Mexico,South Richardchester,2022-08-20,Angie Henderson,active,christyalvarado@davidson-little.com,001-336-920-1657x7076,10,1543050,,Silver
+CUST-277,"Barnett, Lewis and Jones",Education,EMEA,Spain,North Kristina,2023-07-12,Dylan Miller,trial,nweber@campbell.org,+1-995-423-5995x0770,10,1264655,,Bronze
+CUST-278,Green-Ruiz,Energy,NA,Canada,Dixonland,2023-08-17,Carla Gray,active,gpayne@nelson-paul.com,+1-993-487-2773x730,100,9456799,Dark need stay half vote team among by.,Platinum
+CUST-279,Riddle Group,Media & Entertainment,NA,United States,Peterstad,2022-08-24,Lisa Hensley,active,upeterson@michael.biz,001-567-530-8460x69731,250,46940787,,Gold
+CUST-280,Robbins-Holder,Retail,NA,United States,Moorebury,2023-04-12,Michele Williams,active,luis92@lopez-gardner.net,333.985.3755,10,948405,,Silver
+CUST-281,Roman LLC,Education,EMEA,Netherlands,East Cindyton,2022-09-14,Monica Herrera,active,uoconnell@owen-barnes.com,304.495.1864x1270,100,18147717,,Bronze
+CUST-282,"Ferguson, Carlson and Lee",Financial Services,NA,Canada,Lake Michele,2023-07-03,Gina Moore,churned,bdavis@jones-baker.com,355.926.4933,500,116942643,,Bronze
+CUST-283,"Anderson, Harris and Love",Retail,NA,Canada,New David,2022-11-21,Connie Lawrence,active,jacksonsara@allen.com,+1-990-511-2883x77310,50,5240445,,Gold
+CUST-284,"Nelson, James and Howard",Legal,NA,Canada,South Kylemouth,2022-08-18,Carla Gray,active,pjones@chambers.net,001-421-651-5104,250,41071603,And loss however station very knowledge agency.,Gold
+CUST-285,Li-Peters,Education,NA,Canada,Port Zacharymouth,2022-06-07,Monica Herrera,trial,dylanmoody@harris.com,8025137400,250,36145323,,Platinum
+CUST-286,"Burton, Gutierrez and Gonzalez",Energy,NA,Mexico,Stevenland,2022-10-18,Monica Herrera,active,uburton@lopez-reed.net,545-343-8631x58922,1000,114144753,Best practice adult word give themselves.,Silver
+CUST-287,"Hughes, Howe and Jones",Legal,NA,Canada,Parkermouth,2023-03-26,Gina Moore,churned,peterharris@olson.info,3919638734,50,8894973,,Platinum
+CUST-288,Harris and Sons,Energy,NA,Canada,North Richardtown,2023-06-09,Connie Lawrence,active,christina59@martinez.biz,288.908.9108,10,2495350,,Bronze
+CUST-289,Adkins-Harmon,Manufacturing,EMEA,Italy,Monicabury,2023-09-16,Angie Henderson,trial,wongtaylor@rogers.biz,+1-469-760-6848x95683,50,6476315,,Bronze
+CUST-290,"Larson, Miller and Aguilar",Retail,EMEA,Netherlands,New Allison,2023-10-25,Michele Williams,active,zhaynes@smith.net,409.812.9388,10,1919727,,Bronze
+CUST-291,Bowen Group,Transportation,NA,Mexico,Michaelfurt,2023-10-04,Michele Williams,active,campbellamanda@king-chung.com,+1-636-915-0467,100,23646667,,Silver
+CUST-292,Olson LLC,Healthcare,EMEA,France,New Laura,2023-12-02,Jamie Arnold,active,xfisher@brooks-gill.com,660-483-0611x124,10,1221992,Must cover TV toward scientist health then.,Gold
+CUST-293,Smith Group,Education,EMEA,Spain,North Kelsey,2023-07-15,Allison Hill,trial,wwiggins@keller.biz,+1-475-975-9093x5277,1000,153177442,Ever black blood bed four push form.,Silver
+CUST-294,Henderson-George,Non-Profit,NA,Mexico,Port Karenborough,2023-11-14,Lisa Hensley,active,amberclayton@cline.info,+1-451-761-7694,100,15578235,,Bronze
+CUST-295,Boyer-Nelson,Technology,EMEA,Italy,South Mary,2023-10-26,Angie Henderson,active,jody88@king-gonzales.com,+1-770-934-1022x9229,50,6511173,Group cover Congress table occur.,Silver
+CUST-296,Owens-Spencer,Real Estate,APAC,Japan,South Juanfort,2023-05-23,Jamie Arnold,active,mariahmunoz@carter.com,001-431-991-0386x1422,250,42147380,,Silver
+CUST-297,Farley-Decker,Retail,NA,Mexico,Port Tiffany,2023-09-07,Allison Hill,active,shannonmason@ellison.com,571.496.0219x54175,10,2008324,,Gold
+CUST-298,Barnes-Holland,Non-Profit,EMEA,Italy,Andrewshaven,2022-11-16,Connie Lawrence,trial,knightgregory@graves.com,928-772-4480x0002,10,1096570,,Platinum
+CUST-299,Lee and Sons,Legal,NA,Canada,Ashleyberg,2023-01-24,Michele Williams,churned,johnsonanna@jones.com,356-619-8904,10,1888814,,Gold
+CUST-300,Hughes Inc,Media & Entertainment,EMEA,Germany,East Brandyland,2023-09-04,Gabrielle Davis,active,olsonkaren@stone.net,+1-985-470-2129x0649,10,1165153,,Bronze
+CUST-301,Brennan LLC,Transportation,APAC,Australia,South Kathleen,2024-01-13,Dylan Miller,active,shawndavis@flores.com,001-923-951-4487x786,10,1354174,Reflect another lose card learn budget.,Bronze
+CUST-302,Allen-Jones,Education,EMEA,Netherlands,Cruzport,2023-11-23,Lisa Jackson,trial,justin64@carroll-gutierrez.com,(752)767-1409,100,18392243,Something resource rest else military effort beyond talk.,Silver
+CUST-303,Jones Group,Non-Profit,NA,Canada,Adamchester,2022-11-24,Lisa Jackson,suspended,lopezhannah@hernandez.com,6529195052,250,59044009,Possible point only piece late analysis.,Gold
+CUST-304,"Hernandez, Brown and Lara",Financial Services,NA,United States,New Shelly,2023-01-31,Lisa Hensley,active,grantlawrence@lynn.com,726-881-5402,50,5201547,,Gold
+CUST-305,"Cabrera, Watkins and Wagner",Legal,NA,Canada,Carolview,2023-08-08,Connie Lawrence,active,plopez@baker-hamilton.com,8608573822,100,23625736,,Silver
+CUST-306,"Weaver, Powell and Rodgers",Real Estate,NA,United States,Kaylaburgh,2022-12-09,Allison Hill,active,johnboone@hoffman.biz,9753251089,100,22713877,,Platinum
+CUST-307,Robinson-Hughes,Real Estate,NA,Canada,Shawport,2023-12-28,Dylan Miller,active,nelliott@cook-boyd.info,702-874-8434x91558,50,8179669,,Silver
+CUST-308,"Pierce, Olson and Middleton",Retail,NA,United States,Leahfurt,2023-01-12,Dylan Miller,active,denise42@burns.info,934.956.0798,10,1290739,,Bronze
+CUST-309,Becker Group,Energy,EMEA,Netherlands,Marcview,2023-12-15,Jamie Arnold,active,yolanda49@price-morales.com,344-958-7180x463,10,2117692,,Bronze
+CUST-310,"Nelson, Martin and Graham",Media & Entertainment,EMEA,Sweden,Douglasland,2023-08-26,Gina Moore,active,don37@lewis.com,612-424-6801,10,2211120,Popular argue job old environmental visit arrive.,Bronze
+CUST-311,"Colon, Bowen and Jones",Healthcare,APAC,India,North Nicholasland,2023-02-25,Gina Moore,active,gpowell@johnston.org,475.414.0596,50,12448640,Interesting education institution president moment fast.,Bronze
+CUST-312,Conway-Dunn,Energy,EMEA,Italy,East Christopher,2023-05-26,Cristian Santos,trial,franklatasha@smith.com,+1-796-982-4467x2493,100,10821687,,Bronze
+CUST-313,"Fisher, Fuentes and Drake",Real Estate,APAC,Australia,North Christina,2024-01-05,Ryan Munoz,active,samantha28@ferguson.biz,001-989-797-9952x752,100,10862415,At move among example try ability.,Silver
+CUST-314,"Brady, Hernandez and Johnson",Media & Entertainment,NA,Mexico,South Michellechester,2022-09-06,Cristian Santos,active,hjensen@russell.biz,+1-364-356-6744x92217,500,124361329,,Gold
+CUST-315,Best-Rivera,Legal,NA,United States,West Sharon,2023-04-26,Gabrielle Davis,suspended,moorejohn@medina.biz,001-762-505-5079x14761,50,5208458,,Bronze
+CUST-316,Gray Ltd,Non-Profit,NA,United States,East Peter,2022-09-04,Jamie Arnold,active,pamela01@thomas.com,457.352.6899,50,11958856,,Bronze
+CUST-317,Burns PLC,Non-Profit,NA,Mexico,New Richardfort,2022-06-03,Jamie Arnold,trial,karen08@lowe.com,5075209836,10,2452655,,Bronze
+CUST-318,"Conner, Shelton and Duke",Manufacturing,EMEA,Netherlands,West John,2023-01-10,Ryan Munoz,trial,brandterika@conway.com,001-615-772-8996x742,50,6744353,,Silver
+CUST-319,Gonzalez-Suarez,Retail,EMEA,Spain,Lake Kelsey,2023-10-10,Dylan Miller,churned,bkim@oconnor-anderson.com,+1-895-669-4607x881,250,21952574,Successful six third.,Bronze
+CUST-320,Mcdowell PLC,Media & Entertainment,APAC,Japan,Sandrahaven,2023-08-26,Cristian Santos,active,tammy84@preston-green.com,001-293-436-3930,10,1970606,,Bronze
+CUST-321,"Tucker, Aguilar and Johnson",Retail,NA,Canada,Port Austin,2022-09-04,Connie Lawrence,churned,kennethmiller@jenkins.com,(830)413-8722x885,10,1929664,Success agree front court learn talk.,Bronze
+CUST-322,"Thompson, Lopez and Vaughan",Healthcare,EMEA,Italy,North Tylertown,2023-01-26,Brian Ramirez,active,whitejerome@mahoney.com,001-404-221-2036x78572,250,20046167,Into own raise wonder outside.,Gold
+CUST-323,Barron and Sons,Non-Profit,EMEA,Spain,Sandraberg,2023-08-30,Michele Williams,active,chelsea86@hughes.com,5075942650,50,5025047,,Bronze
+CUST-324,"Banks, Randall and Buchanan",Healthcare,NA,United States,South Jenniferville,2023-06-28,Ryan Munoz,active,aliciasutton@soto-graves.com,(467)391-1243,10,1424854,Cut back easy hot voice story hear.,Gold
+CUST-325,Bell-Rodriguez,Legal,EMEA,Sweden,New Heatherfort,2022-10-15,Allison Hill,active,mcculloughmaurice@smith.biz,590.803.0747x944,10,1701864,,Bronze
+CUST-326,Thompson LLC,Financial Services,NA,Canada,Perkinston,2023-01-05,Dylan Miller,active,sarahgarcia@carlson.com,461.416.5867x037,500,92366461,,Gold
+CUST-327,Harris-Rasmussen,Energy,NA,United States,Victoriaport,2022-10-22,Michele Williams,active,christinasmith@warren.com,+1-871-756-2500,250,34940264,,Bronze
+CUST-328,"Williams, Lucas and Henry",Energy,NA,Canada,Lake Mariaport,2022-08-26,Allison Hill,active,elizabeth14@franklin.com,605.599.4835x5176,100,18329082,,Silver
+CUST-329,Green and Sons,Transportation,EMEA,France,Carolchester,2022-12-28,Noah Rhodes,active,irwinlogan@harris.com,001-396-590-1237x09833,10,1465976,,Bronze
+CUST-330,"Vazquez, Alexander and Jensen",Energy,EMEA,Germany,Lake Tinastad,2023-10-20,Holly Wood,active,christopherclark@hamilton-shaw.com,(729)643-5028x44362,50,9048403,,Silver
+CUST-331,"Hudson, Reese and Lewis",Energy,NA,Canada,North Nicoleville,2023-04-21,Connie Lawrence,active,johnmunoz@kim-fowler.info,771-350-4101x1225,50,8644027,,Bronze
+CUST-332,Wright-Brooks,Technology,APAC,Australia,Erichaven,2022-06-18,Noah Rhodes,active,douglassimon@payne.com,(685)548-4782x57688,50,4338528,,Gold
+CUST-333,Brown Inc,Media & Entertainment,NA,Canada,West John,2023-10-27,Derek Zuniga,churned,qwhite@meyer.org,001-366-382-2601x07744,250,23503182,,Bronze
+CUST-334,Craig-Miller,Manufacturing,NA,United States,Ruizburgh,2023-04-14,Monica Herrera,active,simmonshunter@west.com,+1-299-703-7182x1921,1000,106414112,,Platinum
+CUST-335,"Benson, Wolf and Henson",Media & Entertainment,EMEA,Sweden,New Clinton,2022-08-07,Noah Rhodes,active,christopherflowers@mendoza.info,+1-225-984-0840x4299,250,55974894,Question senior our realize board staff.,Bronze
+CUST-336,Allen Ltd,Technology,APAC,Australia,West Jeanettemouth,2023-09-08,Connie Lawrence,active,sandraalexander@lozano.com,519-970-1746x57872,50,10304394,Buy body certain candidate might morning.,Platinum
+CUST-337,"Galvan, Parker and Johnson",Education,EMEA,Italy,East Ambermouth,2022-06-12,Gabrielle Davis,active,karen95@trevino.com,(728)719-4484x5916,100,21310780,Culture one memory generation so.,Bronze
+CUST-338,Moore-Moore,Technology,NA,Canada,West Kimberly,2022-09-29,Holly Wood,active,ckelley@francis.org,547.894.6498x92882,50,7649258,Ten detail least themselves agreement go.,Silver
+CUST-339,Foster LLC,Transportation,EMEA,Spain,Ruizshire,2022-08-18,Lisa Jackson,active,harrisdaniel@lewis.org,236-737-3009x629,50,8246685,Remain husband left I position question.,Silver
+CUST-340,Ryan and Sons,Healthcare,NA,United States,West Devinbury,2024-01-09,Noah Rhodes,churned,rogerskiara@mccormick-elliott.com,407-832-6592x53322,10,1665002,,Silver
+CUST-341,Fisher-Williams,Financial Services,NA,United States,Thomasfort,2023-09-27,Noah Rhodes,active,pattonyvonne@le-waller.com,001-734-881-0439x497,10,2432581,,Bronze
+CUST-342,"Hudson, Jimenez and Smith",Manufacturing,APAC,Hong Kong,Williamsside,2023-08-04,Gabrielle Davis,active,bernardnathaniel@wright-hale.com,(940)826-7249x9667,50,10122447,,Bronze
+CUST-343,Bradley-Sullivan,Technology,EMEA,United Kingdom,Port Tylerhaven,2023-10-28,Noah Rhodes,churned,allen63@bennett.com,261.420.3264,10,2167374,,Silver
+CUST-344,"Dennis, Reilly and Scott",Retail,NA,Canada,Haileyside,2023-03-17,Allison Hill,churned,hbutler@leon.com,001-449-534-7526x28019,50,8701276,,Bronze
+CUST-345,Chan Group,Energy,NA,Canada,Harrisburgh,2023-02-04,Abigail Shaffer,active,jamesadams@morrison.com,438-964-0389,1000,249623809,,Gold
+CUST-346,"Johnson, Martinez and Walker",Media & Entertainment,EMEA,Sweden,Michaelburgh,2023-02-07,Allison Hill,active,ramosjames@coleman.com,732-848-4145,10,1720626,,Platinum
+CUST-347,Morgan and Sons,Non-Profit,NA,Mexico,Autumnchester,2023-06-21,Gina Moore,suspended,johnhiggins@anderson-lee.com,273-609-4572,50,5744152,,Silver
+CUST-348,Simmons PLC,Manufacturing,APAC,Japan,New Tanyaside,2023-03-14,Jamie Arnold,active,wsmith@schultz-williamson.net,550.441.4174,500,84179533,,Silver
+CUST-349,Jones-Pearson,Legal,EMEA,Spain,Jacksonbury,2022-09-06,Lisa Jackson,active,frankwashington@simpson.com,666.613.1765,250,23180295,Than lot oil allow the.,Platinum
+CUST-350,Hawkins-Roberson,Education,EMEA,Germany,Stevensborough,2023-01-29,Monica Herrera,active,mlewis@brown.com,001-720-312-7155,500,73400977,,Bronze
+CUST-351,"Williams, Martinez and Anderson",Energy,NA,United States,Leonardtown,2022-12-25,Dylan Miller,active,iellis@walker.com,9372883399,10,979618,,Bronze
+CUST-352,Thomas-Obrien,Manufacturing,NA,Mexico,East Michael,2023-06-02,Daniel Wagner,trial,tylermurphy@white.biz,001-537-369-1785,50,7938446,West pass performance then improve.,Silver
+CUST-353,Larson-Smith,Education,APAC,Singapore,Matthewberg,2022-07-12,Jamie Arnold,active,brooksvalerie@barrera-perry.com,+1-884-693-2642,10,2008967,,Bronze
+CUST-354,"Guzman, Weiss and Vance",Financial Services,NA,Canada,West Dianaside,2023-02-22,Dylan Miller,suspended,michaelmiller@ramirez.com,727.465.5090x8484,10,1487466,,Platinum
+CUST-355,Gould-Christian,Financial Services,EMEA,United Kingdom,North Ralphtown,2023-09-17,Gina Moore,active,brenda23@sanders.net,285.760.5755x0477,10,904837,Resource culture through stand again whose lawyer.,Silver
+CUST-356,"Gray, Martin and Robinson",Retail,APAC,Singapore,Pattersonmouth,2022-08-26,Angie Henderson,active,steven21@ruiz.com,266-885-1192x4236,500,46373910,Sell total option report let treat member.,Gold
+CUST-357,Jordan PLC,Education,EMEA,Sweden,East Jennifertown,2022-10-10,Noah Rhodes,active,codymaldonado@brown.net,907.327.5903x1465,10,2401877,Statement fine push receive responsibility.,Gold
+CUST-358,Miller Inc,Media & Entertainment,EMEA,Sweden,Annaland,2023-07-10,Abigail Shaffer,active,dchan@walls-jefferson.net,547-836-2039x064,100,10937722,,Gold
+CUST-359,Garcia Inc,Energy,NA,Canada,Garciaview,2022-10-31,Brian Ramirez,active,uolson@parker.info,(611)241-8071,100,19003732,,Silver
+CUST-360,"Davis, Roberts and Yu",Financial Services,EMEA,United Kingdom,Davischester,2022-08-29,Holly Wood,active,dturner@elliott-mccoy.com,4799722471,50,9462546,Character fall enter.,Gold
+CUST-361,Moreno-Willis,Non-Profit,APAC,South Korea,New Matthew,2022-06-20,Brian Ramirez,trial,rachaelewing@bush.net,(856)921-4222x7239,50,8628401,,Bronze
+CUST-362,Hess PLC,Technology,EMEA,France,South Pamelahaven,2023-07-03,Gabrielle Davis,active,maldonadocody@foster.com,+1-871-680-2923x2824,50,5861671,Animal fund staff national decade appear behind.,Silver
+CUST-363,Gill-Guzman,Manufacturing,APAC,South Korea,East Tammymouth,2023-06-02,Gina Moore,churned,randallcheyenne@peters.com,783.685.0687,1000,97022837,Class situation relate focus mention.,Silver
+CUST-364,"Lynn, Brown and Walker",Manufacturing,APAC,Hong Kong,Hebertfurt,2022-07-28,Lisa Hensley,churned,cynthia20@anderson.com,563-296-6122,100,24705298,,Gold
+CUST-365,Bryant PLC,Education,APAC,Japan,Port Loriside,2022-11-28,Lisa Jackson,active,vdiaz@maldonado-wagner.com,(596)608-1737x3603,250,49649128,Practice property what enjoy politics maybe trade.,Silver
+CUST-366,"Matthews, Arias and Lopez",Manufacturing,EMEA,Spain,Bakerside,2023-12-30,Brian Ramirez,active,bonniedavis@king.net,+1-591-444-2920,250,54442049,,Platinum
+CUST-367,Wilson Inc,Energy,NA,United States,Hernandezchester,2022-09-01,Allison Hill,active,hamiltonsuzanne@gonzalez.com,228-792-2870x299,10,1694962,,Silver
+CUST-368,Montoya LLC,Financial Services,EMEA,Sweden,Lake Stephanie,2022-10-12,Monica Herrera,active,mcdanielchristopher@powers-ford.com,(427)905-3671,500,111764147,Want step idea about two.,Gold
+CUST-369,Marshall PLC,Transportation,NA,Mexico,North Mark,2022-10-24,Jamie Arnold,churned,jimshannon@braun-copeland.net,813.515.9845x90039,500,121647493,,Bronze
+CUST-370,"Taylor, Jones and Dawson",Education,EMEA,Spain,Michelleton,2022-09-12,Michele Williams,active,cooleydanny@cunningham.info,6198258444,10,1067756,,Platinum
+CUST-371,Sloan-Cook,Transportation,APAC,Hong Kong,Whiteside,2023-04-21,Jamie Arnold,active,gregory82@tyler-ramirez.net,744.759.1734x452,100,23790368,Leave onto material surface.,Platinum
+CUST-372,Sanchez-Strickland,Non-Profit,EMEA,Germany,Boonebury,2023-06-23,Allison Hill,active,kelly48@wolfe.com,672-409-4047x209,50,5510520,,Bronze
+CUST-373,Perry Group,Energy,APAC,India,Johnview,2024-01-03,Carla Gray,active,jaycastro@brown.com,923.810.4212x416,50,10874858,How treatment in catch simple.,Silver
+CUST-374,Butler-Acosta,Healthcare,EMEA,Netherlands,Maryhaven,2022-10-23,Connie Lawrence,active,william79@hoffman.com,+1-737-287-3690x47192,10,2470045,,Gold
+CUST-375,Freeman-Martin,Retail,APAC,Hong Kong,North Julieport,2023-05-10,Jamie Arnold,active,baileydenise@mack.com,860-341-5405x61770,10,1978399,Start economy hand call role institution page.,Bronze
+CUST-376,"Kelly, Wall and Mitchell",Non-Profit,NA,United States,Michaelport,2022-07-20,Michele Williams,active,joshuadixon@harrington-williams.biz,759-334-4681x04197,50,5413876,,Bronze
+CUST-377,Sims-Smith,Real Estate,NA,Mexico,East Paige,2023-06-20,Gina Moore,active,jennifer10@logan.com,740.705.1749x671,250,44567358,Across we sell maintain interesting.,Silver
+CUST-378,Sanders-Whitney,Retail,NA,United States,Lake Kimberlyview,2023-03-29,Connie Lawrence,active,qdavis@douglas.com,001-492-985-6415x42147,1000,92614068,,Platinum
+CUST-379,"Garcia, Crawford and Foster",Healthcare,NA,United States,Michellefort,2023-12-13,Brian Ramirez,trial,hramirez@russell-wright.net,940-757-2786,50,12374846,,Silver
+CUST-380,Davidson-Smith,Media & Entertainment,NA,Mexico,Cartermouth,2022-11-16,Abigail Shaffer,active,oliverkevin@ford.com,8756896323,10,972138,,Silver
+CUST-381,Adams-Hubbard,Retail,NA,Mexico,Frankshire,2023-12-06,Lisa Hensley,active,jrobinson@weeks.com,+1-919-395-1915x161,50,4815285,,Platinum
+CUST-382,Davis Inc,Media & Entertainment,APAC,Japan,Phamberg,2022-07-26,Carla Gray,active,zunigadawn@walker.com,(868)633-3163,10,2200625,,Platinum
+CUST-383,Hurst Group,Healthcare,NA,United States,Davisstad,2022-11-22,Lisa Hensley,active,gilbertandrea@walker.org,+1-856-988-0358x71800,50,4981825,,Silver
+CUST-384,Campos LLC,Media & Entertainment,APAC,Singapore,West Jessica,2022-09-02,Jamie Arnold,active,christian14@guerrero-hoffman.com,3966445755,10,2305337,Fall good agreement TV season.,Gold
+CUST-385,"Walker, Black and Peterson",Retail,NA,Canada,New Lisa,2023-09-20,Daniel Wagner,active,brandon41@graves.info,475-668-5905x26827,100,10569221,Network difference practice plant pretty gun.,Bronze
+CUST-386,Lyons and Sons,Energy,NA,Mexico,Melindahaven,2023-07-29,Lisa Hensley,trial,mgarcia@hull-daniels.com,619.569.2024x9648,10,903672,,Silver
+CUST-387,Roberts PLC,Manufacturing,NA,Mexico,North Matthewbury,2023-09-30,Noah Rhodes,active,bprice@ortiz-house.net,240.784.9420x215,50,4671117,,Gold
+CUST-388,"Lee, Brown and Figueroa",Real Estate,APAC,South Korea,Ebonytown,2022-10-29,Abigail Shaffer,active,stephaniebryant@lopez-lee.org,(562)431-5364x3224,10,2473425,,Gold
+CUST-389,Santos-Brown,Media & Entertainment,NA,Canada,Kimberlyton,2022-08-20,Cristian Santos,trial,nunezcourtney@moreno.biz,+1-835-314-6112,10,2198358,,Bronze
+CUST-390,Palmer and Sons,Transportation,NA,Mexico,Brownfurt,2022-08-08,Gabrielle Davis,active,lmccarthy@lloyd.com,+1-678-303-3547x33721,50,6772077,,Platinum
+CUST-391,"Hicks, Marks and Gregory",Healthcare,APAC,Australia,Lake Tyler,2023-11-18,Lisa Jackson,churned,burnsmichael@harding-norton.com,339.536.2500x11260,50,5259697,,Gold
+CUST-392,Nunez LLC,Healthcare,APAC,Australia,Chadborough,2022-09-17,Jamie Arnold,active,shunter@moore.biz,225-680-0511x21387,250,56867698,,Silver
+CUST-393,Johnson-Sandoval,Real Estate,NA,Mexico,New Tom,2023-10-11,Cristian Santos,active,brett97@gardner-patel.com,+1-843-917-1638,10,1268204,,Gold
+CUST-394,Brown-Holden,Education,EMEA,Netherlands,Castillofurt,2022-07-10,Brian Ramirez,active,harrywood@wong.com,+1-579-600-8087x7689,100,8837946,,Silver
+CUST-395,Castillo-Ward,Retail,APAC,Australia,Coreytown,2023-05-12,Daniel Wagner,suspended,alexanderhaney@sims-malone.org,(445)306-4908x156,50,11164195,,Bronze
+CUST-396,Bradshaw LLC,Education,NA,Canada,New Barbara,2023-08-28,Angie Henderson,churned,yangjustin@kim.biz,720.842.3721,50,7542568,Case agree stop know box ok agreement.,Platinum
+CUST-397,"Wood, Pope and Armstrong",Education,NA,Canada,Murphychester,2023-10-10,Connie Lawrence,churned,william64@hurley.com,474.286.2901,250,41898962,Difficult ready business pick finish life.,Platinum
+CUST-398,Pearson LLC,Transportation,EMEA,Netherlands,Port Christopherport,2022-10-17,Abigail Shaffer,churned,jesus30@arnold-knight.org,(823)296-0163x1742,500,42460593,,Silver
+CUST-399,"Quinn, Patton and Morales",Technology,NA,United States,Port Richard,2023-02-11,Gabrielle Davis,active,thomasgreer@adkins-zuniga.org,8646185992,500,99893885,,Gold
+CUST-400,Thomas LLC,Manufacturing,NA,Canada,Kendramouth,2022-10-05,Connie Lawrence,active,ygutierrez@stokes.com,461-635-3276x83662,50,9049370,,Gold
+CUST-401,Price PLC,Retail,NA,Mexico,North Danielle,2023-05-25,Ryan Munoz,active,matthew14@smith.org,001-988-515-5731x679,250,49276147,All grow table eat increase key benefit.,Bronze
+CUST-402,"Smith, Wolf and Spencer",Legal,NA,Mexico,Keithport,2023-01-06,Michele Williams,trial,thill@palmer.info,369-239-7010,10,1151442,,Bronze
+CUST-403,Lara-Newton,Financial Services,APAC,Hong Kong,Wrightfurt,2022-06-10,Allison Hill,active,richard42@deleon-mcdowell.biz,845-672-9047x599,100,18219413,Our five according theory control difference.,Bronze
+CUST-404,Swanson and Sons,Media & Entertainment,EMEA,France,Cannonborough,2023-03-09,Abigail Shaffer,active,donaldgraham@rich.org,241.522.8164,500,79014831,,Platinum
+CUST-405,Mcdonald-Adkins,Technology,EMEA,Sweden,Fraziertown,2023-07-12,Jamie Arnold,active,ojenkins@foster.com,001-741-277-8308x92431,100,19260042,,Bronze
+CUST-406,"Martin, Kelley and Jennings",Real Estate,EMEA,France,Johnport,2023-04-02,Monica Herrera,churned,aaronsilva@patterson-vega.org,585.755.5748,10,2480213,,Bronze
+CUST-407,Drake-Ingram,Transportation,NA,Mexico,East James,2023-04-02,Carla Gray,active,mmartinez@jarvis.info,+1-698-313-6156x65543,250,58236699,,Silver
+CUST-408,Brown-Terry,Retail,NA,United States,South Staceyberg,2022-06-27,Lisa Hensley,churned,hrosario@simpson.info,001-399-501-5241x0442,50,7557808,,Bronze
+CUST-409,"Becker, Tucker and Oliver",Non-Profit,EMEA,Spain,New Davidstad,2022-12-12,Brian Ramirez,active,costasarah@reeves.com,870-763-2673x38263,10,1708879,,Gold
+CUST-410,Austin-Jackson,Legal,EMEA,Spain,Nathanport,2023-04-04,Daniel Wagner,suspended,christopher13@meyer.org,001-870-797-2494x626,500,55396547,,Bronze
+CUST-411,Baker Ltd,Financial Services,EMEA,Italy,South Amanda,2023-12-25,Angie Henderson,churned,hdavies@perez-morrison.com,771-862-3018x17066,1000,232930496,First hospital source.,Silver
+CUST-412,"Saunders, Ross and Moon",Education,NA,Canada,Brianaside,2023-08-05,Dylan Miller,churned,heather68@curtis.com,505-851-3329x33733,50,8977350,,Gold
+CUST-413,"Byrd, Davidson and Robinson",Manufacturing,NA,Mexico,South Melissabury,2022-08-12,Lisa Hensley,active,vanessahall@pruitt-davis.biz,001-924-717-8718x5405,100,22747461,,Bronze
+CUST-414,"Miller, Martinez and Schwartz",Education,NA,United States,Levychester,2022-10-19,Dylan Miller,trial,pbauer@williamson.com,971-717-7042x23268,50,8839930,Occur almost story ready.,Bronze
+CUST-415,Lucas-Savage,Legal,APAC,Japan,West Andrea,2022-08-22,Noah Rhodes,active,zmclaughlin@williams-white.com,+1-223-366-2697,5000,666401960,Total fly military population building beyond oil office.,Bronze
+CUST-416,"Ramsey, Price and Pearson",Real Estate,NA,United States,New Amandaland,2024-01-12,Cristian Santos,churned,joycewilliam@washington.com,545.710.5342x841,250,53139479,,Gold
+CUST-417,Ortiz Ltd,Media & Entertainment,EMEA,Netherlands,South Melanie,2023-08-14,Jamie Arnold,trial,jacksonscott@parker-conway.com,+1-299-271-3083,10,1707430,,Bronze
+CUST-418,Moody-Moore,Technology,APAC,South Korea,Jenniferfort,2022-12-13,Jamie Arnold,active,sanderskaren@stuart.org,+1-477-250-2013,100,12229993,,Bronze
+CUST-419,Zuniga-Smith,Technology,NA,Mexico,Kathleenshire,2023-04-10,Holly Wood,active,ngarrett@davis.com,433.347.5215x5006,50,6472036,,Bronze
+CUST-420,Adams-Krueger,Real Estate,NA,Mexico,Port Tammyburgh,2022-10-16,Lisa Hensley,active,daviselizabeth@dennis-cameron.com,(250)332-6536,50,5601621,Bank store never side enjoy.,Platinum
+CUST-421,Hamilton-Carter,Energy,NA,United States,Port Thomas,2023-01-03,Noah Rhodes,churned,conleyjason@jones.com,488.564.9162,100,10093753,,Bronze
+CUST-422,Smith-Herring,Energy,EMEA,Sweden,Frankbury,2023-11-30,Allison Hill,active,kristiarnold@booth-holmes.com,(248)278-7069x21817,5000,962674428,Computer east like wife above.,Bronze
+CUST-423,"Price, Holmes and Gomez",Retail,NA,Canada,East Bryan,2023-06-25,Allison Hill,active,whitelindsey@banks.com,733.228.9665x0426,50,5301580,,Bronze
+CUST-424,Little-Gibson,Energy,EMEA,Italy,North Kellyberg,2023-11-15,Daniel Wagner,active,jeremiahwoods@carey.com,564-541-4198x208,250,37800094,,Bronze
+CUST-425,Chavez-Burns,Real Estate,EMEA,France,Timothyland,2022-09-25,Gabrielle Davis,churned,hendersoncody@meyers-gutierrez.com,+1-721-924-1362x5170,10,1139573,,Bronze
+CUST-426,"Smith, Giles and Cameron",Technology,APAC,Singapore,South Brian,2023-07-25,Brian Ramirez,active,lopezdawn@hernandez-daniels.biz,+1-541-442-1173x70552,100,23476062,,Bronze
+CUST-427,"Colon, Melendez and Robinson",Energy,NA,Mexico,Lauraview,2022-08-31,Angie Henderson,trial,pbrewer@davis.com,883.910.0358,100,10535456,,Silver
+CUST-428,Stewart-Boyle,Legal,NA,Mexico,Lake Michaelberg,2022-09-12,Ryan Munoz,trial,serickson@cabrera-brown.com,001-355-913-3580,10,2480732,By approach simple.,Silver
+CUST-429,"Cortez, Walter and Price",Education,NA,United States,Lake Kennethmouth,2022-07-11,Daniel Wagner,trial,michael85@jones.net,899-666-6735x340,250,33290052,Manage take coach surface.,Bronze
+CUST-430,Phillips-Flores,Legal,EMEA,United Kingdom,East Vanessa,2022-06-10,Dylan Miller,trial,lbrown@powell.com,(324)701-4358,100,13587234,,Silver
+CUST-431,Hayes-Williams,Education,NA,Mexico,Matthewtown,2022-09-04,Dylan Miller,active,jennifer44@clayton.com,(657)474-7975,10,1481321,Ask TV responsibility these.,Bronze
+CUST-432,Salas-Greene,Technology,NA,Canada,North Rickeyberg,2023-08-06,Noah Rhodes,active,sandra55@jackson.com,702.483.0667,10,1983488,,Silver
+CUST-433,"Murray, Miller and King",Real Estate,APAC,Australia,North Lindaside,2023-08-01,Connie Lawrence,trial,qayala@bradford-rodriguez.com,821.359.3545x022,250,48831708,,Gold
+CUST-434,"Webb, Bowman and Taylor",Non-Profit,EMEA,Spain,Jenningsview,2022-06-30,Brian Ramirez,trial,caitlin76@page.com,001-802-826-3819x4055,1000,102211406,Set result poor production hit glass.,Silver
+CUST-435,Ruiz-Acosta,Education,NA,United States,Villanuevaport,2022-08-04,Holly Wood,active,annaperry@lopez.com,443-810-1162,10,2276164,,Platinum
+CUST-436,Glover-Alvarado,Legal,EMEA,Spain,Maryville,2023-01-16,Carla Gray,trial,carterluke@hawkins.net,001-705-345-8877x83938,500,84123472,Box again outside hundred rest.,Gold
+CUST-437,Pham-Reyes,Legal,EMEA,Germany,Stephenshaven,2023-10-07,Derek Zuniga,active,kimberlymoreno@lopez.com,9197224024,100,10527125,,Gold
+CUST-438,"Becker, Carter and Hendricks",Real Estate,EMEA,United Kingdom,Bradleyport,2022-11-08,Angie Henderson,active,rclark@shah-gonzalez.com,624-382-5050,500,113900328,,Bronze
+CUST-439,Williams Inc,Manufacturing,NA,Canada,Englishberg,2023-03-12,Gina Moore,active,dmay@lee.com,753-204-6482,100,14436839,List cold cost.,Silver
+CUST-440,Sharp LLC,Technology,NA,Mexico,Nicoleshire,2023-09-02,Brian Ramirez,active,beckamy@thompson-carpenter.biz,001-330-857-0885x6966,50,5009008,,Silver
+CUST-441,"Taylor, Vega and Miller",Transportation,NA,Canada,Josephtown,2023-07-28,Carla Gray,active,palmermadison@bell.com,+1-811-248-9182x44176,10,954522,,Silver
+CUST-442,Martinez Ltd,Legal,EMEA,Spain,South Mark,2023-12-28,Noah Rhodes,active,ellisdonna@nelson.biz,001-556-259-8255x28266,50,6897260,,Silver
+CUST-443,Dean-Pierce,Energy,APAC,Singapore,East Kathleen,2023-12-26,Dylan Miller,churned,wroy@ruiz-vargas.info,001-515-668-3253,50,9585921,Stand run include billion.,Gold
+CUST-444,"Miller, Jarvis and Crawford",Legal,EMEA,Germany,East Tracy,2022-06-03,Holly Wood,active,jeffreyjimenez@cruz-parker.biz,379-794-5235,1000,129637205,,Bronze
+CUST-445,Murray-Carter,Non-Profit,NA,United States,Leroyton,2023-10-18,Gabrielle Davis,active,josephmurphy@cochran.info,546.331.4323x345,250,37391457,,Gold
+CUST-446,Allen PLC,Manufacturing,NA,Canada,New Jessicamouth,2023-01-07,Michele Williams,active,ymitchell@taylor-jones.info,+1-444-308-7426x454,250,24580044,Without team never finally under appear side.,Gold
+CUST-447,Logan-Foster,Real Estate,EMEA,Italy,New Ryan,2022-10-05,Holly Wood,churned,hoodnancy@moses-smith.net,(608)374-3320x106,50,9009187,Drug true break true end.,Gold
+CUST-448,"Mcgrath, Jones and Gonzalez",Media & Entertainment,NA,Mexico,Danielsside,2022-07-20,Holly Wood,active,mclaughlinrachel@simpson-fox.biz,668-872-7302x22916,250,40524608,,Bronze
+CUST-449,Barrett-Bennett,Financial Services,APAC,Hong Kong,Solisfort,2024-01-14,Carla Gray,active,ernest63@walker-foley.com,+1-656-575-1729x3804,10,1917787,,Silver
+CUST-450,Rogers Inc,Non-Profit,EMEA,Netherlands,Port Michaelport,2023-08-03,Monica Herrera,trial,johnsonaaron@jackson.info,+1-514-737-2534x3301,250,31627824,,Gold
+CUST-451,Wright Inc,Non-Profit,NA,United States,Francesport,2022-10-20,Derek Zuniga,active,michael95@williams-green.com,+1-544-339-8695x254,500,83545042,,Silver
+CUST-452,Austin PLC,Energy,EMEA,Spain,North Anthony,2023-01-09,Cristian Santos,active,rhill@jenkins-trujillo.biz,(268)777-6175x7532,250,49180980,,Gold
+CUST-453,"Nichols, Taylor and Porter",Legal,EMEA,Germany,East Rebecca,2023-10-29,Jamie Arnold,active,brandtjames@bell.com,+1-429-209-2324,50,4980944,,Silver
+CUST-454,"Lambert, Norman and Zuniga",Transportation,EMEA,Italy,Bennettmouth,2023-08-02,Allison Hill,churned,kathygiles@garza.com,656.460.3148x23328,50,11202059,,Bronze
+CUST-455,Duarte and Sons,Manufacturing,NA,United States,Carlaburgh,2022-07-25,Ryan Munoz,active,james31@knox.net,551-774-0120x25289,50,10677023,,Platinum
+CUST-456,"Hogan, Harris and Reese",Transportation,NA,United States,Perrybury,2023-03-30,Daniel Wagner,active,mikejames@olson.com,+1-898-577-7258x2146,10,2183844,,Silver
+CUST-457,Burton LLC,Transportation,EMEA,Spain,East Karenfort,2023-01-16,Ryan Munoz,churned,brenda48@mcdaniel.com,464-462-4746x921,50,8342839,,Silver
+CUST-458,Bennett-Carpenter,Legal,NA,Canada,Herringshire,2023-07-02,Allison Hill,active,wscott@bennett.org,001-610-735-3640x1579,50,8693059,,Silver
+CUST-459,Freeman and Sons,Non-Profit,NA,Canada,Courtneybury,2023-01-17,Lisa Jackson,trial,matthew52@peterson.com,(770)753-2707x236,250,35628997,,Silver
+CUST-460,Harrington Ltd,Financial Services,EMEA,Sweden,Garystad,2022-12-16,Connie Lawrence,active,susansimmons@williams.com,353.215.8339,5000,463298644,,Gold
+CUST-461,Davis Ltd,Energy,NA,United States,East Michael,2023-08-13,Gabrielle Davis,active,nicholastaylor@smith.com,8879601857,10,1792776,Instead popular Republican there career.,Silver
+CUST-462,Jones-Walker,Education,NA,United States,Morrowstad,2022-07-11,Carla Gray,active,goodwinjames@white.net,+1-498-341-5036x482,100,21152236,,Silver
+CUST-463,Wilson-Davenport,Non-Profit,NA,Mexico,West Megan,2023-12-16,Connie Lawrence,active,matthew74@norton.org,(598)315-8731x0442,50,5869677,,Bronze
+CUST-464,Wise-Rowland,Media & Entertainment,EMEA,Germany,Adamsshire,2023-07-31,Abigail Shaffer,active,ydyer@waters.com,+1-265-572-1062x09232,10,1176036,,Platinum
+CUST-465,"Johnson, Acosta and Payne",Energy,NA,Canada,Wileyshire,2023-01-10,Allison Hill,trial,toddallen@arias-wilkinson.com,(931)772-0238x646,100,24942728,Such none federal goal talk another.,Silver
+CUST-466,"Johnson, Alexander and Gregory",Legal,NA,United States,Simpsonville,2023-02-05,Daniel Wagner,trial,michael18@newman-henry.org,001-295-719-6525x2213,500,72416671,,Silver
+CUST-467,"Howard, Day and Gordon",Education,EMEA,France,Clarkburgh,2022-06-26,Brian Ramirez,trial,davidnelson@schwartz.com,8945085139,100,16648505,Attention car site history loss.,Gold
+CUST-468,Warner-Vargas,Healthcare,APAC,Japan,Kathrynchester,2023-04-25,Derek Zuniga,active,caseyeric@yoder-walters.net,(854)263-4586,10,2425669,,Bronze
+CUST-469,"Scott, Randolph and Miller",Media & Entertainment,EMEA,Germany,South Davidbury,2023-01-05,Michele Williams,trial,npaul@hill.net,2414116815,250,28737131,,Gold
+CUST-470,Hinton PLC,Non-Profit,APAC,Hong Kong,Port Scottmouth,2022-11-05,Noah Rhodes,active,ncox@patton-robinson.com,6173861850,50,4743927,Table program again attention decade resource last manage.,Platinum
+CUST-471,"Ryan, Thompson and Smith",Retail,NA,United States,East Davidburgh,2024-01-10,Lisa Hensley,suspended,sgarza@rosario-smith.com,001-360-582-8152x20913,50,7834568,,Silver
+CUST-472,Henry Inc,Legal,NA,Mexico,Danielborough,2022-09-30,Lisa Jackson,active,robertlucas@nelson-stewart.com,840.311.5463x3868,250,22687597,Mind they concern edge.,Silver
+CUST-473,Reed-Rivers,Legal,APAC,Singapore,West Sue,2023-10-28,Dylan Miller,active,codycantu@hutchinson-shaw.com,9272365791,50,4735294,,Bronze
+CUST-474,Butler-Thomas,Manufacturing,APAC,Australia,New Laura,2023-09-29,Derek Zuniga,active,jacksonbrian@roy.net,(944)672-7290x691,10,1464687,Dream although into stay.,Silver
+CUST-475,Smith-Hayes,Technology,EMEA,France,Hornefurt,2023-06-18,Daniel Wagner,trial,katherinehogan@torres-martinez.com,2168875084,100,17436185,Sister deal true responsibility pass.,Silver
+CUST-476,Jordan-Schneider,Healthcare,EMEA,Netherlands,Adrianaview,2023-12-03,Jamie Arnold,active,willie73@pacheco.com,(532)953-9871x682,50,10360520,Civil resource than budget visit collection hour nation.,Gold
+CUST-477,Rogers and Sons,Manufacturing,APAC,South Korea,Johnsonmouth,2022-10-24,Daniel Wagner,active,davidschmitt@walker.com,(316)540-7624,100,12296610,Benefit hold form environment head figure cause few.,Gold
+CUST-478,"Sanchez, Conner and Garcia",Transportation,EMEA,Sweden,North Sarahfurt,2022-07-26,Ryan Munoz,trial,cboyle@beasley-butler.com,566.229.6155,50,8672149,,Silver
+CUST-479,Allen-Mendoza,Education,NA,United States,North Micheleview,2023-10-12,Daniel Wagner,trial,xpope@patrick.com,+1-754-648-2062x5216,10,1914304,About bad full article network animal on.,Platinum
+CUST-480,"Roberson, Freeman and Farmer",Education,NA,United States,East Paultown,2023-04-22,Lisa Jackson,active,jessicaschmidt@patrick.com,+1-787-899-8443x6720,100,13196483,Since like lawyer century.,Bronze
+CUST-481,Carpenter-Gonzales,Financial Services,EMEA,Sweden,Lindafurt,2023-04-20,Gina Moore,trial,theodorehawkins@hanson.biz,001-675-269-7843x74026,10,1218497,,Silver
+CUST-482,"Farrell, Proctor and Cohen",Non-Profit,EMEA,France,North Barbara,2023-06-04,Dylan Miller,active,trogers@young-roberson.org,+1-412-735-9084x46267,50,8079608,,Silver
+CUST-483,"Tucker, Bush and Drake",Energy,NA,Mexico,South Stephanieburgh,2022-09-20,Cristian Santos,active,carmenthomas@sexton-short.com,+1-533-373-7284x29091,10,1277047,,Bronze
+CUST-484,Turner-Hoffman,Technology,NA,Mexico,East Jack,2022-08-18,Lisa Jackson,churned,patrick67@pineda.com,001-473-941-7850x8563,250,46844126,,Gold
+CUST-485,"Phillips, Wallace and Nolan",Transportation,EMEA,Germany,Cobbburgh,2022-07-08,Cristian Santos,active,kendra48@smith.com,751.662.6052x9706,500,85872554,,Silver
+CUST-486,Lee PLC,Transportation,NA,Mexico,Port Lindsayport,2023-03-25,Holly Wood,active,salastracy@thompson.org,(533)222-5990x6184,100,14745347,Hotel fast fill theory radio land.,Platinum
+CUST-487,Bennett Inc,Financial Services,NA,Mexico,Lake Kim,2022-11-17,Lisa Jackson,churned,tarasantiago@harris.biz,001-912-396-2566x85533,50,5522734,,Bronze
+CUST-488,Phelps Group,Financial Services,APAC,Hong Kong,Danielside,2023-10-09,Angie Henderson,trial,laceyburns@long.net,644.550.0052x26104,10,1628991,Effort establish activity.,Silver
+CUST-489,Smith-Rowe,Education,NA,Mexico,Lake Scott,2022-12-29,Noah Rhodes,active,ryan10@martinez-allen.org,(812)938-0036,50,11802166,Candidate film common energy include.,Platinum
+CUST-490,Petersen PLC,Retail,EMEA,United Kingdom,Lake Christine,2023-11-16,Derek Zuniga,active,orrmatthew@gaines.com,(575)724-9529,250,31190932,,Gold
+CUST-491,Lee-Carter,Healthcare,NA,Canada,Jacksonstad,2023-06-10,Gina Moore,active,morgan07@campbell-kirby.com,+1-615-304-8139x828,100,14397589,,Silver
+CUST-492,Taylor Inc,Energy,NA,Canada,Prestonborough,2023-10-12,Dylan Miller,churned,qblack@salinas-smith.com,(884)562-2441,10,2299458,Off focus test task.,Bronze
+CUST-493,Jackson-Williams,Financial Services,NA,Mexico,Port Robert,2023-03-15,Daniel Wagner,active,othomas@barton.info,+1-996-527-3070,10,1823434,,Gold
+CUST-494,"Conner, Turner and Reed",Real Estate,NA,Canada,Lake Amanda,2022-09-25,Michele Williams,active,spencernicholas@jordan.biz,9149612355,50,9021722,Analysis generation shake bit.,Silver
+CUST-495,Dean-Mclean,Transportation,NA,Mexico,Gaybury,2022-11-12,Noah Rhodes,active,stevensjennifer@warner.com,001-309-696-6751,10,1772857,Service since discover yeah fast.,Bronze
+CUST-496,Holt-Smith,Energy,APAC,South Korea,Kennethfurt,2023-07-21,Ryan Munoz,active,martinmarcus@ibarra.com,(908)976-6294x7477,100,22934652,,Silver
+CUST-497,Phillips Ltd,Financial Services,NA,Mexico,Jamesside,2023-09-26,Cristian Santos,trial,singletonmaria@young-mccormick.com,981-869-0062x0020,10,1498303,,Bronze
+CUST-498,"Perez, Rivera and Little",Non-Profit,APAC,Japan,Anthonymouth,2023-11-06,Carla Gray,active,fperkins@price-schmidt.biz,203.379.8326x08944,100,23679983,,Silver
+CUST-499,Jones-Lyons,Legal,NA,Canada,Adamfurt,2022-10-14,Michele Williams,active,nicoledaniels@marshall-davis.com,001-824-504-9914,100,23458766,,Silver
+CUST-500,"Vargas, Bowers and Cox",Energy,EMEA,Germany,Rodriguezchester,2023-10-01,Holly Wood,trial,frederickmendez@stein.com,001-820-821-9057x576,10,2132575,,Silver
