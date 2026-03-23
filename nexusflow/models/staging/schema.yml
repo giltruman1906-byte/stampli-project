@@ -1,0 +1,65 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Cleaned customers from rds — types cast, sentinels nulled, no business logic"
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'churned', 'suspended', 'inactive', 'trial']
+              config:
+                severity: warn
+      - name: region
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['NA', 'EMEA', 'APAC']
+              config:
+                severity: warn
+      - name: signup_date
+        tests:
+          - not_null
+
+  - name: stg_plans
+    description: "Cleaned plan reference data"
+    columns:
+      - name: plan_id
+        tests:
+          - unique
+          - not_null
+      - name: plan_name
+        tests:
+          - not_null
+      - name: base_price
+        tests:
+          - not_null
+
+  - name: stg_subscriptions
+    description: "Cleaned subscriptions from rds — types cast, sentinels nulled"
+    columns:
+      - name: subscription_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: plan_id
+        tests:
+          - not_null
+      - name: mrr
+        tests:
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['active', 'cancelled', 'suspended', 'expired']
+              config:
+                severity: warn

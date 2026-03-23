@@ -1,0 +1,44 @@
+version: 2
+
+sources:
+  - name: rds
+    description: "Raw operational data loaded by Python UPSERT pipeline"
+    schema: rds
+    tables:
+      - name: customers
+        description: "Current state of all customers — UPSERT from batch CSVs"
+        columns:
+          - name: customer_id
+            description: "Primary key — format CUST-NNN"
+            tests:
+              - unique
+              - not_null
+          - name: company_name
+            tests:
+              - not_null
+          - name: region
+            tests:
+              - accepted_values:
+                  arguments:
+                    values: ['NA', 'EMEA', 'APAC']
+                  config:
+                    severity: warn
+
+      - name: plans
+        description: "Subscription plan reference data"
+        columns:
+          - name: plan_id
+            tests:
+              - unique
+              - not_null
+
+      - name: subscriptions
+        description: "Current state of all subscriptions"
+        columns:
+          - name: subscription_id
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
