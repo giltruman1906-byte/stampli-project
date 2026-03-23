@@ -1,10 +1,16 @@
 -- dim_subscriptions
 -- Subscription dimension with enrichments:
---   1. end_date_resolved: fills null end_date from billing_cycle for cancelled/expired
---   2. mrr_movement: upgrade / downgrade / new / unchanged via LAG on MRR per customer
---   3. cycle_movement: commitment change (monthly→annual = upgrade, etc.)
---   4. subscription_movement: combined signal
---   5. data_quality flags
+--   1. end_date_resolved:
+--        - already has end_date              → pass through (method = 'source')
+--        - cancelled/expired, null end_date  → start_date + 1 billing cycle (method = 'cycle_estimate')
+--        - active/suspended, null end_date   → next upcoming renewal from ref date (method = 'next_renewal')
+--          ref date = 2024-03-31 (end of last loaded batch)
+--          note: data does NOT create renewal rows per period — one row per subscription lifetime
+--   2. mrr_movement:  revenue signal via LAG on MRR per customer
+--   3. cycle_movement: commitment signal via LAG on billing_cycle rank
+--      kept separate from mrr_movement — combining creates misleading signals
+--      (e.g. MRR down + cycle up is neither a clean upgrade nor downgrade)
+--   4. data quality flags
 
 WITH stg AS (
     SELECT * FROM {{ ref('stg_subscriptions') }}
@@ -60,50 +66,64 @@ SELECT
     end_date,
 
     CASE
-        WHEN end_date IS NOT NULL        THEN end_date
-        WHEN status = 'active'           THEN NULL
-        WHEN status = 'suspended'        THEN NULL
-        WHEN billing_cycle = 'monthly'   THEN start_date + INTERVAL 1 MONTH
-        WHEN billing_cycle = 'quarterly' THEN start_date + INTERVAL 3 MONTHS
-        WHEN billing_cycle = 'annual'    THEN start_date + INTERVAL 1 YEAR
+        -- Source has end_date → use it
+        WHEN end_date IS NOT NULL
+            THEN end_date
+
+        -- Cancelled / expired, no end_date → original contract term end (start + 1 cycle)
+        WHEN status IN ('cancelled', 'expired') AND billing_cycle = 'monthly'
+            THEN start_date + INTERVAL 1 MONTH
+        WHEN status IN ('cancelled', 'expired') AND billing_cycle = 'quarterly'
+            THEN start_date + INTERVAL 3 MONTHS
+        WHEN status IN ('cancelled', 'expired') AND billing_cycle = 'annual'
+            THEN start_date + INTERVAL 1 YEAR
+
+        -- Active / suspended → next upcoming renewal from last batch date
+        WHEN status IN ('active', 'suspended') AND billing_cycle = 'monthly'
+            THEN start_date
+                + CAST(DATEDIFF('month', start_date, DATE '2024-03-31') + 1 AS INT)
+                * INTERVAL 1 MONTH
+        WHEN status IN ('active', 'suspended') AND billing_cycle = 'quarterly'
+            THEN start_date
+                + CAST(DATEDIFF('quarter', start_date, DATE '2024-03-31') + 1 AS INT)
+                * INTERVAL 3 MONTHS
+        WHEN status IN ('active', 'suspended') AND billing_cycle = 'annual'
+            THEN start_date
+                + CAST(DATEDIFF('year', start_date, DATE '2024-03-31') + 1 AS INT)
+                * INTERVAL 1 YEAR
+
         ELSE NULL
     END                                                 AS end_date_resolved,
 
-    end_date IS NULL
-    AND status IN ('cancelled', 'expired')              AS end_date_was_inferred,
+    CASE
+        WHEN end_date IS NOT NULL               THEN 'source'
+        WHEN status IN ('cancelled', 'expired') THEN 'cycle_estimate'
+        WHEN status IN ('active', 'suspended')  THEN 'next_renewal'
+        ELSE                                         'unknown'
+    END                                                 AS end_date_method,
 
     -- Revenue
     mrr,
     prev_mrr,
     ROUND(mrr - COALESCE(prev_mrr, 0), 2)              AS mrr_delta,
 
-    -- MRR movement
+    -- MRR movement: pure revenue signal
     CASE
-        WHEN prev_mrr IS NULL            THEN 'new'
-        WHEN mrr > prev_mrr              THEN 'upgrade'
-        WHEN mrr < prev_mrr              THEN 'downgrade'
-        ELSE                                  'unchanged'
+        WHEN prev_mrr IS NULL               THEN 'new'
+        WHEN mrr > prev_mrr                 THEN 'upgrade'
+        WHEN mrr < prev_mrr                 THEN 'downgrade'
+        ELSE                                     'unchanged'
     END                                                 AS mrr_movement,
 
-    -- Billing cycle commitment movement
+    -- Cycle movement: commitment signal (kept separate from MRR)
     CASE
-        WHEN prev_cycle_rank IS NULL     THEN 'new'
-        WHEN cycle_rank > prev_cycle_rank THEN 'commitment_upgrade'
-        WHEN cycle_rank < prev_cycle_rank THEN 'commitment_downgrade'
-        ELSE                                  'unchanged'
+        WHEN prev_cycle_rank IS NULL        THEN 'new'
+        WHEN cycle_rank > prev_cycle_rank   THEN 'commitment_upgrade'
+        WHEN cycle_rank < prev_cycle_rank   THEN 'commitment_downgrade'
+        ELSE                                     'unchanged'
     END                                                 AS cycle_movement,
 
-    -- Combined upgrade / downgrade signal
-    CASE
-        WHEN prev_mrr IS NULL            THEN 'new'
-        WHEN mrr > prev_mrr
-          OR cycle_rank > prev_cycle_rank THEN 'upgrade'
-        WHEN mrr < prev_mrr
-          OR cycle_rank < prev_cycle_rank THEN 'downgrade'
-        ELSE                                  'unchanged'
-    END                                                 AS subscription_movement,
-
-    -- Previous state (for audit trail)
+    -- Previous state (audit trail)
     prev_plan_id,
     prev_billing_cycle,
 
