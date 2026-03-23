@@ -107,4 +107,18 @@ Three teams provided conflicting KPI definitions. Below are the canonical defini
 
 ---
 
+---
+
+## Known Limitations & Open Items
+
+### LIM-001: end_date_resolved — next_renewal off by one year for some active subscriptions
+**Issue:** For active/suspended subscriptions, `end_date_resolved` uses `DATEDIFF('year/month/quarter', start_date, '2024-03-31') + 1` to compute the next renewal. DuckDB's `DATEDIFF` counts calendar boundary crossings, not elapsed full periods — this causes an off-by-one for subscriptions that span multiple years. Example: CUST-391 SUB-0112 shows `2025-11-24` instead of `2024-11-24`.
+**Impact:** Low — affects the `next_renewal` method rows only. Fact tables (invoices, payments) use actual transaction dates, not this computed date.
+**Resolution path:** Replace `DATEDIFF + 1` with a recursive/loop approach or a date spine. Deferred — not blocking downstream marts.
+
+### LIM-002: mrr_movement / cycle_movement do not account for previous subscription status
+**Issue:** LAG-based upgrade/downgrade logic treats all previous subscriptions equally regardless of their status. A customer who cancelled (left entirely) and came back with a higher MRR is flagged as `upgrade` — but it's really a `reactivation`. Only if the previous subscription was `expired` (natural end) does the comparison make clean business sense.
+**Resolution path:** Add a `CASE WHEN prev_status = 'cancelled' THEN 'reactivation'` guard in the movement logic. Left as known limitation — the current signals are still analytically useful with this caveat documented.
+**How to apply:** When using `mrr_movement` in churn/expansion analysis, filter `WHERE prev_status != 'cancelled'` or add a separate `is_reactivation` flag.
+
 *Last updated: 2026-03-23*
