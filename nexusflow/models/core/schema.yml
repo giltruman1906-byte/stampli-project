@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customer dimension — current state, region enriched from country"
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: customer_key
+        tests:
+          - unique
+          - not_null
+      - name: region
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['NA', 'EMEA', 'APAC', 'UNKNOWN']
+      - name: status
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['active', 'churned', 'suspended', 'inactive', 'trial']
