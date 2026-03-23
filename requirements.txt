@@ -6,9 +6,6 @@ duckdb>=0.10.0
 dbt-core>=1.8.0
 dbt-duckdb>=1.8.0
 
-# Data quality
-great-expectations>=0.18.0
-
 # Dashboard
 streamlit>=1.36.0
 plotly>=5.22.0
