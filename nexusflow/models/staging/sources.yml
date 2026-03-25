@@ -42,3 +42,68 @@ sources:
           - name: customer_id
             tests:
               - not_null
+
+      - name: invoices
+        description: "Invoice line items — all 3 batches, incrementally appended"
+        columns:
+          - name: invoice_id
+            tests:
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
+
+      - name: payments
+        description: "Payment transactions — all 3 batches, incrementally appended"
+        columns:
+          - name: payment_id
+            tests:
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
+
+      - name: usage_events
+        description: "Product usage metrics — all 3 batches, incrementally appended"
+        columns:
+          - name: customer_id
+            tests:
+              - not_null
+
+      - name: late_usage_jan
+        description: "January 2024 usage events submitted late in batch_003"
+        columns:
+          - name: customer_id
+            tests:
+              - not_null
+
+      - name: support_tickets
+        description: "Customer support tickets — all 3 batches, incrementally appended"
+        columns:
+          - name: ticket_id
+            tests:
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
+
+      - name: product_events
+        description: "Product feature interaction events — all 3 batches"
+        columns:
+          - name: event_id
+            tests:
+              - not_null
+
+      - name: adjustments
+        description: "Invoice adjustments (credits, refunds, write-offs) — batches 2-3"
+        columns:
+          - name: adjustment_id
+            tests:
+              - not_null
+
+      - name: contract_amendments
+        description: "Contract amendments (upgrades, downgrades, cancellations) — batches 2-3"
+        columns:
+          - name: amendment_id
+            tests:
+              - not_null
